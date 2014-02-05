@@ -3,10 +3,10 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: fab-lab–limerick_landing-page
-description: po
+name: Fab Lab Limerick
+description: Digital fabrication laboratory in Limerick Ireland
 author:
-  name: Javier Burón
+  name: Javier Buron
   email: javierburon@colaborativa.eu
 
 # Grunt handles images and assets.
