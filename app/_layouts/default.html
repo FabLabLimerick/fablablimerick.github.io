@@ -13,24 +13,53 @@
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="/_bower_components/sass-bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/fablabtheme.css">
     <!-- endbuild -->
 
     <!-- build:js(app) /js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
   </head>
   <body>
     <!--[if lt IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    {{ content }}
-
+    <div class="pages home"><!-- open home -->
+        <div class="container"><!-- open container -->
+          <div class="row"><!-- open row -->
+            <article class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 homeArticle">
+              <div class="centered"><!-- open centered -->
+                <header>
+                  <span title="Flow" class="logo"></span>
+                  <h1>Design and technology in Limerick. Coming soon!</h1>
+                </header>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="input-group input-group-lg">
+                          <input type="text" class="form-control" placeholder="Enter your email address">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Subscribe!</button>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+                <div style="socialMediaBox"><!-- open social media box -->
+                  <div class="socialMedia"><!-- open social media -->
+                    <ul class="list-inline">
+                      <li><a href="https://www.facebook.com/flowforinstagram" class="sm-facebook sm-icon"></a></li>
+                      <li><a href="https://twitter.com/flowinstagram" class="sm-twitter sm-icon"></a></li>
+                      <li><a href="https://plus.google.com/117708345539007508874" class="sm-google sm-icon"></a></li>
+                      <li><a href="http://instagram.com/flowapp" class="sm-instagram sm-icon"></a></li>
+                    </ul>
+                  </div><!-- close social media -->
+                </div><!-- close social media box -->
+              </div><!-- close centered -->
+            </article>
+          </div><!-- close row -->
+        </div><!-- close container -->
+    </div>
     {% include scripts.html %}
     {% include googleanalytics.html %}
-
   </body>
 </html>

@@ -1,0 +1,61 @@
+@import "_vars-typeplate"; 
+@import "../_bower_components/typeplate/scss/typeplate";
+
+body, html{
+	height: 100%;
+}
+body {
+ font-size: 18px;
+ line-height: 26px;
+}
+h1,h2,h3,h4,h5,h6,p {
+ font-family: inherit;
+ font-size: inherit;
+}
+h1 {
+ font-size: 2em;
+ line-height: 1em;
+}
+
+.home {
+	top: 0px;
+	background: url("../img/background.jpg") 50% 0 no-repeat fixed;
+	background-size: cover;
+	height: 100%;
+	.container{
+		height: 100%;
+		.row{
+			height: 100%;
+			.homeArticle{
+				top: 0px;
+				height: 100%;
+			}
+		}
+	}
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	display: block;
+	margin-top: -150px;
+}
+
+.logo {
+	height: 126px;
+	width: 270px;
+	display: block;
+	margin: 0 auto;
+	background: url("../img/logo@2x.png") no-repeat;
+	background-size: 270px 126px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: white;
+	font-family: "MuseoSansRounded-100"
+}
+
+header h1{
+	text-align: center;
+}
+
