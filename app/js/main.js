@@ -1,10 +1,10 @@
 $(function(){
-    $('body').flowtype({
-	 minimum   : 500,
-	 maximum   : 1200,
-	 minFont   : 12,
-	 maxFont   : 24,
-	 fontRatio : 30,
-	 lineRatio : 1.45
+
+	$.vegas('slideshow', {
+	  delay:9000,
+	  backgrounds:[
+	    { src:'/img/background_1.jpg', fade:3000 },
+	    { src:'/img/background_2.jpg', fade:3000 }
+	  ]
 	});
 });

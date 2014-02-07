@@ -8,6 +8,7 @@
     "sass-bootstrap": "~3.0.2",
     "retina.js": "~1.2.0",
     "FlowTypeJS":"",
-    "typeplate": "~1.1.2"
+    "typeplate": "~1.1.2",
+    "vegas": "~1.3.4"
   }
 }

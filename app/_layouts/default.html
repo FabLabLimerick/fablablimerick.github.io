@@ -12,6 +12,7 @@
     <!-- build:css({app,.tmp}) /css/main.css -->
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="/_bower_components/sass-bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/_bower_components/vegas/dist/jquery.vegas.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/fablabtheme.css">
     <!-- endbuild -->
@@ -28,32 +29,41 @@
     <div class="pages home"><!-- open home -->
         <div class="container"><!-- open container -->
           <div class="row"><!-- open row -->
-            <article class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 homeArticle">
+            <article class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 homeArticle">
               <div class="centered"><!-- open centered -->
                 <header>
-                  <span title="Flow" class="logo"></span>
-                  <h1>Design and technology in Limerick. Coming soon!</h1>
+                  <img src="/img/logo.png" class="img-responsive" alt="Responsive image">
+                  <hr>
+                  <h1>A space for makers</br>in Limerick city.</br>Coming this April!</h1>
                 </header>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="input-group input-group-lg">
-                          <input type="text" class="form-control" placeholder="Enter your email address">
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Subscribe!</button>
-                          </span>
-                        </div>
-                    </div>
+                <div class="hidden-xs">
+                  <div class="input-group input-group-lg susbcribeEmail">
+                    <input type="text" class="form-control" placeholder="Enter your email address">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Subscribe!</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="visible-xs">
+                  <div class="susbcribeEmail">
+                    <input type="text" class="form-control input-lg" placeholder="Enter your email address">
+                    <button class="btn btn-default btn-block btn-lg" type="button">Subscribe!</button>
+                  </div>
                 </div>
                 <div style="socialMediaBox"><!-- open social media box -->
                   <div class="socialMedia"><!-- open social media -->
-                    <ul class="list-inline">
-                      <li><a href="https://www.facebook.com/flowforinstagram" class="sm-facebook sm-icon"></a></li>
-                      <li><a href="https://twitter.com/flowinstagram" class="sm-twitter sm-icon"></a></li>
-                      <li><a href="https://plus.google.com/117708345539007508874" class="sm-google sm-icon"></a></li>
-                      <li><a href="http://instagram.com/flowapp" class="sm-instagram sm-icon"></a></li>
+                    <ul class="list-inline text-center">
+                      <li><a href="https://www.facebook.com/FabLabAtSAUL" class="sm-facebook">Facebook</a></li>
+                      <li><a href="https://twitter.com/fablablimerick" class="sm-twitter">Twitter</a></li>
+                      <li><a href="https://github.com/SaulFabLab" class="sm-google">Github</a></li>
+                      <li><a href="http://fablablimerick.tumblr.com" class="sm-instagram">Blog</a></li>
                     </ul>
                   </div><!-- close social media -->
                 </div><!-- close social media box -->
+                <hr>
+                <div class="footerPage text-center">
+                  <small><a href="http://saul.ie">School of Architecture</a>, <a href="http://ul.ie">University of Limerick</a></small>
+                </div>
               </div><!-- close centered -->
             </article>
           </div><!-- close row -->
