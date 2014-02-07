@@ -3,11 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Colaborativa -- design and development -- @colaborativaeu
 
 # THANKS
 
-    <name>
 
 # TECHNOLOGY COLOPHON
 

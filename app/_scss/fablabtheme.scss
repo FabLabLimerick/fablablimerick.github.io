@@ -1,19 +1,10 @@
-@import "_vars-typeplate"; 
-@import "../_bower_components/typeplate/scss/typeplate";
 @import "compass/css3";
 @import "compass/typography/vertical_rhythm";
-
-$text-color: white;
+@import "_variables";
+@import "bootstrap";
 
 body, html{
 	height: 100%;
-}
-body{
-	 background-color: black;
-	 font-family: "MuseoSansRounded-100";
-}
-a:link, a:active, a:hover, a:visited{
-	color: $text-color;
 }
 
 .home {
@@ -32,12 +23,14 @@ a:link, a:active, a:hover, a:visited{
 	}
 }
 
-.centered{
-	position: absolute;
-	top: 50%;
-	display: block;
+//Vertical-Aligment
+.homeArticle{
+	display: table;
+	.centered {
+ 	   display: table-cell;
+    	vertical-align: middle;
+	}
 }
-
 .logo {
 	width: 100%;
 	height: auto;
@@ -51,13 +44,11 @@ hr{
 	border: 1px dashed white;
 }
 
-.footerPage{
+.list-inline > li{
+	@include box-sizing (border-box);
+	padding: 0px;
+  	width:23.5%;
 }
-
-header h1{
-	text-align: center;
-}
-
 .form-control{
 	border-color: rgba(255,255,255,0.9);
 	color: white;
@@ -76,89 +67,95 @@ header h1{
 		background-color: rgba(255,255,255,1);
 	}
 }
-input[value] {
-color: green;
-}
+
 
 @mixin typescale($basefontsize, $baselineheight){
   $base-font-size: $basefontsize;
   $base-line-height: $baselineheight;
   @include establish-baseline;
+  body{
+  	font-size: $basefontsize;
+  	line-height: baselineheight;
+  }
   img{
-  	@include rhythm(0, 0, 0, 1, $base-font-size); 
+  	@include rhythm(0, 0, 0, 1.2, $base-font-size); 
   }
   h1{
-  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
-  	@include adjust-font-size-to($base-font-size*7/4, 1.25);
+  	@include rhythm(0.6, 0, 0, 0, $base-font-size);
+  	@include adjust-font-size-to($base-font-size*7/4, 1.5);
+  }
+  h2{
+  	@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
+  	@include adjust-font-size-to($base-font-size*7/4, 1.5);
   }
   .form-control{
   	@include rhythm(0, 0, 0, 0.5, $base-font-size); 
+  }
+  .input-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn{
+  	@include adjust-font-size-to($base-font-size);
   }
   ul{
   	@include rhythm(0, 0, 0, 0, $base-font-size); 
   }
   li{
   	@include adjust-font-size-to($base-font-size);
-  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size); 
+  	@include rhythm(1, 0, 0, 1, $base-font-size); 
   }
   hr{
   	@include rhythm(0, 0, 0, 0, $base-font-size); 
   }
-  small{
-  	@include rhythm(2, 0, 0, 0, $base-font-size);
-  	@include adjust-font-size-to($base-font-size*3/4, 1.5);
+  .footerPage{
+  	@include rhythm(0.7, 0, 0, 0, $base-font-size);
+  	small{
+	  	@include adjust-font-size-to($base-font-size*0.85, 1.5);
+  	}
   }
 }
 
-// Media queries breakpoints
-// --------------------------------------------------
-
-// Extra small screen / phone
-// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
-$screen-xs:                  480px !default;
-$screen-xs-min:              $screen-xs !default;
-
-// Small screen / tablet
-// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
-$screen-sm:                  768px !default;
-$screen-sm-min:              $screen-sm !default;
-
-// Medium screen / desktop
-// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-$screen-md:                  992px !default;
-$screen-md-min:              $screen-md !default;
-
-// Large screen / wide desktop
-// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
-$screen-lg:                  1200px !default;
-$screen-lg-min:              $screen-lg !default;
-
-// So media queries don't overlap when required, provide a maximum
-$screen-xs-max:              ($screen-sm-min - 1) !default;
-$screen-sm-max:              ($screen-md-min - 1) !default;
-$screen-md-max:              ($screen-lg-min - 1) !default;
-
 // Visibility utilities
-
 //Phones
 @media (max-width: $screen-xs-max) {
-
+  @include typescale (14px, 18px);
+  .visible-xs{
+  	input{
+  		font-size: 18px;
+  		text-align: center;
+  	}
+  }
+	.show-xs{
+		display: inline;
+	}
+	.hide-xs{
+		display: none;
+	}
 }
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-
+  @include typescale (16px, 22px);
+	.hide-xs{
+		display: inline;
+	}
+	.show-xs{
+		display: none;
+	}
 }
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-  .centered{
-  	margin-top: -250px;
-  }
-  @include typescale (12px, 20px);
+  @include typescale (18px, 24px);
+	.hide-xs{
+		display: inline;
+	}
+	.show-xs{
+		display: none;
+	}
 }
 //large
 @media (min-width: $screen-lg-min) {
-  .centered{
-  	margin-top: -250px;
-  }
-  @include typescale (16px, 24px);
+  @include typescale (20px, 24px);
+	.hide-xs{
+		display: inline;
+	}
+	.show-xs{
+		display: none;
+	}
 }
