@@ -1,5 +1,4 @@
 $(function(){
-
 	$.vegas('slideshow', {
 	  delay:9000,
 	  backgrounds:[
