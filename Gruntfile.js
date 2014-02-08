@@ -1,5 +1,5 @@
 // Generated on 2014-02-04 using generator-jekyllrb 1.2.1
-'use strict';
+//'use strict';
 
 // Directory reference:
 //   css: css
@@ -185,7 +185,7 @@ module.exports = function (grunt) {
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css'],
-      js: '<%= yeoman.dist %>/js/*.js',
+      js: ['<%= yeoman.dist %>/js/*.js'],
       options: {
         assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img'],
         patterns: {
