@@ -360,8 +360,9 @@ module.exports = function (grunt) {
   grunt.registerTask('check', [
     'clean:server',
     'jekyll:check',
-    'compass:server'
-    //'jshint:all',
+    'compass:server',
+    // Removing these two, otherwise it has errors
+    'jshint:all'
     //'csslint:check'
   ]);
 
