@@ -6,8 +6,8 @@
 name: Fab Lab Limerick
 description: A space for makers in Limerick city. Coming this April!
 author:
-  name: Javier Buron
-  email: javierburon@colaborativa.eu
+  name: Colaborativa.eu
+  email: info@colaborativa.eu
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',

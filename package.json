@@ -1,8 +1,8 @@
 {
-  "name": "fab-lablimerick-landing-page",
+  "name": "lablablimerick.com",
   "private": true,
   "version": "0.0.0",
-  "description": "Yeoman workflow for fab-lab–limerick_landing-page",
+  "description": "Yeoman workflow for lablablimerick.com",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
