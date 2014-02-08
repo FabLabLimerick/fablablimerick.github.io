@@ -18,7 +18,6 @@ body, html{
 			.homeArticle{
 				top: 0px;
 				height: 100%;
-				left: -10px;
 			}
 		}
 	}
@@ -28,6 +27,8 @@ body, html{
 .homeArticle{
 	display: table;
 	.centered {
+		margin-top: 50px;
+		margin-bottom: 50px;
  	   display: table-cell;
     	vertical-align: middle;
 	}
@@ -116,7 +117,11 @@ hr{
 // Visibility utilities
 //Phones
 @media (max-width: $screen-xs-max) {
-  @include typescale (14px, 18px);
+  body{
+  	min-height: 480px;
+  }
+  
+  @include typescale (13px, 17px);
   .visible-xs{
   	input{
   		font-size: 18px;
