@@ -289,7 +289,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           remote: '../',
-          branch: 'gh-pages',
+          branch: 'master',
           commit: true,
           push: true
         }
