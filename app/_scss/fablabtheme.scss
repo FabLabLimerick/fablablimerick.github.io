@@ -118,7 +118,7 @@ hr{
 //Phones
 @media (max-width: $screen-xs-max) {
   body{
-  	min-height: 480px;
+  	min-height: 460px;
   }
   
   @include typescale (13px, 17px);
