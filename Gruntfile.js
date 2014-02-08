@@ -295,7 +295,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'https://github.com/FabLabLimerick/fablablimerick.github.io.git',
+          remote: 'git@github.com:FabLabLimerick/fablablimerick.github.io.git',
           branch: 'master',
           commit: true,
           push: true
