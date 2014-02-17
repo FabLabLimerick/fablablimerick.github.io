@@ -3,71 +3,60 @@
 @import "_variables";
 @import "bootstrap";
 @import "_fontfaces";
-@import "_vegas";
+@import "../_bower_components/modular-scale/stylesheets/_modular-scale";
+
+$ms-base: 1em;
+$ms-ratio: $golden;
 body, html{
 	height: 100%;
 }
 
-.home {
-	top: 0px;
-	height: 100%;
-	.container{
-		height: 100%;
-		.row{
-			height: 100%;
-			.homeArticle{
-				top: 0px;
-				height: 100%;
-			}
-		}
-	}
+#header{
+  background-color: black;
+  height:100%;
 }
+#logo{
+  background-color: red;
+  h1{
+    @include background-size(100%, auto);
+    background-repeat: no-repeat;
+    background-image: url("../img/logo-v2.svg");
+    span{
+      display: none;
+    }
+  }
+}
+article.event{
+  .image{
+    background-color: red;
+    @include background-size(cover);
+  }
+}
+#space{
+  .container{
+    display: table;
 
-//Vertical-Aligment
-.homeArticle{
-	display: table;
-	.centered {
-		margin-top: 30px;
-		margin-bottom: 50px;
- 	   display: table-cell;
-    	vertical-align: middle;
-	}
+    background-color: black;
+    height:100%;
+    .centradovertical{
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  height:100%;
 }
-.logo {
-	width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
-	background: url("../img/logo.png") no-repeat;
-	background-size: cover;
-}
-
-hr{
-	border: 1px dashed white;
-}
-
-.list-inline > li{
-	@include box-sizing (border-box);
-	padding: 0px;
-  	width:23.5%;
-}
-.form-control{
-	border-color: rgba(255,255,255,0.9);
-	color: white;
-	background-color: rgba(180,180,180,0.7);
-}
-.btn-default{
-	border-color: rgba(255,255,255,0.9);
-	background-color: rgba(255,255,255,0.7);
-	&:hover{
-		border-color: rgba(255,255,255,0.9);
-		background-color: rgba(255,255,255,0.9);
-	}
-	&:active{
-		@include single-box-shadow(fff, 0, 0, 0, false, false);
-		border-color: rgba(255,255,255,0.9);
-		background-color: rgba(255,255,255,1);
-	}
+#research{
+  article{
+    &:first-child{
+      background-color: silver;
+    }
+    &:nth-child(2){
+      background-color: #ddd;
+    }
+    &:last-child{
+      background-color: grey;
+    }
+  }
 }
 
 
@@ -79,38 +68,40 @@ hr{
   	font-size: $basefontsize;
   	line-height: baselineheight;
   }
+  article.event {
+    @include leading-border();
+    &:last-child{
+      @include trailing-border();
+    }
+    @include rhythm(0, 0, 0, 0, $base-font-size);
+    height: rhythm(7, $base-font-size);
+    .image, .title, .description{
+      height: rhythm(7, $base-font-size);
+      h3, p{
+        @include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+      }
+    }
+  }
+  article.research{
+    height: rhythm(14, $base-font-size);
+  }
+  .link{
+    @include rhythm(1, 0, 0, 1, $base-font-size);
+  }
   img{
   	@include rhythm(0, 0, 0, 1.2, $base-font-size); 
   }
   h1{
   	@include rhythm(0.6, 0, 0, 0, $base-font-size);
-  	@include adjust-font-size-to($base-font-size*7/4, 1.5);
+  	@include adjust-font-size-to($base-font-size * $golden * 2);
   }
   h2{
   	@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
-  	@include adjust-font-size-to($base-font-size*7/4, 1.5);
+  	@include adjust-font-size-to($base-font-size * $golden * 1);
   }
-  .form-control{
-  	@include rhythm(0, 0, 0, 0.5, $base-font-size); 
-  }
-  .input-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn{
-  	@include adjust-font-size-to($base-font-size);
-  }
-  ul{
-  	@include rhythm(0, 0, 0, 0, $base-font-size); 
-  }
-  li{
-  	@include adjust-font-size-to($base-font-size);
-  	@include rhythm(1, 0, 0, 1, $base-font-size); 
-  }
-  hr{
-  	@include rhythm(0, 0, 0, 0, $base-font-size); 
-  }
-  .footerPage{
-  	@include rhythm(0.7, 0, 0, 0, $base-font-size);
-  	small{
-	  	@include adjust-font-size-to($base-font-size*0.85, 1.5);
-  	}
+  h3{
+    @include rhythm(0, 0, 0, 0, $base-font-size);
+    @include adjust-font-size-to($base-font-size);
   }
 }
 
@@ -120,48 +111,18 @@ hr{
   body{
   	min-height: 460px;
   }
-  
   @include typescale (13px, 17px);
-  .visible-xs{
-  	input{
-  		font-size: 18px;
-  		text-align: center;
-  	}
-  }
-	.show-xs{
-		display: inline;
-	}
-	.hide-xs{
-		display: none;
-	}
 }
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   @include typescale (16px, 22px);
-	.hide-xs{
-		display: inline;
-	}
-	.show-xs{
-		display: none;
-	}
 }
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   @include typescale (18px, 24px);
-	.hide-xs{
-		display: inline;
-	}
-	.show-xs{
-		display: none;
-	}
+
 }
 //large
 @media (min-width: $screen-lg-min) {
   @include typescale (20px, 24px);
-	.hide-xs{
-		display: inline;
-	}
-	.show-xs{
-		display: none;
-	}
 }
