@@ -27,7 +27,7 @@ hr{
   height:100%;
 }
 #logo{
-  background-color: red;
+  background-color: #C70F19;
   h1{
     @include background-size(100%, auto);
     background-repeat: no-repeat;
@@ -37,7 +37,10 @@ hr{
     }
   }
 }
-article.event,{
+article.event{
+  .description{
+    overflow: hidden;
+  }
   .image{
     display: block;
     margin: 0;
@@ -48,7 +51,7 @@ article.event,{
     @include background-size (cover);
   }
 }
-article.research{
+article.research .marco{
     display: block;
     margin: 0;
     padding: 0;
@@ -77,8 +80,8 @@ article.research{
 
 #research{
   article{
-    .thumbnail{
-      height:100%;
+    .marco{
+      width: 100%;
       display: table;
       .caption{
         @include box-sizing (border-box);
@@ -150,8 +153,14 @@ article.research{
       height: rhythm(10, 16px);
     }
   }
+
   .research {
-    height: 375px;
+    &:first-child{
+      margin-bottom: 15px;
+    }
+    .marco{
+      height: 345px;
+    }
   }
 }
 //Tables
@@ -167,8 +176,8 @@ article.research{
       height: rhythm(9, 16px);
     }
   }
-  .research {
-    height: 375px;
+  .research .marco{
+    height: 345px;
   }
 }
 //Medium
@@ -179,13 +188,13 @@ article.research{
     height:90px;
   }
   .event{
-    height: rhythm(7, 18px);
-    .image{
-      height: rhythm(7, 18px);
+    height: rhythm(8, 18px);
+    .image, .description{
+      height: rhythm(8, 18px);
     }
   }
-  .research {
-    height: 323px;
+  .research .marco{
+    height: 293px;
   }
 }
 //large
@@ -196,12 +205,12 @@ article.research{
     height:110px;
   }
   .event{
-    height: rhythm(7, 20px);
-    .image{
-      height: rhythm(7, 20px);
+    height: rhythm(8, 20px);
+    .image, .description{
+      height: rhythm(8, 20px);
     }
   }
-  .research {
-    height: 389px;
+  .research .marco{
+    height: 360px;
   }
 }

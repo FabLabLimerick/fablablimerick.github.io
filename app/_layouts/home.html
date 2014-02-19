@@ -50,7 +50,8 @@
         <div class="container">
             <hgroup class="text-center">
                 <h1>EVENTS</h1>
-                <h2 class="subheader">OUR CULTURAL PROGRAMME IS KINDLY SUPPORTED<br>BY CITY OF CULTURE 2014</h2>
+                <h2 class="subheader hidden-xs">OUR CULTURAL PROGRAMME IS KINDLY SUPPORTED BY CITY OF CULTURE 2014</h2>
+                <h2 class="subheader visible-xs">SUPPORTED BY CITY OF CULTURE 2014</h2>
             </hgroup>
             <!-- EVENTS LIST -->
             <div>
@@ -92,7 +93,8 @@
                         <div class="col-sm-12">
                             <hgroup class="text-center">
                                 <h1 style="color:white">SPACE</h1>
-                                <h2 class="subheader" style="color:white">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</h2>
+                                <h2 class="subheader hidden-xs" style="color:white">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</h2>
+                                <h2 class="subheader visible-xs" style="color:white">HOW YOU CAN USE THE FAB LAB</h2>
                             </hgroup>
                         </div>
                     </div>
@@ -109,16 +111,17 @@
         <div class="container">
             <hgroup class="text-center">
                 <h1>RESEARCH</h1>
-                <h2 class="subheader">WE ARE EXPLORING THE POTENTIAL OF DIGITAL<br>FABRICATION IN ARCHITECTURE AND DESIGN</h2>
+                <h2 class="subheader hidden-xs">WE ARE EXPLORING THE POTENTIAL OF DIGITAL FABRICATION IN ARCHITECTURE AND DESIGN</h2>
+                <h2 class="subheader visible-xs">WE ARE EXPLORING THE POTENTIAL OF DIGITAL FABRICATION</h2>
             </hgroup>
             <div class="row">
                 {% for research in site.categories.research %}
                 {% if forloop.last %}
                 {% assign hiddensmall = "hidden-sm hidden-xs" %}
                 {% endif %}
-                <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}" style="background-image: url(../img/research/{{research.image}})">
+                <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
                     <a href="">
-                    <div class="thumbnail" >
+                    <div class="marco" style="background-image: url(../img/research/{{research.image}})" >
                         <div class="caption">
                             <h3>{{research.title}}</h3>
                             <h4>{{research.description}}</h4>
