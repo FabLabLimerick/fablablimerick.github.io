@@ -1,8 +1,8 @@
 ---
-title: OPEN DAY Saturday 21st of June FREE ENTRANCE
+title: This is another research project
 layout: research
 category: research
-description: "Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.MORE INFO"
+description: "A third research project on digital fabrication and ceramics"
 fee: no
 image: research-3.jpg
 ---

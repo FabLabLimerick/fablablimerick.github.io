@@ -1,8 +1,8 @@
 ---
-title: OPEN DAY Saturday 21st of June FREE ENTRANCE
+title: Open Source CNC Router
 layout: research
 category: research
-description: "Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.MORE INFO"
+description: "We lead an Open hardware projects for a low-cost CNC Router"
 fee: no
 image: research-1.jpg
 ---

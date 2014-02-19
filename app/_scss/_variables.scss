@@ -211,19 +211,19 @@ $zindex-modal:             1050 !default;
 
 // Extra small screen / phone
 // Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
-$screen-xs:                  450px !default;
+$screen-xs:                  480px !default;
 $screen-xs-min:              $screen-xs !default;
 $screen-phone:               $screen-xs-min !default;
 
 // Small screen / tablet
 // Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
-$screen-sm:                  482px !default;
+$screen-sm:                  768px !default;
 $screen-sm-min:              $screen-sm !default;
 $screen-tablet:              $screen-sm-min !default;
 
 // Medium screen / desktop
 // Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-$screen-md:                  980px !default;
+$screen-md:                  992px !default;
 $screen-md-min:              $screen-md !default;
 $screen-desktop:             $screen-md-min !default;
 
@@ -625,7 +625,7 @@ $component-offset-horizontal: 180px !default;
 // --------------------------------------------------
 
 // Small screen / tablet
-$container-tablet:             ((450px + $grid-gutter-width)) !default;
+$container-tablet:             ((720px + $grid-gutter-width)) !default;
 $container-sm:                 $container-tablet !default;
 
 // Medium screen / desktop

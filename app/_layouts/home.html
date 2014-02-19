@@ -28,7 +28,7 @@
     <section id="header">
         <div class="container">
             <div class="row">
-                <div id="logo" class="col-md-4 col-md-offset-4 col-sm-12">
+                <div id="logo" class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
                     <h1><span>FAB LAB LIMERICK</span></h1>
                 </div>
             </div>
@@ -55,24 +55,25 @@
             <!-- EVENTS LIST -->
             <div>
                 {% for event in site.categories.events %}
-                <hr>
+                <hr class="clearfix">
                 <article class="row event free">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-4 col-sd-12">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="image" style="background-image: url(../img/events/{{event.image}})"></div>
                             </div>
-                            <div class="col-md-4 col-sd-12 title">
+                            <div class="col-md-4 col-sm-6 title">
                                 <h3>{{event.title}}</h3>
+                                <p class="visible-xs visible-sm">{{event.description}}</p>
                             </div>
-                            <div class="col-md-4 col-sd-12 description">
+                            <div class="col-md-4 hidden-xs hidden-sm description">
                                 <p>{{event.description}}</p>
                             </div>
                         </div>
                     </div>
                 </article>
                 {% endfor %}
-                <hr>
+                <hr class="clearfix">
             </div>
             <div class="row events link">
 
@@ -85,18 +86,20 @@
     </section>
     <section id="space">
         <div class="container">
-            <div class="centradovertical">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <hgroup class="text-center">
-                            <h1 style="color:white">SPACE</h1>
-                            <h2 class="subheader" style="color:white">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</h2>
-                        </hgroup>
+            <div class="visor">
+                <div class="centradovertical">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hgroup class="text-center">
+                                <h1 style="color:white">SPACE</h1>
+                                <h2 class="subheader" style="color:white">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</h2>
+                            </hgroup>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <a href="" class="text-center" style="color:white">ALL THE INFO HERE</a>
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <a href="" class="text-center" style="color:white">ALL THE INFO HERE</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,13 +113,18 @@
             </hgroup>
             <div class="row">
                 {% for research in site.categories.research %}
-                <article class="col-md-4 col-sd-12 research" style="background-image: url(../img/research/{{research.image}})">
+                {% if forloop.last %}
+                {% assign hiddensmall = "hidden-sm hidden-xs" %}
+                {% endif %}
+                <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}" style="background-image: url(../img/research/{{research.image}})">
+                    <a href="">
                     <div class="thumbnail" >
                         <div class="caption">
                             <h3>{{research.title}}</h3>
-                            <p>{{research.description}}</p>
+                            <h4>{{research.description}}</h4>
                         </div>
                     </div>
+                    </a>
                 </article>
                 {% endfor %}
             </div>

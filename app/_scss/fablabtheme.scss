@@ -7,16 +7,21 @@
 
 $ms-base: 1em;
 $ms-ratio: $golden;
+
+// GENERAL STYLES
 body, html{
 	height: 100%;
 }
-
 hr{
   padding:0px;
   margin: 0px;
   border-top: 1px solid grey;
   border-bottom: none;
 }
+
+
+
+
 #header{
   background-color: black;
   height:100%;
@@ -54,20 +59,34 @@ article.research{
 }
 
 #space{
+  height:100%;
   .container{
-    display: table;
-
-    background-color: black;
     height:100%;
-    .centradovertical{
-      display: table-cell;
-      vertical-align: middle;
+    .visor{
+      width: 100%;
+      height:100%;
+      display: table;
+      background-color: black;
+      .centradovertical{
+        display: table-cell;
+        vertical-align: middle;
+      }
     }
   }
-  height:100%;
 }
+
 #research{
   article{
+    .thumbnail{
+      height:100%;
+      display: table;
+      .caption{
+        @include box-sizing (border-box);
+        display: table-cell;
+        vertical-align: bottom;
+        padding: $padding-base-horizontal * 2;
+      }
+    }
   }
 }
 
@@ -82,16 +101,11 @@ article.research{
   }
   article.event {
     @include rhythm(0, 0, 0, 0, $base-font-size);
-    height: rhythm(7, $base-font-size);
     .image, .title, .description{
-      height: rhythm(7, $base-font-size);
       h3, p{
         @include rhythm(0.5, 0, 0, 0.5, $base-font-size);
       }
     }
-  }
-  article.research {
-    height: rhythm(14, $base-font-size);
   }
   .link{
     @include rhythm(1, 0, 0, 1, $base-font-size);
@@ -111,6 +125,10 @@ article.research{
     @include rhythm(0, 0, 0, 0, $base-font-size);
     @include adjust-font-size-to($base-font-size);
   }
+  h4{
+    @include rhythm(0, 0, 0, 0, $base-font-size);
+    @include adjust-font-size-to($base-font-size);
+  }
 }
 
 // Visibility utilities
@@ -119,18 +137,71 @@ article.research{
   body{
   	min-height: 460px;
   }
-  @include typescale (13px, 17px);
+  #logo h1{
+    margin-top: 0px;
+    background-position: center;
+    @include background-size(280px auto);
+    height: 95px;
+  }
+  @include typescale (16px, 22px);
+  .event{
+    height: rhythm(20, 16px);
+    .image{
+      height: rhythm(10, 16px);
+    }
+  }
+  .research {
+    height: 375px;
+  }
 }
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   @include typescale (16px, 22px);
+  #logo h1{
+    margin-top: 30px;
+    height:110px;
+  }
+  .event{
+    height: rhythm(9, 16px);
+    .image{
+      height: rhythm(9, 16px);
+    }
+  }
+  .research {
+    height: 375px;
+  }
 }
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   @include typescale (18px, 24px);
-
+  #logo h1{
+    margin-top: 30px;
+    height:90px;
+  }
+  .event{
+    height: rhythm(7, 18px);
+    .image{
+      height: rhythm(7, 18px);
+    }
+  }
+  .research {
+    height: 323px;
+  }
 }
 //large
 @media (min-width: $screen-lg-min) {
   @include typescale (20px, 24px);
+  #logo h1{
+    margin-top: 30px;
+    height:110px;
+  }
+  .event{
+    height: rhythm(7, 20px);
+    .image{
+      height: rhythm(7, 20px);
+    }
+  }
+  .research {
+    height: 389px;
+  }
 }
