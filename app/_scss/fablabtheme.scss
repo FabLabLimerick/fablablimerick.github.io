@@ -11,6 +11,12 @@ body, html{
 	height: 100%;
 }
 
+hr{
+  padding:0px;
+  margin: 0px;
+  border-top: 1px solid grey;
+  border-bottom: none;
+}
 #header{
   background-color: black;
   height:100%;
@@ -26,12 +32,27 @@ body, html{
     }
   }
 }
-article.event{
+article.event,{
   .image{
-    background-color: red;
-    @include background-size(cover);
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    @include background-size (cover);
   }
 }
+article.research{
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    @include background-size (cover);
+}
+
 #space{
   .container{
     display: table;
@@ -47,15 +68,6 @@ article.event{
 }
 #research{
   article{
-    &:first-child{
-      background-color: silver;
-    }
-    &:nth-child(2){
-      background-color: #ddd;
-    }
-    &:last-child{
-      background-color: grey;
-    }
   }
 }
 
@@ -69,10 +81,6 @@ article.event{
   	line-height: baselineheight;
   }
   article.event {
-    @include leading-border();
-    &:last-child{
-      @include trailing-border();
-    }
     @include rhythm(0, 0, 0, 0, $base-font-size);
     height: rhythm(7, $base-font-size);
     .image, .title, .description{
@@ -82,7 +90,7 @@ article.event{
       }
     }
   }
-  article.research{
+  article.research {
     height: rhythm(14, $base-font-size);
   }
   .link{

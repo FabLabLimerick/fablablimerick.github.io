@@ -1,8 +1,8 @@
 ---
 title: OPEN DAY Saturday 21st of June FREE ENTRANCE
-layout: event
-category: events
+layout: research
+category: research
 description: "Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.MORE INFO"
-fee: yes
-image: 3D-printer.jpg
+fee: no
+image: research-3.jpg
 ---

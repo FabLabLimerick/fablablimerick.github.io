@@ -4,4 +4,5 @@ layout: event
 category: events
 description: "Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.MORE INFO"
 fee: no
+image: launch.jpg
 ---

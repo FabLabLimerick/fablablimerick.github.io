@@ -55,10 +55,12 @@
             <!-- EVENTS LIST -->
             <div>
                 {% for event in site.categories.events %}
+                <hr>
                 <article class="row event free">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-4 col-sd-12 image">
+                            <div class="col-md-4 col-sd-12">
+                                <div class="image" style="background-image: url(../img/events/{{event.image}})"></div>
                             </div>
                             <div class="col-md-4 col-sd-12 title">
                                 <h3>{{event.title}}</h3>
@@ -70,8 +72,10 @@
                     </div>
                 </article>
                 {% endfor %}
+                <hr>
             </div>
             <div class="row events link">
+
                 <div class="col-md-12 text-center">
                     <a href="" class="text-center">CHECK ALL OUR TALKS, WORKSHOPS AND EXHIBITIONS</a>
                 </div>
@@ -105,30 +109,16 @@
                 <h2 class="subheader">WE ARE EXPLORING THE POTENTIAL OF DIGITAL<br>FABRICATION IN ARCHITECTURE AND DESIGN</h2>
             </hgroup>
             <div class="row">
-                <article class="col-md-4 col-sd-12 research">
-                    <div class="thumbnail">
+                {% for research in site.categories.research %}
+                <article class="col-md-4 col-sd-12 research" style="background-image: url(../img/research/{{research.image}})">
+                    <div class="thumbnail" >
                         <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
+                            <h3>{{research.title}}</h3>
+                            <p>{{research.description}}</p>
                         </div>
                     </div>
                 </article>
-                <article class="col-md-4 col-sd-12 research">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="col-md-4 col-sd-12 research">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
-                        </div>
-                    </div>
-                </article>
+                {% endfor %}
             </div>
             <div class="row events link">
                 <div class="col-md-12 text-center">
