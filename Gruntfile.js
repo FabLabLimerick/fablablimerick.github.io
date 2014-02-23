@@ -262,7 +262,8 @@ module.exports = function (grunt) {
             '_bower_components/jquery/jquery.js',
             'favicon.ico',
             'logo-thumbnail.png',
-            'thumbnail.jpg'
+            'thumbnail.jpg',
+            'readme.md'
           ],
           dest: '<%= yeoman.dist %>'
         }]
