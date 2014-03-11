@@ -31,11 +31,28 @@ hr{
 }
 
 #navegacion{
+  position: absolute;
+  top:0px;
   width:100%;
   overflow: hidden;
   margin-bottom: 0px;
   background-color: none;
-
+  z-index: 4000;
+  .filling-left{
+    background-color: rgba(0,0,0,0.8);
+    height: 80px;
+    width: 50%;
+    float: left;
+    margin-left: -121px;
+  }
+  .filling-right{
+    background-color: rgba(0,0,0,0.8);
+    height: 80px;
+    width: 50%;
+    left: 50%;
+    margin-left: 364px;
+    position: absolute;
+  }
   .barranavegacion{
     position: absolute;
     z-index: 4000;
@@ -89,6 +106,13 @@ hr{
 }
 @media (max-width: $screen-xs-max) {
   #navegacion{
+    .filling-left{
+      height: 70px;
+    }
+    .filling-right{
+      height: 70px;
+      margin-left: 172px;
+    }
     .barranavegacion{
       width:220px + 70px +1px;
       height:70px;
@@ -96,13 +120,50 @@ hr{
         width:220px;
         height:70px;
       }
+      .botones{
+        ul{
+          li{
+            line-height: 70px;
+            height:70px;
+            width:70px;
+          }
+        } 
+      }
+    }
+  }
+}
+@media (min-width: $screen-lg-min) {
+  #navegacion{
+    .filling-left{
+      height: 90px;
+    }
+    .filling-right{
+      height: 90px;
+      margin-left: 404px;
+    }
+    .barranavegacion{
+      width:250px + 90px + 90px + 90px + 3px;
+      height:90px;
+      #logo{
+        width:250px;
+        height:90px;
+      }
+      .botones{
+        ul{
+          li{
+            line-height: 90px;
+            height:90px;
+            width:90px;
+          }
+        } 
+      }
     }
   }
 }
 
-
 #brand-motto{
   z-index: 1000;
+  pointer-events: none;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -159,6 +220,9 @@ hr{
         }
         .carousel-caption{
           font-family: "MuseoSansRounded-500";
+          a:link, a:active, a:hover{
+            color: white;
+          }
         }
         .image{
           line-height: 100%;
