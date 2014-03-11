@@ -8,6 +8,17 @@
 $ms-base: 1em;
 $ms-ratio: $golden;
 
+
+@mixin blackGradientBackgroundVertical{
+background: -moz-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.60) 30%, rgba(0,0,0,0.0) 60%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,0.8)), color-stop(30%,rgba(0,0,0,0.60)), color-stop(60%,rgba(0,0,0,0.0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,rgba(0,0,0,0.0) 60%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,rgba(0,0,0,0.0) 60%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,rgba(0,0,0,0.0) 60%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,rgba(0,0,0,0.0) 60%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
 // GENERAL STYLES
 body, html{
 	height: 100%;
@@ -104,6 +115,12 @@ hr{
   }
 }
 article.event{
+  h3{
+    text-transform: uppercase;
+  }
+  h4{
+    color: #aaa;
+  }
   .description{
     overflow: hidden;
   }
@@ -117,14 +134,79 @@ article.event{
     @include background-size (cover);
   }
 }
-article.research .marco{
-    display: block;
-    margin: 0;
-    padding: 0;
-    overflow:hidden;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    @include background-size (cover);
+#research{
+  .container{
+    .row{
+      margin-left: 0px;
+      margin-right:0px;
+      .col-md-4{
+        &:first-child{
+          padding-left: 0px;
+          padding-right: 1px;
+          .marco{
+            margin-left: 0px;
+            margin-right: 1px;
+          }
+        }
+        &:nth-child(2){
+          padding-left: 1px;
+          padding-right: 1px;
+        }
+        &:nth-child(3){
+          padding-left: 1px;
+          padding-right: 0px;
+        }
+      }
+      .col-md-4.col-sd-6{
+        &:first-child{
+          padding-left: 0px;
+          padding-right: 1px;
+        }
+        &:nth-child(2){
+          padding-left: 1px;
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+#research{
+  article{
+    @include box-sizing (border-box);
+    .gradient{
+      @include box-sizing (border-box);
+      width: 100%;
+      height: 100%;
+      display: table;
+      @include blackGradientBackgroundVertical;
+      .caption{
+        color: white;
+        @include box-sizing (border-box);
+        display: table-cell;
+        vertical-align: bottom;
+        padding: $padding-base-horizontal * 2;
+        h3{
+          text-transform: uppercase;
+        }
+      }
+    }
+    .marco{
+      @include box-sizing (border-box);
+      z-index: -1000;
+      position: absolute;
+      top:0px;
+      left:0px;
+      display: block;
+      margin: 0;
+      padding: 0;
+      overflow:hidden;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      @include background-size (cover);
+    }
+  }
+  clear: both;
 }
 
 #space{
@@ -144,20 +226,7 @@ article.research .marco{
   }
 }
 
-#research{
-  article{
-    .marco{
-      width: 100%;
-      display: table;
-      .caption{
-        @include box-sizing (border-box);
-        display: table-cell;
-        vertical-align: bottom;
-        padding: $padding-base-horizontal * 2;
-      }
-    }
-  }
-}
+
 
 
 @mixin typescale($basefontsize, $baselineheight){
@@ -246,8 +315,11 @@ article.research .marco{
       height: rhythm(9, 16px);
     }
   }
-  .research .marco{
+  .research {
     height: 345px;
+    .marco{
+      height: 345px;
+    }
   }
 }
 //Medium
@@ -263,8 +335,12 @@ article.research .marco{
       height: rhythm(8, 18px);
     }
   }
-  .research .marco{
+  .research {
     height: 293px;
+    .marco{
+      height: 293px;
+
+    }
   }
 }
 //large
@@ -280,7 +356,11 @@ article.research .marco{
       height: rhythm(8, 20px);
     }
   }
-  .research .marco{
+  .research {
     height: 360px;
+    .marco{
+      height: 360px;
+      width: 379px;
+    }
   }
 }
