@@ -30,7 +30,12 @@ hr{
   border-bottom: none;
 }
 
+
+// BARRA DE NAVEGACION 
 #navegacion{
+  $navbar-height: 80px;
+  $navbar-logowidth: 240px;
+  $navbar-fontsize: 13px;
   position: absolute;
   top:0px;
   width:100%;
@@ -40,40 +45,41 @@ hr{
   z-index: 4000;
   .filling-left{
     background-color: rgba(0,0,0,0.8);
-    height: 80px;
+    height: $navbar-height;
     width: 50%;
     float: left;
-    margin-left: -121px;
+    margin-left: - ($navbar-logowidth + 2px )/2;
   }
   .filling-right{
     background-color: rgba(0,0,0,0.8);
-    height: 80px;
+    height: $navbar-height;
     width: 50%;
     left: 50%;
-    margin-left: 364px;
+    margin-left: ($navbar-logowidth /2) + $navbar-height * 3 + 4px;
     position: absolute;
   }
   .barranavegacion{
     position: absolute;
     z-index: 4000;
     left:50%;
-    margin-left: -120px;
-    width:240px + 80px + 80px + 80px +3px;
-    height:80px;
+    margin-left: - $navbar-logowidth/2;
+    width: $navbar-logowidth + $navbar-height * 3 + 3px;
+    height: $navbar-height;
     .menucollapse{
       background-color: rgba(0,0,0,0.8);
-      height:70px;
+      height: $navbar-height;
       display:block;
       color: white;
     }
     #logo{
       background-color: #C70F19;
       margin-top: 0px;
-      width:240px;
-      height:80px;
+      width: $navbar-logowidth;
+      height: $navbar-height;
       float:left;
       @include background-size(100%, 100%);
       background-repeat: no-repeat;
+      background-position:center;
       background-image: url("../img/logo-v2.svg");
       span{
         display: none;
@@ -84,13 +90,13 @@ hr{
         margin:0px;
         background-color: none;
         li{
-          line-height: 80px;
+          line-height: $navbar-height;
           list-style-type: none;
           text-align: center;
           background-color: rgba(0,0,0,0.8);
-          font-size: 13px;
-          height:80px;
-          width:80px;
+          font-size: $navbar-fontsize;
+          height: $navbar-height;
+          width: $navbar-height;
           float:left;
           margin-left: 1px;
           text-transform: uppercase;
@@ -132,34 +138,41 @@ hr{
     }
   }
 }
+
 @media (min-width: $screen-lg-min) {
+  $navbar-height: 100px;
+  $navbar-logowidth: 280px;
+  $navbar-fontsize:14px;
   #navegacion{
     .filling-left{
-      height: 90px;
+      height: $navbar-height;
     }
     .filling-right{
-      height: 90px;
-      margin-left: 404px;
+      height: $navbar-height;
+      margin-left: ($navbar-logowidth /2) + $navbar-height * 3 + 4px;
     }
     .barranavegacion{
-      width:250px + 90px + 90px + 90px + 3px;
-      height:90px;
+      margin-left: - $navbar-logowidth/2;
+      width: $navbar-logowidth + $navbar-height * 3 + 3px;
+      height: $navbar-height;
       #logo{
-        width:250px;
-        height:90px;
+        width: $navbar-logowidth;
+        height: $navbar-height;
       }
       .botones{
         ul{
           li{
-            line-height: 90px;
-            height:90px;
-            width:90px;
+            line-height: $navbar-height;
+            height: $navbar-height;
+            width: $navbar-height;
+            font-size: $navbar-fontsize;
           }
         } 
       }
     }
   }
 }
+// END BARRA NAVEGACION
 
 #brand-motto{
   z-index: 1000;
