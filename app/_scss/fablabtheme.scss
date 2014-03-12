@@ -19,6 +19,34 @@ background: -ms-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,
 background: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 30%,rgba(0,0,0,0.0) 60%,rgba(0,0,0,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
+.footer{
+  margin-bottom: 35px;
+}
+.footer hr{
+  margin-bottom: 25px;
+}
+.FabLabLogo {
+  display: block;
+  margin-top: 0px;
+  height: 20px;
+  @include background-size(50px, 20px);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-image: url("../img/thumbnail-logo.svg");
+}
+.credits{
+  opacity: 0.5;
+}
+.menu-link{
+  margin-left: 25px;
+}
+.text-right .social-link{
+  margin-left: 20px;
+}
+.text-center .social-link{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 // GENERAL STYLES
 body, html{
