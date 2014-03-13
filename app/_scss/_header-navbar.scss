@@ -1,4 +1,27 @@
-// BARRA DE NAVEGACION 
+// BARRA DE NAVEGACION
+.botones-phone{
+  position: absolute;
+  top: 71px;
+  z-index: 5000;
+  height: 213px;
+  width: 100%;
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      height:70px;
+      background-color: rgba(0,0,0,0.85);
+      margin-bottom: 1px;
+      text-align: center;
+      line-height: 70px;
+      font-family: "MuseoSans-500";
+      font-weight: 500;
+      a:link, a:visited, a:hover{
+        color: white;
+      }
+    }
+  }
+}
 #navegacion{
   $navbar-height: 80px;
   $navbar-logowidth: 240px;
@@ -50,6 +73,17 @@
       background-image: url("../img/logo-v2.svg");
       span{
         display: none;
+      }
+    }
+    .navbar-toggle{
+      margin-right: 13px;
+      margin-top: 17px;
+      .icon-bar{
+        height: 1px;
+        background-color: white;
+      }
+      .icon-bar + .icon-bar{
+        margin-top: 6px;
       }
     }
     .botones{
