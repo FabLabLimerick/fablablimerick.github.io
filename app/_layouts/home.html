@@ -10,6 +10,7 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <!-- build:css({app,.tmp}) /css/main.css -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="/_bower_components/vegas/dist/jquery.vegas.css">
     <link rel="stylesheet" href="/css/syntax.css">
@@ -150,27 +151,7 @@
         </div>
     </section>
     <section class="footer">
-        <div class="container">
-            <hr>
-            <div class="row">
-                <div class="col-md-2 col-md-push-5">
-                    <span class="FabLabLogo" title="Fab Lab Limerick"></span>
-                </div>
-                <div class="col-md-5 col-md-pull-2">
-                    <p class="text-left hidden-sm hidden-xs">Fab Lab Limerick, 7 Rutland Street, Limerick</p>
-                    <p class="text-center visible-sm visible-xs">Fab Lab Limerick, 7 Rutland Street</p>
-                </div>
-                <div class="col-md-5">
-                     <p class="text-right hidden-sm hidden-xs"><a class="social-link" href="">fablab@saul.ie</a><a class="social-link" href="">Facebook</a><a class="social-link" href="">@fablablimerick</a></p>
-                     <p class="text-center visible-sm visible-xs">|<a class="social-link" href="">fablab@saul.ie</a>|<a class="social-link" href="">Facebook</a>|<a class="social-link" href="">@fablablimerick</a>|</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p class="text-center credits"><span class="hidden-xs">Fab Lab Limerick is a project promoted by the <a href="http://saul.ie">School of Architecture</a>, <a href="http://ul.ie">University Of Limerick</a></span><span class="visible-xs">Fab Lab Limerick by the <a href="http://saul.ie">School of Architecture</a><br><a href="http://ul.ie">University Of Limerick</a></span></p>
-                </div>
-            </div>
-        </div>
+        {% include footer.html %}
     </section>
     {% include scripts-home.html %}
     {% include googleanalytics.html %}

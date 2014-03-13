@@ -1,0 +1,77 @@
+.footer{
+  padding-bottom: 35px;
+  font-family: "OpenSans";
+  hr{
+    margin-bottom: 25px;
+  }
+}
+
+.FabLabLogo {
+  opacity: 0.8;
+  display: block;
+  margin-top: 0px;
+  @include background-size(50px, 20px);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-image: url("../img/thumbnail-logo.svg");
+}
+.credits{
+  opacity: 0.5;
+}
+.text-right .social-link{
+  margin-left: 20px;
+}
+.text-center .social-link{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (max-width: $screen-xs-max) {
+  .FabLabLogo {
+    height:20px;
+    margin-bottom: 17px;
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .FabLabLogo {
+    height:20px;
+    margin-bottom: 17px;
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .footer{
+    padding-bottom: 50px;
+  }
+  .FabLabLogo{
+    @include background-size(55px, 25px);
+    height:30px;
+  }
+  .pielinea{
+    height:30px;
+    p{
+      height:30px;
+      line-height: 30px;
+    }
+  }
+  .credits{
+    margin-top: 10px;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .footer{
+    padding-bottom: 55px;
+  }
+  .FabLabLogo{
+    @include background-size(60px, 25px);
+    height:40px;
+  }
+  .pielinea{
+    height:40px;
+    p{
+      height:40px;
+      line-height: 40px;
+    }
+  }
+  .credits{
+    margin-top: 5px;
+  }
+}
