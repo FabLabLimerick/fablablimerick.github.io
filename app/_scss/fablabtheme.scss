@@ -292,12 +292,17 @@ article.event{
   	@include rhythm(0, 0, 0, 1.2, $base-font-size); 
   }
   h1{
-  	@include rhythm(0.6, 0, 0, 0, $base-font-size);
+  	@include rhythm(0.7, 0, 0, 0, $base-font-size);
   	@include adjust-font-size-to($base-font-size * $golden * 2);
   }
   h2{
   	@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
   	@include adjust-font-size-to($base-font-size * $golden * 1);
+  }
+  h2.subheader{
+    @include rhythm(0.35, 0, 0, 0.8, $base-font-size);
+    @include adjust-font-size-to($base-font-size * $golden * 1);
+    line-height: 1.3em;
   }
   h3{
     @include rhythm(0, 0, 0, 0, $base-font-size);
