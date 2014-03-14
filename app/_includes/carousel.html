@@ -16,20 +16,15 @@
     <li data-target="#myCarousel" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="item active">
+    {% for banner in site.categories.banners %}
+    <div class="item {% if forloop.first %}active{% endif %}">
       <div class="carousel-caption">
-        <p><span class="title"><a href="#">Glyphicon buttons on the left</a></span><span class="hidden-xs">. and right might not load/display properly due to web</span></p>
+        <p><span class="title"><a href="{{ banner.url }}">{{ banner.title }}</a></span><span class="hidden-xs">. {{ banner.description }}</span></p>
       </div>
       <div class="imageTop"></div>
-      <div class="image" style="background-image:url(../img/research/research-4.jpg)"></div>
+      <div class="image" style="background-image:url(../img/{{ banner.image }})"></div>
     </div>
-    <div class="item">
-      <div class="carousel-caption">
-        <p><span class="title"><a href="#">Glyphicon buttons on the left</a></span><span class="hidden-xs">. and right might not load/display properly due to web</span></p>
-      </div>
-      <div class="imageTop"></div>
-      <div class="image" style="background-image:url(../img/research/research-3.jpg)"></div>
-    </div>
+    {% endfor %}
   </div>
   <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
