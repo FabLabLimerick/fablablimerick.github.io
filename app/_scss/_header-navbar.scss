@@ -71,6 +71,9 @@
       background-repeat: no-repeat;
       background-position:center;
       background-image: url("../img/logo-v2.svg");
+      a{
+        display: block;
+      }
       span{
         display: none;
       }
@@ -123,7 +126,7 @@
     .barranavegacion{
       width:220px + 70px +1px;
       height:70px;
-      #logo{
+      #logo, #logo a{
         width:220px;
         height:70px;
       }
@@ -156,7 +159,7 @@
       margin-left: - $navbar-logowidth/2;
       width: $navbar-logowidth + $navbar-height * 3 + 3px;
       height: $navbar-height;
-      #logo{
+      #logo, #logo a{
         width: $navbar-logowidth;
         height: $navbar-height;
       }

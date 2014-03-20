@@ -28,6 +28,104 @@
     <header id="header">
         {% include header.html %}
     </header>
+    <section id="header-hero">
+    </section>
+    <section id="header-hero-title">
+    </section>
+    <section id="body-who">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hgroup class="text-center">
+                        <h1>WHO</h1>
+                        <h2>WHERE ARE A GROUP OF STAFF AND STUDENTS <br>FROM THE SCHOOL OF ARCHITECTURE</h2>
+                    </hgroup>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">THE TEAM</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.categories.team reversed %}
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                    <img class="img-circle" src="http://placehold.it/100x100" alt="...">
+                    <hgroup class="text-center">
+                        <h4>{{ member.title }}</h4>
+                        <h5>{{ member.position }}</h5>
+                    </hgroup>
+                </div>
+                {% endfor %}
+            </div> 
+            <!-- PREVIOUS TEAM 
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">PEOPLE</h3>
+                </div>
+            </div>
+            PREVIOUS TEAM -->
+        </div>
+    </section>
+    <section id="body-how">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hgroup class="text-center">
+                        <h1>HOW</h1>
+                        <h2>WHERE ARE A GROUP OF STAFF AND STUDENTS <br>FROM THE SCHOOL OF ARCHITECTURE</h2>
+                    </hgroup>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Information Architects was founded in 2005 in Tokyo. It quickly grew into “one of the most famous design agencies in the world” (Corriere Della Sera). Our websites.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="equipment">
+                        {% for machine in site.categories.equipment %}
+                        <div class="row">
+                            {% capture currenttype %}{{ machine.type }}{% endcapture %}
+                            {% if currenttype != thetype %}
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12"><span class="visible-xs">{{ machine.type }}</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-2 col-xs-4"><span class="hidden-xs">{{ machine.type }}</span><span class="visible-xs">{{ machine.title }}</span></div>
+                                <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
+                                <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
+                                {% capture thetype %}{{ currenttype }}{% endcapture %} 
+                                {% else %}
+                                 <div class="col-md-3 col-sm-2 col-xs-4"><span class="visible-xs">{{ machine.title }}</span></div>
+                                <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
+                                <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="row link">
+                        <div class="col-md-12 text-center">
+                            <a href="" class="text-center"><span class="hidden-xs">VISIT OUR WIKI FOR TUTORIALS AND USAGE RULES</span><span class="visible-xs">TUTORIALS AND USAGE RULES</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="footer">
         {% include footer.html %}
     </section>
