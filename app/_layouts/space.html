@@ -29,8 +29,25 @@
         {% include header.html %}
     </header>
     <section id="header-hero">
-    </section>
-    <section id="header-hero-title">
+        <div class="visor">
+        </div>
+        <div id="header-hero-title">
+            <div class="container">
+                <div class="row image gutter">
+                    <div class="col-md-12 fondonegro">
+                        <p class="text-center"><span class="hidden-xs">IMAGE: ASSEMBLY OF A LASER CUTTER. JANUARY 2014. CC-BY-SA JAVIER BURON</span><span class="visible-xs">IMAGE CC-BY-SA JAVIER BURON</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 fondonegro">
+                        <hgroup class="text-center">
+                            <h1>SPACE</h1>
+                            <h2 class="subheader"><span class="hidden-xs">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</span><span class="visible-xs">HOW YOU CAN USE<br>THE FAB LAB</span></h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="body-who">
         <div class="container">
@@ -100,22 +117,26 @@
                         <div class="row">
                             {% capture currenttype %}{{ machine.type }}{% endcapture %}
                             {% if currenttype != thetype %}
-                                <div class="col-md-12">
+                                <hr class="primary visible-xs">
+                                <div class="col-md-12 visible-xs">
                                     <div class="row">
-                                        <div class="col-md-12"><span class="visible-xs">{{ machine.type }}</span></div>
+                                        <div class="col-md-12"><span class="machinetype-xs">{{ machine.type }}</span></div>
                                     </div>
                                 </div>
+                                <hr class="primary">
                                 <div class="col-md-3 col-sm-2 col-xs-4"><span class="hidden-xs">{{ machine.type }}</span><span class="visible-xs">{{ machine.title }}</span></div>
                                 <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
                                 <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
                                 {% capture thetype %}{{ currenttype }}{% endcapture %} 
                                 {% else %}
+                                <hr class="secondary">
                                  <div class="col-md-3 col-sm-2 col-xs-4"><span class="visible-xs">{{ machine.title }}</span></div>
                                 <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
                                 <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
                             {% endif %}
                         </div>
                         {% endfor %}
+                        <hr class="end">
                     </div>
                     <div class="row link">
                         <div class="col-md-12 text-center">

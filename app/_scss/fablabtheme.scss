@@ -280,7 +280,58 @@ article.event{
 }
 
 
+#header-hero{
+  width: 100%;
+  height:100%;
+  background-color: rgb(40,40,40);
+  position: relative;
+  #header-hero-title{
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+  }
+  .fondonegro{
+    margin-top: 2px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    h1{
+        margin: 0px;
+        padding-top: 30px;
+    }
+    h2{
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+    p{
+        margin: 0px;
+        padding-top: 4px;
+    }
+  }
+}
 
+.equipment{
+  .machinetype-xs{
+    width: 100%;
+    display: block;
+  }
+  hr{
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    &.primary{
+      opacity: 1;
+    }
+    &.secondary{
+      opacity: 0.6;
+    }
+    &.end{
+      padding: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}
 
 @mixin typescale($basefontsize, $baselineheight){
   $base-font-size: $basefontsize;
@@ -322,6 +373,10 @@ article.event{
     @include adjust-font-size-to($base-font-size);
   }
   h4{
+    @include rhythm(0, 0, 0, 0, $base-font-size);
+    @include adjust-font-size-to($base-font-size);
+  }
+  h5{
     @include rhythm(0, 0, 0, 0, $base-font-size);
     @include adjust-font-size-to($base-font-size);
   }
