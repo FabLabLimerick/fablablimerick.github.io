@@ -310,6 +310,50 @@ article.event{
   }
 }
 
+#body-who{
+  .imagen{
+      @include box-sizing (border-box);
+      display: block;
+      overflow:hidden;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      @include background-size (cover);
+      background-color: red;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50%;
+  }
+  .membertext{
+      margin-top: 0.7em;
+      margin-bottom: 1.5em;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .imagen{
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .imagen{
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .imagen{
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .imagen{
+    height: 140px;
+    width: 140px;
+  }
+}
+
 .equipment{
   .machinetype-xs{
     width: 100%;
@@ -379,6 +423,9 @@ article.event{
   h5{
     @include rhythm(0, 0, 0, 0, $base-font-size);
     @include adjust-font-size-to($base-font-size);
+  }
+  img{
+    @include rhythm(0, 0, 0, 1, $base-font-size);
   }
   small{
   }
