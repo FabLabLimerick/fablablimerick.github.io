@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/_bower_components/vegas/dist/jquery.vegas.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/fablabtheme.css">
+    <!-- endbuild -->
+
+    <!-- build:js(app) /js/head-scripts.js -->
+    <!-- Replace with a custom modernizer build for production -->
+    <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="header">
+        {% include header.html %}
+    </header>
+    <section id="header-hero">
+        <div class="visor">
+        </div>
+        <div id="header-hero-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 fondonegro">
+                        <hgroup class="text-center">
+                            <h1>{{page.title}}</h1>
+                        </hgroup>
+                        <p class="text-center">By {{page.author}}</p>
+                    </div>
+                </div>
+                <div class="row image gutter">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 fondonegro">
+                        <p class="text-center"><span class="hidden-xs">IMAGE: ASSEMBLY OF A LASER CUTTER. JANUARY 2014. CC-BY-SA JAVIER BURON</span><span class="visible-xs">IMAGE CC-BY-SA JAVIER BURON</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                    <h2>{{ page.description }}</h2>
+                    <div>
+                        <hr>
+                        <p class="text-center">MONDAY 18 FEBRUARY 2013  ·  SHARE IT</p>
+                        <hr>
+                    </div>
+                    {{ content }}
+                    <div>
+                        <hr>
+                        <p class="text-center">NEXT RESEARCH: THIS IS ANOTHER RESEARCH OF THE FAB LAB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        {% include footer.html %}
+    </section>
+    {% include scripts-home.html %}
+    {% include googleanalytics.html %}
+  </body>
+</html>
