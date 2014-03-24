@@ -33,9 +33,22 @@ hr{
   border-top: 1px solid grey;
   border-bottom: none;
 }
+h1{
+  font-family: "fablab_rounded_100extralight";
+  text-transform: uppercase;
+}
+h2{
+  font-family: "fablab_rounded_100extralight";
+  text-transform: uppercase;
+}
+.uppercase{
+  font-family: "MuseoSansRounded-300";
+  text-transform: uppercase;
+}
 
-
+//
 // BRAND MOTTO
+//
 #brand-motto{
   z-index: 1000;
   pointer-events: none;
@@ -55,6 +68,7 @@ hr{
       }
       h2{
         font-family: "MuseoSansRounded-500";
+        text-transform: uppercase;
         color: white;
         width:100%;
         display: table-cell;
@@ -97,15 +111,30 @@ hr{
 // BRAND MOTTO END
 
 
+
+//
+// EVENTS
+//
 article.event{
-  h3{
-    text-transform: uppercase;
-  }
-  h4{
-    color: #aaa;
+  .title{
+    h3{
+      font-family: "MuseoSansRounded-500";
+      text-transform: uppercase;
+    }
+    h4{
+      font-family: "MuseoSans-300";
+      color: #888;
+    }
+    p{
+      font-family: "MuseoSans-300";
+    }
   }
   .description{
-    overflow: hidden;
+    p{
+      display: block;
+      overflow: hidden;
+      font-family: "MuseoSans-300";
+    }
   }
   .image{
     display: block;
@@ -117,6 +146,44 @@ article.event{
     @include background-size (cover);
   }
 }
+
+
+//
+// SPACE
+//
+#space{
+  height:100%;
+  .container{
+    height:100%;
+    position: relative;
+    .imageTop{
+      position: absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .visor{
+      width: 100%;
+      height:100%;
+      display: table;
+      background-color: black;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      @include background-size (cover);
+      background-image: url("../img/space/space-2.jpg");
+      .centradovertical{
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+//
+// RESEARCH
+//
 #research{
   .container{
     .row{
@@ -196,35 +263,8 @@ article.event{
   clear: both;
 }
 
-#space{
-  height:100%;
-  .container{
-    height:100%;
-    position: relative;
-    .imageTop{
-      position: absolute;
-      top:0px;
-      left:0px;
-      width:100%;
-      height:100%;
-      background-color: rgba(0,0,0,0.5);
-    }
-    .visor{
-      width: 100%;
-      height:100%;
-      display: table;
-      background-color: black;
-      background-position-x: 50%;
-      background-position-y: 50%;
-      @include background-size (cover);
-      background-image: url("../img/space/space-2.jpg");
-      .centradovertical{
-        display: table-cell;
-        vertical-align: middle;
-      }
-    }
-  }
-}
+
+
 
 
 #header-hero{
@@ -337,13 +377,18 @@ article.event{
   @include establish-baseline;
   body{
   	font-size: $basefontsize;
-  	line-height: baselineheight;
+  	line-height: $baselineheight;
   }
   article.event {
     @include rhythm(0, 0, 0, 0, $base-font-size);
     .image, .title, .description{
+      @include rhythm(0, 0.5, 0.5, 0, $base-font-size);
       h3, p{
-        @include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+        @include rhythm(0, 0, 0, 0, $base-font-size);
+        @include adjust-font-size-to($base-font-size);
+      }
+      h4{
+        @include rhythm(0, 0, 0, 1, $base-font-size);
       }
     }
   }
@@ -417,11 +462,11 @@ article.event{
 }
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  @include typescale (16px, 22px);
+  @include typescale (16px, 24px);
   .event{
-    height: rhythm(9, 16px);
+    height: rhythm(10);
     .image{
-      height: rhythm(9, 16px);
+      height: rhythm(10);
     }
   }
   .research {
@@ -435,11 +480,11 @@ article.event{
 }
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-  @include typescale (18px, 24px);
+  @include typescale (18px, 26px);
   .event{
-    height: rhythm(8, 18px);
+    height: rhythm(7);
     .image, .description{
-      height: rhythm(8, 18px);
+      height: rhythm(7);
     }
   }
   .research {
@@ -454,11 +499,11 @@ article.event{
 }
 //large
 @media (min-width: $screen-lg-min) {
-  @include typescale (20px, 24px);
-  .event{
-    height: rhythm(8, 20px);
+  @include typescale (20px, 28px);
+  article.event{
+    height: rhythm(7);
     .image, .description{
-      height: rhythm(8, 20px);
+      height: rhythm(7);
     }
   }
   .research {

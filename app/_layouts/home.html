@@ -10,7 +10,7 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <!-- build:css({app,.tmp}) /css/main.css -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="/_bower_components/vegas/dist/jquery.vegas.css">
     <link rel="stylesheet" href="/_bower_components/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css">
@@ -37,7 +37,7 @@
         <div class="container">
             <hgroup class="text-center">
                 <h1>EVENTS</h1>
-                <h2 class="subheader "><span class="hidden-xs">THIS YEAR CULTURAL PROGRAMME IS SUPPORTED <br>BY LIMERICK CITY OF CULTURE 2014</span><span class="visible-xs">SUPPORTED BY LIMERICK <br>CITY OF CULTURE 2014</span></h2>
+                <h2 class="subheader "><span class="hidden-xs">This Year Cultural Programme Is Supported <br>by Limerick City Of Culture 2014</span><span class="visible-xs">Supported By Limerick <br>city Of Culture 2014</span></h2>
             </hgroup>
             <!-- EVENTS LIST -->
             <div>
@@ -52,7 +52,7 @@
                             <div class="col-md-4 col-sm-6 title">
                                 <h3>{{event.title}}</h3>
                                 <h4>{{event.hours}}</h4>
-                                <p class="visible-xs visible-sm">{{event.description}}</p>
+                                <p class="visible-xs visible-sm description">{{event.description}}</p>
                             </div>
                             <div class="col-md-4 hidden-xs hidden-sm description">
                                 <p>{{event.description}}</p>
@@ -63,9 +63,9 @@
                 {% endfor %}
                 <hr class="clearfix">
             </div>
-            <div class="row events link">
+            <div class="row events link uppercase">
                 <div class="col-md-12 text-center">
-                    <a href="" class="text-center"><span class="hidden-xs">CHECK ALL OUR TALKS, WORKSHOPS AND EXHIBITIONS</span><span class="visible-xs">CHECK ALL OUR EVENTS</span></a>
+                    <a href="" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
                 </div>
             </div>
             <!-- END EVENTS LIST -->
@@ -79,14 +79,14 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <hgroup class="text-center">
-                                <h1 style="color:white">SPACE</h1>
-                                <h2 class="subheader" style="color:white"><span class="hidden-xs">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</span><span class="visible-xs">HOW YOU CAN USE<br>THE FAB LAB</span></h2>
+                                <h1 style="color:white">Space</h1>
+                                <h2 class="subheader" style="color:white"><span class="hidden-xs">Who We Are And How You Can Use The Fab Lab<br>for Your Own Creative Projects</span><span class="visible-xs">How You Can Use<br>the Fab Lab</span></h2>
                             </hgroup>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <a href="/space/" class="text-center" style="color:white">READ MORE</a>
+                        <div class="col-sm-12 text-center uppercase">
+                            <a href="/space/" class="text-center" style="color:white">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -96,8 +96,8 @@
     <section id="research">
         <div class="container">
             <hgroup class="text-center">
-                <h1>RESEARCH</h1>
-                <h2 class="subheader"><span class="hidden-xs">WE ARE EXPLORING THE POTENTIAL OF DIGITAL FABRICATION <br class="visible-md">IN ARCHITECTURE AND DESIGN</span><span class="visible-xs">EXPLORING THE POTENTIAL <br>OF DIGITAL FABRICATION</span></h2>
+                <h1>Research</h1>
+                <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication <br Class="visible-md">in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
             </hgroup>
             <div class="row">
                 {% for research in site.categories.researches %}
@@ -119,8 +119,8 @@
                 {% endfor %}
             </div>
             <div class="row events link">
-                <div class="col-md-12 text-center">
-                    <a href="" class="text-center"><span class="hidden-xs">SEE ALL OUR RESEARCH PROJECTS AND JOIN OUR RESEARCH TEAM</span><span class="visible-xs">SEE ALL OUR RESEARCH PROJECTS</span></a>
+                <div class="col-md-12 text-center uppercase">
+                    <a href="" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
                 </div>
             </div>
         </div>
