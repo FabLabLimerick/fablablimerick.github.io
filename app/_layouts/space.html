@@ -29,21 +29,25 @@
         {% include header.html %}
     </header>
     <section id="header-hero">
-        <div class="visor">
+        {% for banner in site.categories.banner-space limit:1 %}
+        <div class="imageback" style="background-image: url(../img{{ banner.image }})"></div>
+        {% endfor %}
         </div>
         <div id="header-hero-title">
             <div class="container">
-                <div class="row image gutter">
-                    <div class="col-md-12 fondonegro">
-                        <p class="text-center"><span class="hidden-xs">IMAGE: ASSEMBLY OF A LASER CUTTER. JANUARY 2014. CC-BY-SA JAVIER BURON</span><span class="visible-xs">IMAGE CC-BY-SA JAVIER BURON</span></p>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-md-12 fondonegro">
                         <hgroup class="text-center">
                             <h1>SPACE</h1>
                             <h2 class="subheader"><span class="hidden-xs">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</span><span class="visible-xs">HOW YOU CAN USE<br>THE FAB LAB</span></h2>
                         </hgroup>
+                    </div>
+                </div>
+                <div class="row image gutter">
+                    <div class="col-md-12 fondonegro">
+                        {% for banner in site.categories.banner-space limit:1 %}
+                        <p class="text-center"><span class="hidden-xs">{{banner.title}}. {{banner.description}} {{banner.credits}}</span><span class="visible-xs">{{banner.credits}}</span></p>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -75,7 +79,7 @@
             <div class="row">
                 {% for member in site.categories.team reversed %}
                 <div class="col-md-2 col-sm-3 col-xs-6">
-                    <div class="imagen" style="background-image: url(../img/people/placeholder.jpg)"></div>
+                    <div class="imagen" style="background-image: url(../img/team/{{member.image}})"></div>
                     <hgroup class="text-center membertext">
                         <h4>{{ member.title }}</h4>
                         <h5>{{ member.position }}</h5>

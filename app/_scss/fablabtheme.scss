@@ -6,6 +6,7 @@
 @import "../_bower_components/modular-scale/stylesheets/_modular-scale";
 @import "_header-navbar";
 @import "_footer";
+@import "_carousel";
 
 $ms-base: 1em;
 $ms-ratio: $golden;
@@ -96,60 +97,6 @@ hr{
 // BRAND MOTTO END
 
 
-#headerslideshow{
-  width: 100%;
-  height:100%;
-  .carousel{
-    width:100%;
-    height:100%;
-    .carousel-control{
-      z-index: 750;
-    }
-    .carousel-inner{
-      width:100%;
-      height:100%;
-      .item{
-        width:100%;
-        height:100%;
-        .imageTop{
-          position: absolute;
-          top:0px;
-          left:0px;
-          width:100%;
-          height:100%;
-          background-color: rgba(0,0,0,0.5);
-        }
-        .carousel-caption{
-          //fix strange property of original carousel
-          left: 0% !important;
-          right: 0% !important;
-          font-family: "MuseoSansRounded-300";
-          .title{
-            font-family: "MuseoSansRounded-500";
-          }
-          a:link, a:active, a:hover{
-            color: white;
-          }
-        }
-        .image{
-          line-height: 100%;
-          display: block;
-          width:100%;
-          height:100%;
-          min-height: 100%;
-          background-position-x: 50%;
-          background-position-y: 50%;
-          @include background-size (cover);
-          /*filter: blur(5px);
-          -webkit-filter: blur(5px);
-          -moz-filter: blur(5px);
-          -o-filter: blur(5px);
-          -ms-filter: blur(5px);*/
-        }
-      }
-    }
-  }
-}
 article.event{
   h3{
     text-transform: uppercase;
@@ -285,6 +232,11 @@ article.event{
   height:100%;
   background-color: rgb(40,40,40);
   position: relative;
+  .imageback{
+    width: 100%;
+    height:100%;
+    @include background-size (cover);
+  }
   #header-hero-title{
     position: absolute;
     bottom: 0px;
@@ -293,7 +245,7 @@ article.event{
   }
   .fondonegro{
     margin-top: 2px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     color: white;
     h1{
         margin: 0px;
@@ -309,6 +261,8 @@ article.event{
     }
   }
 }
+
+
 
 #body-who{
   .imagen{
