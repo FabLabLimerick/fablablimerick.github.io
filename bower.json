@@ -9,6 +9,6 @@
     "vegas": "~1.3.4",
     "jquery-backstretch": "~2.0.4",
     "modular-scale": "2.0.3",
-    "sass-bootstrap": "git://github.com/javierburongarcia/bootstrap-touch-carousel"
+    "bootstrap-touch-carousel": "git://github.com/javierburongarcia/bootstrap-touch-carousel"
   }
 }
