@@ -1,0 +1,331 @@
+@import "_general-theme";
+
+
+//
+// BRAND MOTTO
+//
+#brand-motto{
+  z-index: 1000;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height: 100%;
+  .container{
+    height: 100%;
+    .row{
+      height: 100%;
+      .col-sm-12{
+        width:100%;
+        height: 100%;
+        display: table;
+      }
+      h2{
+        font-family: "MuseoSansRounded-500";
+        text-transform: uppercase;
+        color: white;
+        width:100%;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+  }
+}
+//Phones
+@media (max-width: $screen-xs-max) {
+  #brand-motto h2{
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+//Tables
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  #brand-motto h2{
+    font-size: 46px;
+    line-height: 110%;
+  }
+}
+//Medium
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  #brand-motto h2{
+    font-size: 52px;
+    line-height: 110%;
+  }
+}
+//large
+@media (min-width: $screen-lg-min) {
+  #brand-motto h2{
+    font-size: 55px;
+    line-height: 110%;
+  }
+}
+// BRAND MOTTO END
+
+
+
+//
+// EVENTS
+//
+article.event{
+  .title{
+    position: relative;
+    @include box-sizing (border-box);
+    h3{
+      font-family: "MuseoSansRounded-500";
+      text-transform: uppercase;
+    }
+    h4{
+      font-family: "MuseoSans-300";
+      color: #888;
+    }
+    p{
+      font-family: "MuseoSans-300";
+    }
+    .fee{
+      position: absolute;
+      bottom: 0px;
+      font-family: "MuseoSans-300";
+      color: #888;
+    }
+  }
+  .description{
+    p{
+      display: block;
+      overflow: hidden;
+      font-family: "MuseoSans-300";
+    }
+  }
+  .image{
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    @include background-size (cover);
+  }
+}
+
+
+//
+// SPACE
+//
+#space{
+  height:100%;
+  .container{
+    height:100%;
+    position: relative;
+    .imageTop{
+      position: absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .visor{
+      width: 100%;
+      height:100%;
+      display: table;
+      background-color: black;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      @include background-size (cover);
+      background-image: url("../img/space/space-2.jpg");
+      .centradovertical{
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+//
+// RESEARCH
+//
+#research{
+  .container{
+    .row{
+      margin-left: 0px;
+      margin-right:0px;
+      .col-md-4{
+        &:first-child{
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 2px;
+          .marco{
+            margin-left: 0px;
+            margin-right: 2px;
+          }
+        }
+        &:nth-child(2){
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        &:nth-child(3){
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-left: 2px;
+        }
+      }
+      .col-md-4.col-sd-6{
+        &:first-child{
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 1px;
+        }
+        &:nth-child(2){
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-left: 1px;
+        }
+      }
+    }
+  }
+}
+
+#research{
+  article{
+    @include box-sizing (border-box);
+    .gradient{
+      @include box-sizing (border-box);
+      width: 100%;
+      height: 100%;
+      display: table;
+      @include blackGradientBackgroundVertical;
+      .caption{
+        color: white;
+        @include box-sizing (border-box);
+        display: table-cell;
+        vertical-align: bottom;
+        padding: $padding-base-horizontal * 2;
+        h3{
+          font-family: "MuseoSansRounded-500";
+          text-transform: uppercase;
+        }
+        h4{
+          font-family: "MuseoSansRounded-300";
+        }
+      }
+    }
+    .marco{
+      @include box-sizing (border-box);
+      z-index: -1000;
+      position: absolute;
+      top:0px;
+      left:0px;
+      display: block;
+      margin: 0;
+      padding: 0;
+      overflow:hidden;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      @include background-size (cover);
+    }
+  }
+  clear: both;
+}
+
+
+
+// Visibility utilities
+//Phones
+@media (max-width: $screen-xs-max) {
+  body{
+  	min-height: 460px;
+  }
+  @include typescale (16px, 22px);
+  h2{
+    line-height: 1em;
+  }
+  article.event{
+    height: rhythm(20);
+    .description, .title{
+      @include rhythm(1, 0, 0, 1, $base-font-size);
+      height: rhythm(8);
+    }
+    .image{
+      height: rhythm(10);
+    }
+  }
+  .research {
+    height: 300px;
+    width: 100% !important;
+    &:first-child{
+      margin-bottom: 2px;
+
+    }
+    .marco{
+      height: 300px;
+      width: 100% !important;
+    }
+  }
+}
+//Tables
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  @include typescale (16px, 24px);
+  article.event{
+    height: rhythm(10);
+    .description, .title{
+      height: rhythm(9);
+    }
+    .image{
+      height: rhythm(10);
+    }
+  }
+  .research {
+    height: 359px;
+    width: 359px !important;
+    .marco{
+      width: 359px;
+      height: 359px;
+    }
+  }
+}
+//Medium
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  @include typescale (18px, 26px);
+  article.event{
+    height: rhythm(7);
+    .description, .title{
+      height: rhythm(6);
+    }
+    .image{
+      height: rhythm(7);
+    }
+  }
+  .research {
+    height: 312px;
+    width: 312px !important;
+    .marco{
+      width: 312px;
+      height: 312px;
+
+    }
+  }
+}
+//large
+@media (min-width: $screen-lg-min) {
+  @include typescale (20px, 28px);
+  article.event{
+    height: rhythm(7);
+    .description, .title{
+      height: rhythm(6);
+    }
+    .image{
+      height: rhythm(7);
+    }
+  }
+  .research {
+    height: 378px;
+    width: 378px !important;
+    .marco{
+      height: 378px;
+      width: 378px;
+    }
+  }
+}

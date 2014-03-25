@@ -1,0 +1,91 @@
+@mixin blackGradientBackgroundVertical{
+background: -moz-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.60) 40%, rgba(0,0,0,0.0) 70%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,0.8)), color-stop(40%,rgba(0,0,0,0.60)), color-stop(70%,rgba(0,0,0,0.0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 40%,rgba(0,0,0,0.0) 70%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 40%,rgba(0,0,0,0.0) 70%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 40%,rgba(0,0,0,0.0) 70%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.60) 40%,rgba(0,0,0,0.0) 70%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin typescale($basefontsize, $baselineheight){
+  $base-font-size: $basefontsize;
+  $base-line-height: $baselineheight;
+  @include establish-baseline;
+  body{
+  	font-size: $basefontsize;
+  	line-height: $baselineheight;
+  }
+	article.event {
+		@include rhythm(0, 0, 0, 0, $base-font-size);
+		.title, .description{
+		  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+			h3, p{
+			    @include rhythm(0, 0, 0, 0, $base-font-size);
+			    @include adjust-font-size-to($base-font-size);
+			}
+			h4{
+			    @include rhythm(0, 0, 0, 0.5, $base-font-size);
+			}
+		}
+	}
+	.section-list{
+		.list-header{
+			@include adjust-font-size-to($base-font-size * $golden * 0.80);
+			@include rhythm(1, 0, 0, 0, $base-font-size);
+			hr{
+				@include rhythm(0, 0.25, 0.25, 0, $base-font-size);
+			}
+		}
+		.list-body{
+			.list-equipment{
+				@include rhythm(0, 0.5, 0.5, 0, $base-font-size);
+			}
+			.list-member{
+				@include rhythm(1, 0, 0, 0, $base-font-size);
+			}
+			hr{
+				@include rhythm(0, 0.0, 0.0, 0, $base-font-size);
+			}
+		}
+	}
+	.section-link{
+		@include rhythm(0, 0, 0, 1, $base-font-size);
+		hr{
+			@include rhythm(0, 0.25, 0.25, 0, $base-font-size);
+		}
+	}
+	img{
+		@include rhythm(0, 0, 0, 1.2, $base-font-size); 
+	}
+	h1{
+		@include rhythm(0.7, 0, 0, 0, $base-font-size);
+		@include adjust-font-size-to($base-font-size * $golden * 2);
+	}
+	h2{
+		@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
+		@include adjust-font-size-to($base-font-size * $golden * 1);
+	}
+	h2.subheader{
+	@include rhythm(0.35, 0, 0, 0.8, $base-font-size);
+	@include adjust-font-size-to($base-font-size * $golden * 1);
+	line-height: 1.3em;
+	}
+	h3{
+	@include rhythm(0, 0, 0, 0, $base-font-size);
+	@include adjust-font-size-to($base-font-size);
+	}
+	h4{
+	@include rhythm(0, 0, 0, 0, $base-font-size);
+	@include adjust-font-size-to($base-font-size);
+	}
+	h5{
+	@include rhythm(0, 0, 0, 0, $base-font-size);
+	@include adjust-font-size-to($base-font-size);
+	}
+	img{
+	@include rhythm(0, 0, 0, 1, $base-font-size);
+	}
+	small{
+	}
+}

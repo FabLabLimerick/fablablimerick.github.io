@@ -35,12 +35,19 @@
     </section>
     <section id="events">
         <div class="container">
-            <hgroup class="text-center">
-                <h1>EVENTS</h1>
-                <h2 class="subheader "><span class="hidden-xs">This Year Cultural Programme Is Supported <br>by Limerick City Of Culture 2014</span><span class="visible-xs">Supported By Limerick <br>city Of Culture 2014</span></h2>
-            </hgroup>
+            <!-- EVENTS HEADER -->
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hgroup class="text-center">
+                            <h1>Events</h1>
+                            <h2 class="subheader"><span class="hidden-xs">This Year Cultural Programme Is Supported <br>by Limerick City Of Culture 2014</span><span class="visible-xs">Supported By Limerick <br>city Of Culture 2014</span></h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
             <!-- EVENTS LIST -->
-            <div>
+            <div class="section-list">
                 {% for event in site.categories.events reversed limit:2 %}
                 <hr class="clearfix">
                 <article class="row event free">
@@ -69,12 +76,14 @@
                 {% endfor %}
                 <hr class="clearfix">
             </div>
-            <div class="row events link uppercase">
-                <div class="col-md-12 text-center">
-                    <a href="" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
+            <!-- END EVENTS LIST -->
+            <div class="section-link">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
+                    </div>
                 </div>
             </div>
-            <!-- END EVENTS LIST -->
         </div>
     </section>
     <section id="space">
@@ -101,32 +110,43 @@
     </section>
     <section id="research">
         <div class="container">
-            <hgroup class="text-center">
-                <h1>Research</h1>
-                <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication <br Class="visible-md">in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
-            </hgroup>
-            <div class="row">
-                {% for research in site.categories.researches %}
-                {% if forloop.last %}
-                {% assign hiddensmall = "hidden-sm hidden-xs" %}
-                {% endif %}
-                <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
-                    <a href="#">
-                        <div class="gradient">
-                            <div class="caption">
-                                <h3>{{research.title}}</h3>
-                                <h4>{{research.description}}</h4>
-                            </div>
-                        </div>
-                        <div class="marco" style="background-image: url(../img/research/{{research.image}})" >
-                        </div>
-                    </a>
-                </article>
-                {% endfor %}
+            <!-- RESEARCH HEADER -->
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                       <hgroup class="text-center">
+                            <h1>Research</h1>
+                            <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication <br Class="visible-md">in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
+                        </hgroup>
+                    </div>
+                </div>
             </div>
-            <div class="row events link">
-                <div class="col-md-12 text-center uppercase">
-                    <a href="" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
+            <div class="section-list">
+                <div class="row">
+                    {% for research in site.categories.researches %}
+                    {% if forloop.last %}
+                    {% assign hiddensmall = "hidden-sm hidden-xs" %}
+                    {% endif %}
+                    <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
+                        <a href="#">
+                            <div class="gradient">
+                                <div class="caption">
+                                    <h3>{{research.title}}</h3>
+                                    <h4>{{research.description}}</h4>
+                                </div>
+                            </div>
+                            <div class="marco" style="background-image: url(../img/research/{{research.image}})" >
+                            </div>
+                        </a>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="section-link">
+                <div class="row">
+                    <div class="col-md-12 text-center uppercase">
+                        <a href="" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
+                    </div>
                 </div>
             </div>
         </div>
