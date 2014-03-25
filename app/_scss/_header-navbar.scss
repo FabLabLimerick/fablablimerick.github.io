@@ -1,3 +1,5 @@
+$link-color-underline: #d43;
+
 // BARRA DE NAVEGACION
 .botones-phone{
   position: absolute;
@@ -107,8 +109,13 @@
           text-transform: uppercase;
           font-family: "MuseoSans-500";
           font-weight: 500;
-          a:link, a:visited, a:hover{
+          a:link, a:visited, a:active{
             color: white;
+            border-bottom: none;
+          }
+          a:hover{
+            color: $link-color-underline;
+            border-bottom: none;
           }
         }
       }    

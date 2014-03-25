@@ -13,11 +13,51 @@
 
 $ms-base: 1em;
 $ms-ratio: $golden;
+$link-color: #4A4A4A;
+$link-color-underline: #d43;
 
 // GENERAL STYLES
 body, html{
 	height: 100%;
 }
+.versalite{
+  font-size: 80%;
+}
+
+a{
+  &:link, &:visited, &:active{
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid $link-color-underline;
+  }
+  &:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color-underline;
+  }
+  &.white:link, &.white:visited, &.white:active{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  }
+  &.white:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color-underline;
+  }
+  &.nounderline:link, &.nounderline:visited, &.nounderline:active{
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: none;
+  }
+  &.nounderline:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+
 hr{
   border-top: 1px solid grey;
   border-bottom: none;
