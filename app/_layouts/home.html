@@ -49,13 +49,19 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="image" style="background-image: url(../img/events/{{event.image}})"></div>
                             </div>
-                            <div class="col-md-4 col-sm-6 title">
-                                <h3>{{event.title}}</h3>
-                                <h4>{{event.hours}}</h4>
-                                <p class="visible-xs visible-sm description">{{event.description}}</p>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="title">
+                                    <h3>{{event.title}}</h3>
+                                    <h4>{{event.hours}}</h4>
+                                    <p class="visible-sm">{{event.description | truncate: 150}} <a class="eventlink" href="{{event.url}}">MORE INFO</a></p>
+                                    <p class="visible-xs">{{event.description | truncate: 120}} <a class="eventlink" href="{{event.url}}">MORE INFO</a></p>
+                                    <p class="fee">{{event.fee}}</p>
+                                </div>
                             </div>
-                            <div class="col-md-4 hidden-xs hidden-sm description">
-                                <p>{{event.description}}</p>
+                            <div class="col-md-4 hidden-xs hidden-sm">
+                                <div class="description">
+                                    <p>{{event.description | truncate: 180}} <a class="eventlink" href="{{event.url}}">MORE INFO</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>

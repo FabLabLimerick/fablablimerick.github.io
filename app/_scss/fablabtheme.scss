@@ -117,6 +117,8 @@ h2{
 //
 article.event{
   .title{
+    position: relative;
+    @include box-sizing (border-box);
     h3{
       font-family: "MuseoSansRounded-500";
       text-transform: uppercase;
@@ -127,6 +129,12 @@ article.event{
     }
     p{
       font-family: "MuseoSans-300";
+    }
+    .fee{
+      position: absolute;
+      bottom: 0px;
+      font-family: "MuseoSans-300";
+      color: #888;
     }
   }
   .description{
@@ -381,14 +389,14 @@ article.event{
   }
   article.event {
     @include rhythm(0, 0, 0, 0, $base-font-size);
-    .image, .title, .description{
-      @include rhythm(0, 0.5, 0.5, 0, $base-font-size);
+    .title, .description{
+      @include rhythm(0.5, 0, 0, 0.5, $base-font-size);
       h3, p{
         @include rhythm(0, 0, 0, 0, $base-font-size);
         @include adjust-font-size-to($base-font-size);
       }
       h4{
-        @include rhythm(0, 0, 0, 1, $base-font-size);
+        @include rhythm(0, 0, 0, 0.5, $base-font-size);
       }
     }
   }
@@ -440,13 +448,16 @@ article.event{
   h2{
     line-height: 1em;
   }
-  .event{
-    height: rhythm(20, 16px);
+  article.event{
+    height: rhythm(20);
+    .description, .title{
+      @include rhythm(1, 0, 0, 1, $base-font-size);
+      height: rhythm(8);
+    }
     .image{
-      height: rhythm(10, 16px);
+      height: rhythm(10);
     }
   }
-
   .research {
     height: 300px;
     width: 100% !important;
@@ -463,8 +474,11 @@ article.event{
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   @include typescale (16px, 24px);
-  .event{
+  article.event{
     height: rhythm(10);
+    .description, .title{
+      height: rhythm(9);
+    }
     .image{
       height: rhythm(10);
     }
@@ -481,9 +495,12 @@ article.event{
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   @include typescale (18px, 26px);
-  .event{
+  article.event{
     height: rhythm(7);
-    .image, .description{
+    .description, .title{
+      height: rhythm(6);
+    }
+    .image{
       height: rhythm(7);
     }
   }
@@ -502,7 +519,10 @@ article.event{
   @include typescale (20px, 28px);
   article.event{
     height: rhythm(7);
-    .image, .description{
+    .description, .title{
+      height: rhythm(6);
+    }
+    .image{
       height: rhythm(7);
     }
   }
