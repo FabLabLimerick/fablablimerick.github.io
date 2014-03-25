@@ -9,13 +9,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 @mixin typescale($basefontsize, $baselineheight){
-  $base-font-size: $basefontsize;
-  $base-line-height: $baselineheight;
-  @include establish-baseline;
-  body{
-  	font-size: $basefontsize;
-  	line-height: $baselineheight;
-  }
+	$base-font-size: $basefontsize;
+	$base-line-height: $baselineheight;
+	@include establish-baseline;
+	body{
+		font-size: $basefontsize;
+		line-height: $baselineheight;
+	}
+	.footer{
+		@include rhythm(2, 0, 0, 2, $base-font-size);
+	}
 	article.event {
 		@include rhythm(0, 0, 0, 0, $base-font-size);
 		.title, .description{
@@ -28,6 +31,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			    @include rhythm(0, 0, 0, 0.5, $base-font-size);
 			}
 		}
+	}
+	#space{
+		@include rhythm(2, 0, 0, 0, $base-font-size);
 	}
 	.section-list{
 		.list-header{

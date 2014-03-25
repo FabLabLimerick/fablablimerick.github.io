@@ -40,6 +40,10 @@ hr{
   }
   &.table{
   }
+  &.none{
+    border-top: none;
+    border-bottom: none;
+  }
 }
 h1{
   font-family: "fablab_rounded_100extralight";

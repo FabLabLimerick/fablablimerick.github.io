@@ -49,7 +49,11 @@
             <!-- EVENTS LIST -->
             <div class="section-list">
                 {% for event in site.categories.events reversed limit:2 %}
-                <hr class="clearfix">
+                {% if forloop.first %}
+                <hr class="event">
+                {% else %}
+                <hr class="event gray">
+                {% endif %}
                 <article class="row event free">
                     <div class="col-md-12">
                         <div class="row">
@@ -74,15 +78,17 @@
                     </div>
                 </article>
                 {% endfor %}
-                <hr class="clearfix">
+                <hr class="event gray">
             </div>
             <!-- END EVENTS LIST -->
             <div class="section-link">
+                <hr class="top none">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <a href="" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
                     </div>
                 </div>
+                <hr class="bottom">
             </div>
         </div>
     </section>
@@ -144,10 +150,12 @@
             </div>
             <div class="section-link">
                 <div class="row">
-                    <div class="col-md-12 text-center uppercase">
+                    <div class="col-md-12 text-center">
+                        <hr class="top none">
                         <a href="" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
                     </div>
                 </div>
+                <hr class="bottom">
             </div>
         </div>
     </section>
