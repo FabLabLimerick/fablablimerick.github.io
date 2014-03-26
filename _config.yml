@@ -28,3 +28,10 @@ markdown: maruku
 #   png_url:    /images/latex
 
 pygments: true
+
+external:
+  facebook: https://www.facebook.com/fablablimerick
+  twitter: https://twitter.com/fablablimerick
+  email: fablab(which is 'at' the)saul.ie
+  wiki: https://github.com/FabLabLimerick/fablablimerick.github.io/wiki
+  blog: http://fablablimerick.tumblr.com/
