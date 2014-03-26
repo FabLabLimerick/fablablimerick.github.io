@@ -1,0 +1,24 @@
+
+# FABLABLIMERICK Website
+
+## Installation instructions for Configuring Development Environment
+
+Install project dependencies specified in *package.json* file:
+
+	* npm install
+
+Install Grunt's command line interface (CLI) globally. This will put the grunt command in your system path, allowing it to be run from any directory.
+
+	* npm install -g grunt-cli
+
+To compile Jekyll sites with Grunt:
+	
+	* npm install grunt-jekyll --save-dev
+
+Install ruby gems:
+
+	* bundle install
+
+Install Bower:
+
+	* bower install
