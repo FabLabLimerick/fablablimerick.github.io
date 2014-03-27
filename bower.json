@@ -10,6 +10,7 @@
     "jquery-backstretch": "~2.0.4",
     "modular-scale": "2.0.3",
     "bootstrap-touch-carousel": "git://github.com/javierburongarcia/bootstrap-touch-carousel",
-    "jquery-defuscate": "1.0.0"
+    "jquery-defuscate": "1.0.0",
+    "share-button": "0.1.1"
   }
 }

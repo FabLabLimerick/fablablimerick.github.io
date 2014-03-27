@@ -28,26 +28,28 @@
     <header id="header">
         {% include header.html %}
     </header>
-    <section id="header-hero">
+    <section class="header-hero">
         {% for banner in site.categories.banner-space limit:1 %}
-        <div class="imageback" style="background-image: url(../img{{ banner.image }})"></div>
+        <div class="header-hero-image" style="background-image: url(../img{{ banner.image }})"></div>
         {% endfor %}
         </div>
-        <div id="header-hero-title">
+        <div class="header-hero-title">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 fondonegro">
-                        <hgroup class="text-center">
-                            <h1>SPACE</h1>
-                            <h2 class="subheader"><span class="hidden-xs">WHO WE ARE AND HOW YOU CAN USE THE FAB LAB<br>FOR YOUR OWN CREATIVE PROJECTS</span><span class="visible-xs">HOW YOU CAN USE<br>THE FAB LAB</span></h2>
-                        </hgroup>
+                <div class="header-hero-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <hgroup class="text-center">
+                                <h1>Space</h1>
+                                <h2 class="subheader"><span class="hidden-xs">Who We Are And How You <br>Can Use The Fab Lab</span><span class="visible-xs">How You Can Use<br>the Fab Lab</span></h2>
+                            </hgroup>
+                        </div>
                     </div>
-                </div>
-                <div class="row image gutter">
-                    <div class="col-md-12 fondonegro">
-                        {% for banner in site.categories.banner-space limit:1 %}
-                        <p class="text-center"><span class="hidden-xs">{{banner.title}}. {{banner.description}} {{banner.credits}}</span><span class="visible-xs">{{banner.credits}}</span></p>
-                        {% endfor %}
+                    <div class="row">
+                        <div class="col-md-12">
+                            {% for banner in site.categories.banner-space limit:1 %}
+                            <p class="text-center imagecredits"><span class="hidden-xs">Background image: {{banner.title}} by {{banner.credits}}</span><span class="visible-xs">Image by {{banner.credits}}</span></p>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>

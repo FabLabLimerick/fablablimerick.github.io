@@ -28,36 +28,37 @@
     <header id="header">
         {% include header.html %}
     </header>
-    <section id="header-hero">
-        <div class="visor">
-        </div>
-        <div id="header-hero-title">
+    <section class="header-single">
+        <div class="header-single-image" style="background-image: url(../img{{ page.image.url }})"></div>
+        <div class="header-single-title">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 fondonegro">
-                        <hgroup class="text-center">
-                            <h1>{{page.title}}</h1>
-                        </hgroup>
-                        <p class="text-center">By {{page.author}}</p>
+                <div class="header-single-container col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                            <hgroup class="text-center">
+                                <h1>{{page.title}}</h1>
+                                <h2 class="subheader">By {{page.author}}</span></h2>
+                            </hgroup>
+                        </div>
                     </div>
-                </div>
-                <div class="row image gutter">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 fondonegro">
-                        <p class="text-center"><span class="hidden-xs">IMAGE: ASSEMBLY OF A LASER CUTTER. JANUARY 2014. CC-BY-SA JAVIER BURON</span><span class="visible-xs">IMAGE CC-BY-SA JAVIER BURON</span></p>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                            <p class="text-center imagecredits"><span>Image by {{ page.image.credits }}</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="body">
+    <section class="body-single">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h2>{{ page.description }}</h2>
-                    <div>
-                        <hr>
-                        <p class="text-center">MONDAY 18 FEBRUARY 2013  ·  SHARE IT</p>
-                        <hr>
+                    <h2 class="body-single-excerpt text-center">{{ page.description }}</h2>
+                    <div class="body-single-info">
+                        <hr class="top">
+                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  Share It</h5>
+                        <hr class="bottom">
                     </div>
                     {{ content }}
                     <div>

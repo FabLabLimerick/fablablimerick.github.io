@@ -58,11 +58,55 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			}
 		}
 	}
+	.header-hero-title{
+		h1{
+			@include adjust-font-size-to($base-font-size * $golden * 2.5);
+			@include rhythm(0.75, 0, 0, 0, $base-font-size);
+			line-height: 1em;
+		}
+		h2.subheader{
+			@include adjust-font-size-to($base-font-size * $golden * 1.25);
+			line-height: 1.3em;
+			@include rhythm(0.35, 0, 0, 0, $base-font-size);
+		}
+		p.imagecredits{
+			@include adjust-font-size-to($base-font-size * 0.86);
+			@include rhythm(1.25, 0, 0, 1.25, $base-font-size);
+		}
+	}
+	.header-single-title{
+		h1{
+			@include adjust-font-size-to($base-font-size * $golden * 2);
+			@include rhythm(0.75, 0, 0, 0.4, $base-font-size);
+			line-height: 1em;
+		}
+		h2.subheader{
+			@include adjust-font-size-to($base-font-size);
+			line-height: 1.3em;
+			@include rhythm(0.25, 0, 0, 0, $base-font-size);
+		}
+		p.imagecredits{
+			@include adjust-font-size-to($base-font-size * 0.86);
+			@include rhythm(1.25, 0, 0, 1.25, $base-font-size);
+		}
+	}
+	.body-single{
+		h2.body-single-excerpt{
+			@include adjust-font-size-to($base-font-size * $golden * 0.80);
+			line-height: 1.5em;
+			@include rhythm(1, 0, 0, 1, $base-font-size);
+		}
+	}
 	.section-link{
 		@include rhythm(0, 0, 0, 1, $base-font-size);
 		hr{
 			@include rhythm(0, 0.25, 0.5, 0, $base-font-size);
 		}
+	}
+	.body-single-info{
+	  h5{
+	  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+	  }
 	}
 	img{
 		@include rhythm(0, 0, 0, 1.2, $base-font-size); 
