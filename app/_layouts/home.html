@@ -81,15 +81,27 @@
                 <hr class="event">
             </div>
             <!-- END EVENTS LIST -->
+            <!-- EVENTS LINK
             <div class="section-link">
                 <hr class="top none">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <a href="#" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
+                        <a href="/research/" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
                     </div>
                 </div>
                 <hr class="none">
             </div>
+            EVENTS LINK -->
+            <div class="section-link">
+                <hr class="top none">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a class="text-center disabled"><span class="hidden-xs">More events soon!</span><span class="visible-xs">More events soon!</span></a>
+                    </div>
+                </div>
+                <hr class="none">
+            </div>
+            <!-- EVENTS LINK -->
         </div>
     </section>
     <section id="space">
@@ -129,7 +141,7 @@
             </div>
             <div class="section-list">
                 <div class="row">
-                    {% for research in site.categories.researches %}
+                    {% for research in site.categories.researches limit:3 %}
                     {% if forloop.last %}
                     {% assign hiddensmall = "hidden-sm hidden-xs" %}
                     {% endif %}
@@ -148,11 +160,22 @@
                     {% endfor %}
                 </div>
             </div>
+            <!-- RESEARCH LINKS
             <div class="section-link">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <hr class="top none">
-                        <a href="#" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
+                        <a href="/research/" class="text-center"><span class="hidden-xs">See All Our Research Projects And Join Our Research Team</span><span class="visible-xs">See All Our Research Projects</span></a>
+                    </div>
+                </div>
+                <hr class="none">
+            </div>
+            -->
+           <div class="section-link">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <hr class="top none">
+                        <a class="text-center disabled">More research soon!</a>
                     </div>
                 </div>
                 <hr class="none">

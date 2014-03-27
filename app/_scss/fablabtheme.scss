@@ -54,6 +54,11 @@ body, html{
 }
 
 a{
+  &.disabled, &.disabled:link, &.disabled:visited, &.disabled:active, &.disabled:hover{
+    color: $gray-color;
+    text-decoration: none;
+    border-bottom: none;
+  } 
   &:link, &:visited, &:active{
     color: $link-color;
     text-decoration: none;
