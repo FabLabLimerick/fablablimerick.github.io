@@ -58,6 +58,9 @@ $link-color-underline: #d43;
     margin-left: - $navbar-logowidth/2;
     width: $navbar-logowidth + $navbar-height * 3 + 3px;
     height: $navbar-height;
+    a:link, a:visited, a:active{
+      border-bottom: none;
+    }
     .menucollapse{
       background-color: rgba(0,0,0,0.8);
       height: $navbar-height;
@@ -158,6 +161,7 @@ $link-color-underline: #d43;
   #navegacion{
     .filling-left{
       height: $navbar-height;
+      margin-left: - ($navbar-logowidth + 2px )/2;
     }
     .filling-right{
       height: $navbar-height;
