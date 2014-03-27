@@ -6,4 +6,5 @@ description: "In this weekend workshop you will build a Open source quadcopter a
 fee: "€120 per person"
 hours: "Saturday 7th and Sunday 8th June"
 image: workshop-open-source-drone.jpg
+published: false
 ---

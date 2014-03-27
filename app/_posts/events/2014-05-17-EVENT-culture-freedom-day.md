@@ -6,4 +6,5 @@ description: "Fab Lab Limerick celebrates the international culture freedom day 
 hours: "Saturday 17th May from 11:00 to 19:00"
 fee: "Free Event"
 image: culture-freedom-day.jpg
+published: false
 ---

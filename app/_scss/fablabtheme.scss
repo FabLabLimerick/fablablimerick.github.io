@@ -39,6 +39,14 @@ body, html{
     font-size: inherit!important;
     margin: 0px!important;
     padding:0px!important;
+    color: $link-color!important;
+    text-decoration: none!important;
+    border-bottom: 1px solid $link-color-underline!important;
+    &:hover{
+      color: $link-color-underline!important;
+      text-decoration: none!important;
+      border-bottom: 1px solid $link-color-underline!important;
+    }
   }
 }
 .versalite{
