@@ -27,3 +27,17 @@ jQuery(function($) {
   // <a href="mailto:test1@test.com" class="email">test1@test.com</a>
   // <span class="email"><a href="mailto:test2@test.com">test2@test.com</a></span>
 });
+new Share(".share-button", {
+    ui: {
+        button_icon: "false",
+        button_text: "Share it",
+        button_font: "false",
+        button_background: "none",
+        button_color: "#4A4A4A"  
+    },
+    networks: {
+        facebook: {
+            app_id: "abc123"
+        }
+    }
+});

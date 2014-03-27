@@ -29,7 +29,7 @@
         {% include header.html %}
     </header>
     <section class="header-single">
-        <div class="header-single-image" style="background-image: url(../img{{ page.image.url }})"></div>
+        <div class="header-single-image" style="background-image: url(/img{{ page.image.url }})"></div>
         <div class="header-single-title">
             <div class="container">
                 <div class="header-single-container col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
@@ -37,7 +37,7 @@
                         <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                             <hgroup class="text-center">
                                 <h1>{{page.title}}</h1>
-                                <h2 class="subheader">By {{page.author}}</span></h2>
+                                <h2 class="subheader">{{page.author}}</span></h2>
                             </hgroup>
                         </div>
                     </div>
@@ -54,16 +54,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-                    <h2 class="body-single-excerpt text-center">{{ page.description }}</h2>
+                    <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  Share It</h5>
+                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  <div class="share-button"></div></h5>
                         <hr class="bottom">
                     </div>
-                    {{ content }}
-                    <div>
-                        <hr>
-                        <p class="text-center">NEXT RESEARCH: THIS IS ANOTHER RESEARCH OF THE FAB LAB</p>
+                    <div class="body-single-content">
+                        {{ content }}
+                    </div>
+                    <div class="body-single-next">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <hr class="top">
+                                <p class="text-center">Next research: <a href="#" class="text-center">See All Our Research Projects</a></p>
+                            </div>
+                        </div>
+                        <hr class="none">
                     </div>
                 </div>
             </div>
