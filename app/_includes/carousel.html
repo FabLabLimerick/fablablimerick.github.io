@@ -20,7 +20,7 @@
     {% for banner in site.categories.banner-homepage %}
     <div class="item {% if forloop.first %}active{% endif %}">
       <div class="carousel-caption">
-        <p class="hidden-xs"><a href="{{ banner.link }}"><span class="title">{{ banner.title }}</span></a>. {{ banner.description }}. Image by {{ banner.credits }}</p>
+        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.description }}. Image by {{ banner.credits }}</p>
         <p class="visible-xs">Image by {{ banner.credits }}</p>
       </div>
       <div class="imageTop"></div>
