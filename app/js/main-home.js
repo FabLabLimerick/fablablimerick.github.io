@@ -1,14 +1,14 @@
 
 $("div.menucollapse").click(function(){
-	if( $("#botones").hasClass("collapse") == true){
-		$("#botones").removeClass("collapse");
+	if( $("#botones").hasClass("collapsing") == true){
+		$("#botones").removeClass("collapsing");
 	}else{
-		$("#botones").addClass("collapse");
+		$("#botones").addClass("collapsing");
 	}	
 });
 
 
 $("div#botones").click(function(){
-	$("#botones").removeClass("collapse").addClass("collapse");	
+	$("#botones").removeClass("collapsing").addClass("collapsing");	
 });
 

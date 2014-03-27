@@ -1,11 +1,26 @@
 $link-color-underline: #d43;
 
+.collapsing {
+  -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  height: 213px!important;
+}
+
 // BARRA DE NAVEGACION
 .botones-phone{
+    -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  overflow: hidden;
   position: absolute;
   top: 71px;
   z-index: 5000;
-  height: 213px;
+  height: 0px;
   width: 100%;
   ul{
     margin: 0px;
@@ -19,8 +34,12 @@ $link-color-underline: #d43;
       text-transform: uppercase;
       font-family: "MuseoSans-500";
       font-weight: 500;
-      a:link, a:visited, a:hover{
+      a:link, a:visited, a:active{
         color: white;
+        border-bottom: none;
+        &:hover{
+          color: $link-color-underline;
+        }
       }
     }
   }
