@@ -17,6 +17,10 @@ $link-color: #4A4A4A;
 $link-color-underline: #d43;
 $gray-color: #888;
 
+iframe{
+  border: none;
+}
+
 // GENERAL STYLES
 body, html{
 	height: 100%;
@@ -134,7 +138,13 @@ a{
     }
   }
 }
-
+.body-single{
+  .body-single-content{
+    img{
+      width: 100%;
+    }
+  }
+}
 
 hr{
   border-top: 1px solid grey;

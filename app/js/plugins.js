@@ -26,7 +26,10 @@ jQuery(function($) {
   $('.email').defuscate();
   // <a href="mailto:test1@test.com" class="email">test1@test.com</a>
   // <span class="email"><a href="mailto:test2@test.com">test2@test.com</a></span>
+  // Target your .container, .wrapper, .post, etc.
+  $(".container").fitVids();
 });
+
 new Share(".share-button", {
     ui: {
         button_icon: "false",

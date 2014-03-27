@@ -16,4 +16,10 @@ These are the results of the digital fabrication course carried out as part of t
 
 Our research efforts focused on unusual materials and technologies such as bamboo, cardboard tubes and 3d printing, since previous studies have shown enormous potential for erecting strong and cost effective structures.
 
-This research was done by the students Sandra Bischoff, Julien Chapel, Peter Dowling, Brian Hoey & Rubén Martínez Olivencia and coordinated by Javier Burón (lecturer) & Michael McLaughling (teaching assistant). 
+<img src="/img/research/3Dprint-bamboo-1.jpg" />
+
+This research was done by the students Sandra Bischoff, Julien Chapel, Peter Dowling, Brian Hoey & Rubén Martínez Olivencia and coordinated by Javier Burón (lecturer) & Michael McLaughling (teaching assistant).
+
+[Drawings and 3D models of the prototype (Github repository)](https://github.com/FabLabLimerick/bamboo-3dprinter-elective)
+
+
