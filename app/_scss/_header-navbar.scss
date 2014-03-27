@@ -11,7 +11,8 @@ $link-color-underline: #d43;
 
 // BARRA DE NAVEGACION
 .botones-phone{
-    -moz-transition: height .5s;
+  visibility: hidden;
+  -moz-transition: height .5s;
   -ms-transition: height .5s;
   -o-transition: height .5s;
   -webkit-transition: height .5s;
@@ -147,6 +148,9 @@ $link-color-underline: #d43;
   }
 }
 @media (max-width: $screen-xs-max) {
+  .botones-phone{
+    visibility: visible;
+  }
   #navegacion{
     .filling-left{
       height: 70px;
@@ -185,6 +189,9 @@ $link-color-underline: #d43;
   $navbar-height: 100px;
   $navbar-logowidth: 280px;
   $navbar-fontsize:14px;
+  .botones-phone{
+    visibility: hidden;
+  }
   #navegacion{
     .filling-left{
       height: $navbar-height;
