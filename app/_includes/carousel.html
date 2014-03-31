@@ -1,3 +1,4 @@
+<!--
 <div id="brand-motto">
   <div class="container">
       <div class="row">
@@ -9,30 +10,64 @@
       </div>
   </div>
 </div>
+-->
 <div id="myslideshow" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myslideshow" data-slide-to="0" class="active"></li>
-    <li data-target="#myslideshow" data-slide-to="1"></li>
+    {% for banner in site.categories.banner-homepage %}
+      {% if forloop.length == 1 %}
+      {% else %}
+      <li data-target="#myslideshow" data-slide-to="0" class="{% if forloop.first %}active{% endif %}"></li>
+      {% endif %}
+    {% endfor %}
   </ol>
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     {% for banner in site.categories.banner-homepage %}
     <div class="item {% if forloop.first %}active{% endif %}">
+      {% if banner.caption.display !=  false %}
       <div class="carousel-caption">
         <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.description }}. Image by {{ banner.credits }}</p>
         <p class="visible-xs">Image by {{ banner.credits }}</p>
       </div>
-      <div class="imageTop"></div>
-      <div class="image" style="background-image:url(../img{{ banner.image }})"></div>
+      {% endif %}
+      <div class="image {{ banner.slug }}"></div>
+      <style>
+        {% if banner.responsive %}
+          @media (max-width: 767px) {
+            .image.{{ banner.slug }}{
+              background: url(../img/banner/{{ banner.slug }}-phone.jpg) top center no-repeat; 
+            }
+          }
+          @media (min-width: 768px) and (max-width: 1199px) {
+            .image.{{ banner.slug }}{
+              background: url(../img/banner/{{ banner.slug }}-medium.jpg) top center no-repeat; 
+            }
+          }
+          @media (min-width: 1200px) {
+            .image.{{ banner.slug }}{
+              background: url(../img/banner/{{ banner.slug }}-big.jpg) top center no-repeat; 
+            }
+          }
+        {% else %}
+          .image.{{ banner.slug }}{
+            background: url(../img/banner/{{ banner.slug }}.jpg) top center no-repeat; 
+          }
+        {% endif %}
+      </style>
     </div>
     {% endfor %}
   </div>
   <!-- Controls -->
+  {% for banner in site.categories.banner-homepage %}
+  {% if forloop.length == 1 %}
+  {% else %}
   <a class="left carousel-control" href="#myslideshow" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
   <a class="right carousel-control" href="#myslideshow" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
+  {% endif %}
+  {% endfor %}
 </div>    
