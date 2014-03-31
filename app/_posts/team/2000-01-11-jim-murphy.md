@@ -1,7 +1,7 @@
 ---
 title: Jim Murphy
 category: team
-published: false
+published: true
 position: Collaborator
-image: /team/jim-murphy.jpg
+image: jim-murphy.jpg
 ---
