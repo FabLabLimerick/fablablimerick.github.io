@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		line-height: $baselineheight;
 	}
 	.footer{
-		@include rhythm(2, 0, 0, 2, $base-font-size);
+		@include rhythm(2, 0, 0, 0, $base-font-size);
 	}
 	article.event {
 		@include rhythm(0, 0, 0, 0, $base-font-size);
