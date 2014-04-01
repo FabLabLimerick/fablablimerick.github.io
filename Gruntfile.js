@@ -259,11 +259,20 @@ module.exports = function (grunt) {
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
-            '_bower_components/jquery/jquery.js',
+            '_bower_components/jquery/dist/jquery.min.js',
             'favicon.ico',
             'logo-thumbnail.png',
             'thumbnail.jpg',
-            'readme.md'
+            'apple-touch-icon-114x114.png',
+            'apple-touch-icon-120x120.png',
+            'apple-touch-icon-144x144.png',
+            'apple-touch-icon-152x152.png',
+            'apple-touch-icon-57x57.png',
+            'apple-touch-icon-72x72.png',
+            'apple-touch-icon-76x76.png',
+            'apple-touch-icon.png',
+            'humans.txt',
+            'robots.txt'
           ],
           dest: '<%= yeoman.dist %>'
         }]
