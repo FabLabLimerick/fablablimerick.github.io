@@ -1,58 +1,61 @@
+// MAIN COMPASS IMPORTS
 @import "compass/css3";
 @import "compass/typography/vertical_rhythm";
-@import "_variables";
-@import "bootstrap";
-@import "_fontfaces";
+
+// GENERAL BOOTSTRAP IMPORTS
+@import "_0_general_variables";
+@import "_0_general_bootstrap";
+
+// FONTS AND ICONFONTS
+@import "_1_fontfaces";
+
+// CSS PLUGINS
 @import "../_bower_components/modular-scale/stylesheets/_modular-scale";
-@import "_header-navbar";
-@import "_footer";
-@import "_carousel";
-@import "_general-theme";
-@import "_homepage-styles";
-@import "_space-styles";
 
-$ms-base: 1em;
-$ms-ratio: $golden;
-$link-color: #4A4A4A;
-$link-color-underline: #d43;
-$gray-color: #888;
+// THEME IMPORTS
+@import "_2_THEME_variables&mixins";
+@import "_3_INCLUDES_header";
+@import "_3_INCLUDES_footer";
+@import "_3_INCLUDES_carousel";
+@import "_4_LAYOUT_home";
+@import "_4_LAYOUT_space";
 
-iframe{
-  border: none;
-}
 
-// GENERAL STYLES
+// WIDE WEBSITE ELEMENT STYLES
+
 body, html{
 	height: 100%;
 }
-.share-button{
-  display: inline-block!important;
-  .entypo-false{
-    margin: 0px!important;
-    padding:0px!important;
-    font-size: inherit!important;
+iframe{
+  border: none;
+}
+hr{
+  border-top: 1px solid grey;
+  border-bottom: none;
+  padding: 0px;
+  margin: 0px;
+  &.top{
+    border-top: 1px solid grey;
+    border-bottom: none;
   }
-  label span{
-    font-family: "MuseoSans-300"!important;
-    font-weight: 300!important;
-    text-transform: uppercase!important;
-    font-size: inherit!important;
-    margin: 0px!important;
-    padding:0px!important;
-    color: $link-color!important;
-    text-decoration: none!important;
-    border-bottom: 1px solid $link-color-underline!important;
-    &:hover{
-      color: $link-color-underline!important;
-      text-decoration: none!important;
-      border-bottom: 1px solid $link-color-underline!important;
-    }
+  &.bottom{
+    border-bottom: 1px solid grey;
+    border-top: none;
+  }
+  &.gray{
+    opacity: 0.5;
+  }
+  &.white{
+    border-top: 1px dotted grey;
+    border-bottom: none;
+  }
+  &.table{
+  }
+  &.none{
+    border-top: none;
+    border-bottom: none;
   }
 }
-.versalite{
-  font-size: 80%;
-}
-
 a{
   &.disabled, &.disabled:link, &.disabled:visited, &.disabled:active, &.disabled:hover{
     color: $gray-color;
@@ -98,6 +101,36 @@ a{
     color: $link-color-underline;
     text-decoration: none;
     border-bottom: none;
+  }
+}
+
+
+
+.versalite{
+  font-size: 80%;
+}
+.share-button{
+  display: inline-block!important;
+  .entypo-false{
+    margin: 0px!important;
+    padding:0px!important;
+    font-size: inherit!important;
+  }
+  label span{
+    font-family: "MuseoSans-300"!important;
+    font-weight: 300!important;
+    text-transform: uppercase!important;
+    font-size: inherit!important;
+    margin: 0px!important;
+    padding:0px!important;
+    color: $link-color!important;
+    text-decoration: none!important;
+    border-bottom: 1px solid $link-color-underline!important;
+    &:hover{
+      color: $link-color-underline!important;
+      text-decoration: none!important;
+      border-bottom: 1px solid $link-color-underline!important;
+    }
   }
 }
 
@@ -158,34 +191,6 @@ a{
     }
   }
 }
-
-hr{
-  border-top: 1px solid grey;
-  border-bottom: none;
-  padding: 0px;
-  margin: 0px;
-  &.top{
-    border-top: 1px solid grey;
-    border-bottom: none;
-  }
-  &.bottom{
-    border-bottom: 1px solid grey;
-    border-top: none;
-  }
-  &.gray{
-    opacity: 0.5;
-  }
-  &.white{
-    border-top: 1px dotted grey;
-    border-bottom: none;
-  }
-  &.table{
-  }
-  &.none{
-    border-top: none;
-    border-bottom: none;
-  }
-}
 h1{
   font-family: "fablab_rounded_100extralight";
   text-transform: uppercase;
@@ -209,12 +214,12 @@ h2.body-single-excerpt{
   h5{
     font-family: "MuseoSansRounded-300";
     text-transform: uppercase;
-    color: #4a4a4a;
+    color: $link-color;
   }
 }
 h5{
   font-family: "MuseoSansRounded-300";
-  color: #888; 
+  color: $gray-color; 
 }
 .uppercase{
   font-family: "MuseoSansRounded-300";

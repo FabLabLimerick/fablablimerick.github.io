@@ -1,4 +1,4 @@
-$gray-color: #888;
+@import "_2_THEME_variables&mixins";
 
 .footer{
   font-family: "OpenSans";
@@ -14,7 +14,7 @@ $gray-color: #888;
   @include background-size(50px, 20px);
   background-repeat: no-repeat;
   background-position:center center;
-  background-image: url("../img/thumbnail-logo.svg");
+  background-image: url("../img/logo/thumbnail-logo.svg");
 }
 .logo{
   display: block;
@@ -22,13 +22,13 @@ $gray-color: #888;
   background-position:center center;
 }
 #saul{
-  background-image: url("../img/saul.svg");
+  background-image: url("../img/logo/saul.svg");
 }
 #ul{
-  background-image: url("../img/ul.svg");
+  background-image: url("../img/logo/ul.svg");
 }
 #lcc{
-  background-image: url("../img/lcc.svg");
+  background-image: url("../img/logo/lcc.svg");
 }
 .credits{
   color: $gray-color;

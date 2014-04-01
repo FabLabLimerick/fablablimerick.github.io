@@ -1,4 +1,4 @@
-$link-color-underline: #d43;
+@import "_2_THEME_variables&mixins";
 
 .collapsing {
   -moz-transition: height .5s;
@@ -98,7 +98,7 @@ $link-color-underline: #d43;
       @include background-size(100%, 100%);
       background-repeat: no-repeat;
       background-position:center;
-      background-image: url("../img/logo-v2.svg");
+      background-image: url("../img/logo/logo.svg");
       a{
         display: block;
       }

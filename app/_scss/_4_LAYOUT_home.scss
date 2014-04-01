@@ -1,5 +1,4 @@
-@import "_general-theme";
-
+@import "_2_THEME_variables&mixins";
 
 //
 // BRAND MOTTO
@@ -80,7 +79,7 @@ article.event{
     }
     h4{
       font-family: "MuseoSans-300";
-      color: #888;
+      color: $gray-color;
     }
     p{
       font-family: "MuseoSans-300";
@@ -89,7 +88,7 @@ article.event{
       position: absolute;
       bottom: 0px;
       font-family: "MuseoSans-300";
-      color: #888;
+      color: $gray-color;
     }
   }
   .description{
