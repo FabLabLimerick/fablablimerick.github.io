@@ -48,7 +48,7 @@
             </div>
             <!-- EVENTS LIST -->
             <div class="section-list">
-                {% for event in site.categories.events reversed limit:2 %}
+                {% for event in site.categories.event reversed limit:2 %}
                 {% if forloop.first %}
                 <hr class="event">
                 {% else %}
@@ -146,7 +146,7 @@
             </div>
             <div class="section-list">
                 <div class="row">
-                    {% for research in site.categories.researches limit:3 %}
+                    {% for research in site.categories.research limit:3 %}
                     {% if forloop.last %}
                     {% assign hiddensmall = "hidden-sm hidden-xs" %}
                     {% endif %}
