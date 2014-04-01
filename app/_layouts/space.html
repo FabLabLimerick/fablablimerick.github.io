@@ -166,7 +166,7 @@
                                 <div class="row list-equipment">
                                     <div class="col-md-3 col-sm-2 col-xs-4"><span class="hidden-xs machinetype">{{ machine.type }}</span><span class="visible-xs">{{ machine.title }}</span></div>
                                     <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
-                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
+                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description | markdownify }}</div>
                                 </div>
                                 {% capture thetype %}{{ currenttype }}{% endcapture %}
                                 {% else %}
@@ -174,7 +174,7 @@
                                 <div class="row list-equipment">
                                     <div class="col-md-3 col-sm-2 col-xs-4"><span class="visible-xs">{{ machine.title }}</span></div>
                                     <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
-                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description }}</div>
+                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description | markdownify }}</div>
                                 </div>
                                 {% endif %}
                             {% endfor %}

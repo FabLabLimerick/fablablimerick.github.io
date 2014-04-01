@@ -2,5 +2,5 @@
 title: Lasersaur
 category: equipment
 type: Laser Cutter
-description: Open Souce Laser Cutter and Engraving. It can cut up to 5mm MDF and engrave metals
+description: "An open-source laser cutter designed to fill the need of makers, artists and scientists who wanted a safe and highly capable machine. Our lasersaur has a 120 watt carbon dioxide laser and a bed size of 61cm × 122cm. [More info](http://lasersaur.com)"
 ---
