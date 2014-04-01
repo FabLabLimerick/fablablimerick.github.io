@@ -99,8 +99,10 @@
       background-repeat: no-repeat;
       background-position:center;
       background-image: url("../img/logo/logo.svg");
-      a{
+      a, a:link{
         display: block;
+        width: $navbar-logowidth;
+        height: $navbar-height;
       }
       span{
         display: none;
