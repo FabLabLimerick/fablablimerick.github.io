@@ -46,7 +46,13 @@
                     <div class="row">
                         <div class="col-md-12">
                             {% for banner in site.categories.banner-space limit:1 %}
-                            <p class="text-center imagecredits"><span class="hidden-xs">Background image: {{banner.title}} by {{banner.credits}}</span><span class="visible-xs">Image by {{banner.credits}}</span></p>
+                            <p class="text-center imagecredits clearfix">
+                                {% if banner.caption.display != false %}
+                                <span class="hidden-xs">Background image: {{banner.title}} by {{banner.caption.credits}}</span><span class="visible-xs">Image by {{banner.caption.credits}}</span>
+                                {% else %}
+                                <span></span>
+                                {% endif %}
+                            </p>
                             {% endfor %}
                         </div>
                     </div>
