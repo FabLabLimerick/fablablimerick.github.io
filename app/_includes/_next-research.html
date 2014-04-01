@@ -7,11 +7,11 @@
 {% endfor %}
 {% for post in catg_posts %}
     {% if post.title == page.title %}
-        {% if forloop.last %}
-            {% assign next = catg_posts[forloop.first] %}
-            <a href="{{ next.url }}">primero{{ next.title }}</a>
+        {% if forloop.first %}
+            {% assign next = catg_posts[2] %}
+            MORE RESEARCH: <a href="{{ next.url }}">{{ next.title }}</a>
         {% else %}
-            <a href="{{ prev.url }}">Hello{{ prev.title }}</a>
+            MORE RESEARCH: <a href="{{ prev.url }}">{{ prev.title }}</a>
         {% endif %}
     {% endif %}
     {% assign prev = post %}
