@@ -3,12 +3,28 @@ title: Launch
 layout: single-event
 category: event
 permalink: /event/fab-lab-launch/
-description-home: "Fab Lab Limerick opens its doors next week and invites you come to our new premises and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning."
+excerpt: "Fab Lab Limerick opens its doors next week and invites you come to our new premises and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning."
 hours: "Thursday 3th April from 16:30 to 21:00"
+description: "Second self-build project: RepRapPro 3D Printer"
 fee: "Free Event"
 slug: fab-lab-launch
 image:
   url: /event/fab-lab-launch.jpg
-  title: 3D printed bamboo connectors
-  credits: SA UL CC-BY-SA
+  caption:
+    display: false
+    title: 
+    credits: 
 ---
+
+Fab Lab Limerick opens its doors next week and invites you to come to the inaugural launch and discover how to use 3D printing and other digital fabrication technologies in your creative projects.
+
+Adults and children, artists and technologists, students and professionals… everyone is welcome to come to our new premises on 7 Rutland Street this Thursday April 3rd at anytime between 16:30 and 21:00 and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning.
+
+Fab Labs are a global network of local laboratories, enabling invention by providing access to tools for digital fabrication like 3D printers, laser cutters, CNC milling machines, CNC Routers and more.
+With the opening of this new space in Limerick city, Fab Lab Limerick becomes the second Fab lab in the Republic of Ireland. The space is located right in the city center, just opposite to the Hunt Museum, and it is determined to bridge the gap between digital fabrication technologies and local makers from all disciplines.
+
+This is just the start! Fab Lab Limerick will hold a continuous cultural programme thanks to the kind support of Limerick City of Culture 2014. Local creatives and artists will be able to experiment with digital fabrication in their own creative projects. Adults will be able to take part in workshops and talks about 3D printing, laser cutting and much more. Children will be invited through school tours and summer camps to learn and play with these new technologies.
+
+Additionally, Fab Lab Limerick will offer its prototyping and digitally manufacturing services to local business and entrepreneurs, and will carry out academic research about the potential of digital fabrication technologies in architecture design and building industry.
+
+*This event has free admission and no previous reservation is required.*

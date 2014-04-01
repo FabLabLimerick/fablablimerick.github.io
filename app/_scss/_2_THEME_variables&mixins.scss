@@ -108,6 +108,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			img{
 				@include rhythm(1, 0, 0, 1, $base-font-size); 
 			}
+			p{
+				@include rhythm(0, 0, 0, 1, $base-font-size); 
+			}
 			.video{
 				@include rhythm(1, 0, 0, 2, $base-font-size);
 			}

@@ -309,7 +309,7 @@ article.event{
 }
 //large
 @media (min-width: $screen-lg-min) {
-  @include typescale (20px, 28px);
+  @include typescale (20px, 30px);
   article.event{
     height: rhythm(7);
     .description, .title{

@@ -36,13 +36,18 @@
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                             <hgroup class="text-center">
                                 <h1>{{page.title}}</h1>
-                                <h2 class="subheader">{{page.author}}</span></h2>
+                                <h2 class="subheader">{{page.hours}}</span></h2>
                             </hgroup>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <p class="text-center imagecredits"><span>Image by {{ page.image.credits }}</span></p>
+                            <p class="text-center imagecredits clearfix">
+                                {% if page.image.caption.display != false %}
+                                <span>Image by {{ page.image.caption.credits }}</span>
+                                {% else %}
+                                {% endif %}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -56,12 +61,13 @@
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  <div class="share-button"></div></h5>
+                        <h5 class="text-center">{{ page.fee }}  ·  <div class="share-button"></div></h5>
                         <hr class="bottom">
                     </div>
                     <div class="body-single-content">
                         {{ content }}
                     </div>
+                    <!--
                     <div class="body-single-next">
                         <div class="row">
                             <div class="col-md-12 text-center">
@@ -71,6 +77,7 @@
                         </div>
                         <hr class="none">
                     </div>
+                    -->
                 </div>
             </div>
         </div>
