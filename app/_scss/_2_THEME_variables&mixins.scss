@@ -74,6 +74,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			@include adjust-font-size-to($base-font-size * $golden * 1.25);
 			line-height: 1.3em;
 			@include rhythm(0.35, 0, 0, 0, $base-font-size);
+			word-spacing: 0.03em;
+			letter-spacing: 0.015em;
 		}
 		p.imagecredits{
 			@include adjust-font-size-to($base-font-size * 0.86);
@@ -90,6 +92,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			@include adjust-font-size-to($base-font-size);
 			line-height: 1.3em;
 			@include rhythm(0.25, 0, 0, 0, $base-font-size);
+			word-spacing: 0.03em;
+			letter-spacing: 0.015em;
 		}
 		p.imagecredits{
 			@include adjust-font-size-to($base-font-size * 0.86);
@@ -148,6 +152,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	@include rhythm(0.35, 0, 0, 0.8, $base-font-size);
 	@include adjust-font-size-to($base-font-size * $golden * 1);
 	line-height: 1.3em;
+	word-spacing: 0.03em;
+	letter-spacing: 0.015em;
 	}
 	h3{
 	@include rhythm(0, 0, 0, 0, $base-font-size);

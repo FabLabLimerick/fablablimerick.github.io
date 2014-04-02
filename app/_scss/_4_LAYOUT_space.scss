@@ -5,8 +5,7 @@
       @include box-sizing (border-box);
       display: block;
       overflow:hidden;
-      background-position-x: 50%;
-      background-position-y: 50%;
+      background-position:center center;
       @include background-size (cover);
       background-color: red;
       margin-right: auto;

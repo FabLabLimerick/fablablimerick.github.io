@@ -103,8 +103,7 @@ article.event{
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-position:center center;
     @include background-size (cover);
   }
 }
@@ -131,8 +130,7 @@ article.event{
       height:100%;
       display: table;
       background-color: black;
-      background-position-x: 50%;
-      background-position-y: 50%;
+      background-position:center center;
       @include background-size (cover);
       background-image: url("../img/space/space-2.jpg");
       .centradovertical{
@@ -221,8 +219,7 @@ article.event{
       margin: 0;
       padding: 0;
       overflow:hidden;
-      background-position-x: 50%;
-      background-position-y: 50%;
+      background-position:center center;
       @include background-size (cover);
     }
   }
