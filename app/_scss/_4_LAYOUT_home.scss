@@ -21,7 +21,7 @@
         display: table;
       }
       h2{
-        font-family: "MuseoSansRounded-500";
+        font-family: "fablab_500";
         text-transform: uppercase;
         color: white;
         width:100%;
@@ -74,20 +74,20 @@ article.event{
     position: relative;
     @include box-sizing (border-box);
     h3{
-      font-family: "MuseoSansRounded-500";
+      font-family: "fablab_500";
       text-transform: uppercase;
     }
     h4{
-      font-family: "MuseoSans-300";
+      font-family: "fablab_300";
       color: $gray-color;
     }
     p{
-      font-family: "MuseoSans-300";
+      font-family: "fablab_300";
     }
     .fee{
       position: absolute;
       bottom: 0px;
-      font-family: "MuseoSans-300";
+      font-family: "fablab_300";
       color: $gray-color;
     }
   }
@@ -95,7 +95,7 @@ article.event{
     p{
       display: block;
       overflow: hidden;
-      font-family: "MuseoSans-300";
+      font-family: "fablab_300";
     }
   }
   .image{
@@ -203,11 +203,11 @@ article.event{
         vertical-align: bottom;
         padding: $padding-base-horizontal * 2;
         h3{
-          font-family: "MuseoSansRounded-500";
+          font-family: "fablab_500";
           text-transform: uppercase;
         }
         h4{
-          font-family: "MuseoSansRounded-300";
+          font-family: "fablab_300";
         }
       }
     }

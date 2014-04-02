@@ -1,10 +1,30 @@
 @font-face {
-    font-family: 'fablab_rounded_100extralight';
-    src: url('../fonts/fablabrounded100-extralight-webfont.eot');
-    src: url('../fonts/fablabrounded100-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/fablabrounded100-extralight-webfont.woff') format('woff'),
-         url('../fonts/fablabrounded100-extralight-webfont.ttf') format('truetype'),
-         url('../fonts/fablabrounded100-extralight-webfont.svg#fablab_rounded_100extralight') format('svg');
-    font-weight: normal;
+    font-family: 'fablab_100';
+    src: url('../fonts/fablab100-extralight-webfont.eot');
+    src: url('../fonts/fablab100-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fablab100-extralight-webfont.woff') format('woff'),
+         url('../fonts/fablab100-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/fablab100-extralight-webfont.svg#fablab_100extralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fablab_300';
+    src: url('../fonts/fablab300-light-webfont.eot');
+    src: url('../fonts/fablab300-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fablab300-light-webfont.woff') format('woff'),
+         url('../fonts/fablab300-light-webfont.ttf') format('truetype'),
+         url('../fonts/fablab300-light-webfont.svg#fablab_300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fablab_500';
+    src: url('../fonts/fablab500-normal-webfont.eot');
+    src: url('../fonts/fablab500-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fablab500-normal-webfont.woff') format('woff'),
+         url('../fonts/fablab500-normal-webfont.ttf') format('truetype'),
+         url('../fonts/fablab500-normal-webfont.svg#fablab_500') format('svg');
+    font-weight: 5000;
     font-style: normal;
 }

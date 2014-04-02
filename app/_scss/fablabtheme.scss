@@ -117,7 +117,7 @@ a{
     font-size: inherit!important;
   }
   label span{
-    font-family: "MuseoSans-300"!important;
+    font-family: "fablab_300"!important;
     font-weight: 300!important;
     text-transform: uppercase!important;
     font-size: inherit!important;
@@ -193,66 +193,66 @@ a{
   }
 }
 h1{
-  font-family: "fablab_rounded_100extralight";
+  font-family: "fablab_100";
   text-transform: uppercase;
 }
 h2{
-  font-family: "fablab_rounded_100extralight";
+  font-family: "fablab_100";
   text-transform: uppercase;
 }
 h2.body-single-excerpt{
-  font-family: "MuseoSansRounded-500";
+  font-family: "fablab_500";
   text-transform: none;
 }
 .body-single{
-  font-family: "MuseoSansRounded-300";
+  font-family: "fablab_300";
   text-transform: none;
 }
 .list-header h3{
-  font-family: "fablab_rounded_100extralight";
+  font-family: "fablab_100";
 }
 .body-single-info{
   h5{
-    font-family: "MuseoSansRounded-300";
+    font-family: "fablab_300";
     text-transform: uppercase;
     color: $link-color;
   }
 }
 h5{
-  font-family: "MuseoSansRounded-300";
+  font-family: "fablab_300";
   color: $gray-color; 
 }
 .uppercase{
-  font-family: "MuseoSansRounded-300";
+  font-family: "fablab_300";
   text-transform: uppercase;
 }
 
 #header-hero-title{
   h1{
-    font-family: "MuseoSansRounded-500";   
+    font-family: "fablab_500";   
   }
 }
 .body-single-next{
-  font-family: "MuseoSansRounded-300";
+  font-family: "fablab_300";
   text-transform: uppercase;
 }
 section{
   .section-header{
-    font-family: "fablab_rounded_100extralight";
+    font-family: "fablab_100";
     text-transform: uppercase;
   }
   .section-description{
-    font-family: "MuseoSansRounded-300";
+    font-family: "fablab_300";
   }
   .section-list{
-    font-family: "MuseoSansRounded-300";
+    font-family: "fablab_300";
     .list-header{
-      font-family: "MuseoSansRounded-300";
+      font-family: "fablab_300";
       text-transform: uppercase
     }
   }
   .section-link{
-    font-family: "MuseoSansRounded-300";
+    font-family: "fablab_300";
     text-transform: uppercase;
   }
 }
