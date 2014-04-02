@@ -5,7 +5,7 @@ category: event
 permalink: /event/fab-lab-launch/
 excerpt: "Fab Lab Limerick opens its doors next week and invites you come to our new premises and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning."
 hours: "Thursday 3th April from 16:30 to 21:00"
-description: "Second self-build project: RepRapPro 3D Printer"
+description: "Fab Lab Launch Thursday 3th April from 16:30 to 21:00"
 fee: "Free Event"
 slug: fab-lab-launch
 image:
