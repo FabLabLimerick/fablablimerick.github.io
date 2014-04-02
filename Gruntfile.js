@@ -184,7 +184,7 @@ module.exports = function (grunt) {
       css: ['<%= yeoman.dist %>/css/**/*.css'],
       js: ['<%= yeoman.dist %>/js/*.js'],
       options: {
-        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img', '<%= yeoman.dist %>/img/logo'],
+        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img', '<%= yeoman.dist %>/img/logo/'],
         patterns: {
           // FIXME While usemin won't have full support for revved files we have to put all references manually here
           js: [
