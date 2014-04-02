@@ -397,7 +397,7 @@ module.exports = function (grunt) {
     'imagemin',
     'svgmin',
     //'filerev',
-    //'usemin',
+    'usemin',
     'htmlmin'
     ]);
 
