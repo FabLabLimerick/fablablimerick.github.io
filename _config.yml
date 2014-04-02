@@ -28,6 +28,7 @@ markdown: maruku
 #   png_url:    /images/latex
 
 pygments: true
+relative_permalinks: false
 
 external:
   facebook: https://www.facebook.com/fablablimerick
