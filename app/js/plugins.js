@@ -29,18 +29,3 @@ jQuery(function($) {
   // Target your .container, .wrapper, .post, etc.
   $('.container').fitVids();
 });
-
-new Share('.share-button', {
-    ui: {
-        button_icon: 'false',
-        button_text: 'Share it',
-        button_font: 'false',
-        button_background: 'none',
-        button_color: '#4A4A4A'
-    },
-    networks: {
-        facebook: {
-            app_id: 'abc123'
-        }
-    }
-});

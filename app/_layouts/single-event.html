@@ -84,6 +84,30 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
+    <SCRIPT TYPE="text/javascript">
+        new Share('.share-button', {
+            url: 'http://fablab.saul.ie{{ page.url}}',
+            image: 'http://fablab.saul.ie/img{{ page.image.url }}',
+            title: '{{ page.title }}',
+            text: '{{ page.description }}',
+            ui: {
+                button_icon: 'false',
+                button_text: 'Share it',
+                button_font: 'false',
+                button_background: 'none',
+                button_color: '#4A4A4A'
+            },
+            networks: {
+                facebook: {
+                    enabled: true,
+                    load_sdk: false
+                },
+                twitter: {
+                    enabled: true
+                }
+            }
+        });
+    </SCRIPT>
     {% include googleanalytics.html %}
   </body>
 </html>

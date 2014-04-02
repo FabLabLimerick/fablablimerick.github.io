@@ -187,6 +187,30 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
+    <SCRIPT TYPE="text/javascript">
+        new Share('.share-button', {
+            url: 'http://fablab.saul.ie{',
+            image: 'http://fablab.saul.ie/thumbnail.jpg',
+            title: 'Fab Lab Limerick',
+            text: 'A space for makers in Limerick city',
+            ui: {
+                button_icon: 'false',
+                button_text: 'Share it',
+                button_font: 'false',
+                button_background: 'none',
+                button_color: '#4A4A4A'
+            },
+            networks: {
+                facebook: {
+                    enabled: true,
+                    load_sdk: false
+                },
+                twitter: {
+                    enabled: true
+                }
+            }
+        });
+    </SCRIPT>
     {% include googleanalytics.html %}
   </body>
 </html>
