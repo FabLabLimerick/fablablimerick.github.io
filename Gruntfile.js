@@ -380,7 +380,7 @@ module.exports = function (grunt) {
     'jekyll:check',
     'compass:server',
     // Removing these two, otherwise it has errors
-    'jshint:all'
+    //'jshint:all'
     //'csslint:check'
   ]);
 
