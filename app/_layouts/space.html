@@ -10,14 +10,13 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <!-- build:css({app,.tmp}) /css/main.css -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/fablabtheme.css">
+    <link rel="stylesheet" href="{{site.url}}/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="{{site.url}}/css/fablabtheme.css">
     <!-- endbuild -->
 
     <!-- build:js(app) /js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <script src="{{site.url}}/_bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
   <body>
@@ -29,7 +28,7 @@
     </header>
     <section class="header-hero">
         {% for banner in site.categories.banner-space limit:1 %}
-        <div class="header-hero-image" style="background-image: url(../img{{ banner.image }})"></div>
+        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ banner.image }})"></div>
         {% endfor %}
         </div>
         <div class="header-hero-title">
@@ -93,7 +92,7 @@
                 <div class="row list-body">
                     {% for member in site.categories.team reversed %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
-                        <div class="imagen" style="background-image: url(../img/team/{{member.image}})"></div>
+                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
                             <h5>{{ member.position }}</h5>
