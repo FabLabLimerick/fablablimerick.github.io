@@ -1,6 +1,7 @@
 ---
 title: Fab Lab Launch
-layout: banner
+layout:
+permalink: 
 category: banner-space
 motto-overlay: no
 image: /space/space-1.jpg

@@ -14,7 +14,7 @@
   @include background-size(50px, 20px);
   background-repeat: no-repeat;
   background-position:center center;
-  background-image: url("../img/logo/thumbnail-logo.svg");
+  background-image: url("../img/logo/thumbnail-logo.png");
 }
 .logo{
   display: block;
@@ -22,13 +22,13 @@
   background-position:center center;
 }
 #saul{
-  background-image: url("../img/logo/saul.svg");
+  background-image: url("../img/logo/saul.png");
 }
 #ul{
-  background-image: url("../img/logo/ul.svg");
+  background-image: url("../img/logo/ul.png");
 }
 #lcc{
-  background-image: url("../img/logo/lcc.svg");
+  background-image: url("../img/logo/lcc.png");
 }
 .credits{
   color: $gray-color;

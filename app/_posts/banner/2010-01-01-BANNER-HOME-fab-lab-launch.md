@@ -1,6 +1,7 @@
 ---
 title: Fab Lab Launch
-layout: banner
+layout:
+permalink: 
 category: banner-homepage
 slug: fab-lab-launch
 link: 
