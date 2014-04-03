@@ -83,6 +83,10 @@ article.event{
     }
     p{
       font-family: "fablab_300";
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
     }
     .fee{
       position: absolute;
@@ -96,6 +100,10 @@ article.event{
       display: block;
       overflow: hidden;
       font-family: "fablab_300";
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
     }
   }
   .image{

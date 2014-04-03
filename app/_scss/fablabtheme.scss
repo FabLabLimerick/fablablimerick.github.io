@@ -190,6 +190,12 @@ a{
     img{
       width: 100%;
     }
+    p{
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
   }
 }
 h1{
