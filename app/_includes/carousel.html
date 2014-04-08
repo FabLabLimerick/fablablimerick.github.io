@@ -1,16 +1,3 @@
-<!--
-<div id="brand-motto">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <h2 class="text-center">
-                <span class="hidden-xs">A Space For Makers<br>in Limerick City</span><span class="visible-xs">A Space<br>for<br>makers In<br>limerick<br>city</span>
-              </h2>
-          </div>
-      </div>
-  </div>
-</div>
--->
 <div id="myslideshow" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -25,10 +12,24 @@
   <div class="carousel-inner">
     {% for banner in site.categories.banner-homepage %}
     <div class="item {% if forloop.first %}active{% endif %}">
+      {% if banner.motto !=  false %}
+      <div id="brand-motto">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">
+                      <span class="hidden-xs">A Space For Makers<br>in Limerick City</span><span class="visible-xs">A Space<br>for<br>makers In<br>limerick<br>city</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="imageTop"></div>
+      {% endif %}
       {% if banner.caption.display !=  false %}
       <div class="carousel-caption">
-        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.description }}. Image by {{ banner.credits }}</p>
-        <p class="visible-xs">Image by {{ banner.credits }}</p>
+        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. Image by {{ banner.caption.credits }}</p>
+        <p class="visible-xs">Image by {{ banner.caption.credits }}</p>
       </div>
       {% endif %}
       <div class="image {{ banner.slug }}"></div>

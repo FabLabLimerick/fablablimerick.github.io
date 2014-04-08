@@ -133,6 +133,26 @@ a{
     }
   }
 }
+label{
+  font-family: "fablab_300"!important;
+  font-weight: 300!important;
+  font-size: 85%;
+}
+#subscribe{
+  .response{
+    font-size: 85%;
+    color: $gray-color;
+  }
+  #mce-normal-response{
+    color: $gray-color;
+  }
+  #mce-error-response{
+    color: $brand-danger;
+  }
+  #mce-success-response{
+    color: $brand-success;
+  }
+}
 
 .header-hero{
   width: 100%;

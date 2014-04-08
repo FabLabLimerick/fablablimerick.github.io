@@ -45,39 +45,42 @@
             <!-- EVENTS LIST -->
             <div class="section-list">
                 {% for event in site.categories.event reversed limit:2 %}
-                {% if forloop.first %}
-                <hr class="event">
+                {% if event.past %}
                 {% else %}
-                <hr class="event gray">
-                {% endif %}
-                <article class="row event free">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="image" style="background-image: url(../img{{event.image.url}})"></div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="title" lang="en">
-                                    {% if event.soon %}
-                                    {% capture link %} <a class="eventlink versalite disabled">MORE INFO SOON</a>{% endcapture %}
-                                    {% else %}
-                                    {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
-                                    {% endif %}
-                                    <h3>{{event.title}}</h3>
-                                    <h4>{{event.hours}}</h4>
-                                    <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
-                                    <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
-                                    <p class="fee">{{event.fee}}</p>
+                    {% if forloop.first %}
+                    <hr class="event">
+                    {% else %}
+                    <hr class="event gray">
+                    {% endif %}
+                    <article class="row event free">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="image" style="background-image: url(../img{{event.image.url}})"></div>
                                 </div>
-                            </div>
-                            <div class="col-md-4 hidden-xs hidden-sm">
-                                <div class="description" lang="en">
-                                    <p>{{event.excerpt }}  {{ link }}</p>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="title" lang="en">
+                                        {% if event.soon %}
+                                        {% capture link %} <a class="eventlink versalite disabled">MORE INFO SOON</a>{% endcapture %}
+                                        {% else %}
+                                        {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
+                                        {% endif %}
+                                        <h3>{{event.title}}</h3>
+                                        <h4>{{event.hours}}</h4>
+                                        <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
+                                        <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
+                                        <p class="fee">{{event.fee}}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <div class="description" lang="en">
+                                        <p>{{event.excerpt }}  {{ link }}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                {% endif %}
                 {% endfor %}
                 <hr class="event">
             </div>
@@ -182,6 +185,9 @@
                 <hr class="none">
             </div>
         </div>
+    </section>
+    <section id="subscribe">
+        {% include _subscribe.html %}
     </section>
     <section class="footer">
         {% include footer.html %}

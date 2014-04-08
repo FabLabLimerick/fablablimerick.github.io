@@ -8,6 +8,7 @@ hours: "Thursday 3th April from 16:30 to 21:00"
 description: "Fab Lab Launch Thursday 3th April from 16:30 to 21:00"
 fee: "Free Event"
 slug: fab-lab-launch
+past: true
 image:
   url: /event/fab-lab-launch.jpg
   caption:
