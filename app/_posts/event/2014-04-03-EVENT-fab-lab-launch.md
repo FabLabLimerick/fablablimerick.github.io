@@ -16,22 +16,22 @@ image:
     title: 
     credits: 
 slideshow:
+    - url: /event/fab-lab-launch-04.jpg
+      title: "Ger and Steve 3D scanning"
+      description: "Ger and Steve 3D scanning and 3D printint our visitors heads."
+      credits: "Don Moloney ©"
     - url: /event/fab-lab-launch-01.jpg
-      title: "Fab Lab Launch"
+      title: "Our signup table"
       description: "Our signup table"
       credits: "Javier Buron CC BY 3.0"
     - url: /event/fab-lab-launch-02.jpg
-      title: "Fab Lab Launch"
+      title: "Aoiffe showing kids our Lasersaur"
       description: "Aoiffe showing kids how our lasercutter works."
-      credits: "© Lynne Brisbane"
+      credits: "Lynne Brisbane ©"
     - url: /event/fab-lab-launch-03.jpg
-      title: "Fab Lab Launch"
+      title: "Steve 3D printing a scanned face"
       description: "Steve 3D printing a scanned face."
-      credits: "© Don Moloney"
-    - url: /event/fab-lab-launch-04.jpg
-      title: "Fab Lab Launch"
-      description: "Ger and Steve 3D scanning and 3D printint our visitors heads."
-      credits: "© Don Moloney"
+      credits: "Don Moloney ©"
 ---
 
 Fab Lab Limerick opens its doors next week and invites you to come to the inaugural launch and discover how to use 3D printing and other digital fabrication technologies in your creative projects.
