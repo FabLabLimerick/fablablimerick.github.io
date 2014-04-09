@@ -8,7 +8,7 @@ slug: lasercutting
 link: /event/lasercutting/
 caption:
   display: true
-  description: 9th April
+  description: Workshop, 9th April
   credits: Lasersaur.com
 motto:
   display: true

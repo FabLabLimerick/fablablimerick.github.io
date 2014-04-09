@@ -100,6 +100,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			@include rhythm(1.25, 0, 0, 1.25, $base-font-size);
 		}
 	}
+	//this is when slideshow is active
+	.carousel p.imagecredits{
+		@include adjust-font-size-to($base-font-size * 0.86);
+		@include rhythm(0, 0, 0, 0, $base-font-size);
+	}
 	.body-single{
 		h2.body-single-excerpt{
 			@include adjust-font-size-to($base-font-size * $golden * 0.80);
