@@ -70,6 +70,9 @@
 // EVENTS
 //
 article.event{
+  &.past{
+    opacity: 0.6;
+  }
   .title{
     position: relative;
     @include box-sizing (border-box);

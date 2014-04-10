@@ -44,7 +44,7 @@
             </div>
             <!-- EVENTS LIST -->
             <div class="section-list">
-                {% for event in site.categories.event reversed limit:2 %}
+                {% for event in site.categories.events reversed limit:2 %}
                 {% if event.past %}
                 {% else %}
                     {% if forloop.first %}

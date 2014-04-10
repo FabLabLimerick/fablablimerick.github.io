@@ -1,8 +1,8 @@
 ---
 title: Launch
 layout: single-event
-category: event
-permalink: /event/fab-lab-launch/
+category: events
+permalink: /events/fab-lab-launch/
 excerpt: "Fab Lab Limerick opens its doors next week and invites you come to our new premises and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning."
 hours: "Thursday 3th April from 16:30 to 21:00"
 description: "Fab Lab Launch Thursday 3th April from 16:30 to 21:00"
@@ -10,25 +10,25 @@ fee: "Free Event"
 slug: fab-lab-launch
 past: true
 image:
-  url: /event/fab-lab-launch.jpg
+  url: /events/fab-lab-launch.jpg
   caption:
     display: false
     title: 
     credits: 
 slideshow:
-    - url: /event/fab-lab-launch-04.jpg
+    - url: /events/fab-lab-launch-04.jpg
       title: "Ger and Steve 3D scanning"
       description: "Ger and Steve 3D scanning and 3D printint our visitors heads."
       credits: "Don Moloney ©"
-    - url: /event/fab-lab-launch-01.jpg
+    - url: /events/fab-lab-launch-01.jpg
       title: "Our signup table"
       description: "Our signup table"
       credits: "Javier Buron CC BY 3.0"
-    - url: /event/fab-lab-launch-02.jpg
+    - url: /events/fab-lab-launch-02.jpg
       title: "Aoiffe showing kids our Lasersaur"
       description: "Aoiffe showing kids how our lasercutter works."
       credits: "Lynne Brisbane ©"
-    - url: /event/fab-lab-launch-03.jpg
+    - url: /events/fab-lab-launch-03.jpg
       title: "Steve 3D printing a scanned face"
       description: "Steve 3D printing a scanned face."
       credits: "Don Moloney ©"
