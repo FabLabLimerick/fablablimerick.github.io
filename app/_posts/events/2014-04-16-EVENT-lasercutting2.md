@@ -2,15 +2,14 @@
 title: Introduction To Lasercutting
 layout: single-event
 category: events
-permalink: /events/lasercutting/
+permalink: /events/lasercutting2/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
-hours: "Wednesday 9th April from 19:00 to 21:00"
-description: "Introduction To Lasercutting Wednesday 9th April from 19:00 to 21:00"
+hours: "Wednesday 16th April from 19:00 to 21:00"
+description: "Introduction To Lasercutting Wednesday 16th April from 19:00 to 21:00"
 fee: "€6 per person"
 slug: lasercutting
-past: true
 image:
-  url: /events/lasercutting.jpg
+  url: /events/lasercutting2.jpg
   caption:
     display: true
     title: 
@@ -26,4 +25,4 @@ The course will introduce you to the idea of self build machines, it will educat
 
 *The course fee is €6 per person.*
 
-[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting/)
+[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting2/)

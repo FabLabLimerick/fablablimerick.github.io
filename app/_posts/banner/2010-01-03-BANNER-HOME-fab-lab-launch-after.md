@@ -5,7 +5,7 @@ layout:
 permalink: 
 category: banner-homepage
 slug: fab-lab-launch-after
-link: /event/fab-lab-launch/
+link: /events/fab-lab-launch/
 caption:
   display: true
   description: Event, 3rd April

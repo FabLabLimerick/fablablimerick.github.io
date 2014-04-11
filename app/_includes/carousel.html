@@ -12,7 +12,7 @@
   <div class="carousel-inner">
     {% for banner in site.categories.banner-homepage %}
     <div class="item {% if forloop.first %}active{% endif %}">
-      {% if banner.motto !=  false %}
+      {% if banner.motto.display !=  false %}
       <div id="brand-motto">
         <div class="container">
             <div class="row">

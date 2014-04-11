@@ -1,11 +1,11 @@
 ---
-published: true
+published: false
 title: Introduction to Lasercutting
 layout:
 permalink: 
 category: banner-homepage
 slug: lasercutting
-link: /event/lasercutting/
+link: /events/lasercutting/
 caption:
   display: true
   description: Workshop, 9th April
