@@ -1,4 +1,4 @@
-<div id="myslideshow" class="carousel slide fade" data-interval="8000" data-ride="carousel">
+<div id="myslideshow" class="carousel slide" data-interval="8000" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     {% for banner in site.categories.banner-homepage %}
@@ -29,7 +29,7 @@
       {% if banner.caption.display !=  false %}
       <div class="carousel-caption">
         <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. Image by {{ banner.caption.credits }}</p>
-        <p class="visible-xs">Image by {{ banner.caption.credits }}</p>
+        <p class="visible-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a></p>
       </div>
       {% endif %}
       <div class="image {{ banner.slug }}"></div>
@@ -60,15 +60,10 @@
     {% endfor %}
   </div>
   <!-- Controls -->
-  {% for banner in site.categories.banner-homepage %}
-  {% if forloop.length == 1 %}
-  {% else %}
   <a class="left carousel-control" href="#myslideshow" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
   <a class="right carousel-control" href="#myslideshow" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
-  {% endif %}
-  {% endfor %}
 </div>    

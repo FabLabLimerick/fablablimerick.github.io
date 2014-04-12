@@ -1,14 +1,6 @@
-<div id="myslideshow" class="carousel fade" data-interval="8000" data-ride="carousel">
-  <!-- Indicators
+<div id="myslideshow" class="carousel slide" data-interval="8000" data-ride="carousel">
   <ol class="carousel-indicators">
-    {% for image in page.slideshow %}
-      {% if forloop.length == 1 %}
-      {% else %}
-      <li data-target="#myslideshow" data-slide-to="0" class="{% if forloop.first %}active{% endif %}"></li>
-      {% endif %}
-    {% endfor %}
   </ol>
-  Wrapper for slides -->
   <div class="carousel-inner">
     {% for image in page.slideshow %}
     <div class="item {% if forloop.first %}active{% endif %}">
@@ -16,7 +8,8 @@
         <p class="hidden-xs imagecredits"><span class="title">{{ image.title }}</span>. Image by {{ image.credits }}</p>
         <p class="visible-xs imagecredits">Image by {{ image.credits }}</p>
       </div>
-      <div class="image image{{ forloop.index }}"></div>
+      <div class="image image{{ forloop.index }}">
+      </div>
       <style>
           .image{{ forloop.index }}{
             background: url(/img{{ image.url }}) top center no-repeat; 
