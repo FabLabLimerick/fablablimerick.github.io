@@ -4,7 +4,7 @@ layout: single-event
 category: events
 permalink: /events/lasercutting2/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
-hours: "Wednesday 16th April from 19:00 to 21:00"
+hours: "Wednesday 16th April 19:00-21:00"
 description: "Introduction To Lasercutting Wednesday 16th April from 19:00 to 21:00"
 fee: "€6 per person"
 slug: lasercutting

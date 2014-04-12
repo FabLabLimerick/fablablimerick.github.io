@@ -9,7 +9,7 @@ link: /events/makers-meetup/
 caption:
   display: true
   description: Event, 24th April
-  credits: Public Domian
+  credits: Public Domain
 motto:
   display: false
 responsive: true
