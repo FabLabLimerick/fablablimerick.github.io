@@ -2,20 +2,19 @@
 title: Introduction To Lasercutting
 layout: single-event
 category: events
-permalink: /events/lasercutting2/
+permalink: /events/lasercutting3/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
-hours: "Wednesday 16th April 19:00-21:00"
-description: "Introduction To Lasercutting Wednesday 16th April from 19:00 to 21:00"
+hours: "Wednesday 23th April 19:00-21:00"
+description: "Introduction To Lasercutting Wednesday 23th April from 19:00 to 21:00"
 fee: "€6 per person"
-slug: lasercutting2
-past: true
+slug: lasercutting3
 image:
-  url: /events/lasercutting2.jpg
+  url: /events/lasercutting3.jpg
   caption:
     display: true
     title: 
     credits: "Lasersaur.com"
-    original: https://www.flickr.com/photos/stfnix/8469714592
+    original: https://www.flickr.com/photos/stfnix/8468620403/
 ---
 
 Staff and students @ Fab Lab Limerick have worked together to build their very own Laser Cutter. 'Lasersaur' is an open-source laser cutter with the ability to cut plastics, wood and textiles at a high speed with a high degree of accuracy. It has a bed size of 1220mm x 610mm and a 100 Watt laser output so it has the ability to cut and engrave large sheets of material.
@@ -26,4 +25,4 @@ The course will introduce you to the idea of self build machines, it will educat
 
 *The course fee is €6 per person.*
 
-[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting2/)
+[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting3/)
