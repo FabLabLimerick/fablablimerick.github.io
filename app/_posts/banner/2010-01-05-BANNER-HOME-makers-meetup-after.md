@@ -1,16 +1,16 @@
 ---
-published: false
+published: true
 title: Makers Meetup
 layout:
 permalink: 
 category: banner-homepage
-slug: makers-meetup
+slug: makers-meetup-after
 link: /events/makers-meetup/
 caption:
   display: true
   description: Event, 24th April
-  credits: Public Domain
+  credits: Javier Burón CC-BY-SA
 motto:
-  display: false
-responsive: true
+  display: true
+responsive: false
 ---

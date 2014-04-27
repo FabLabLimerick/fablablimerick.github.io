@@ -3,9 +3,10 @@ title: "Makers Meetup"
 layout: single-event
 category: events
 permalink: /events/makers-meetup/
-excerpt: "We would like to showcase what you are making right now. Send us your proposal for a 15 minutes presentation before April 21st midnight. Any discipline is welcome!"
+excerpt: "Local makers from arts, crafts, design and technology presented their most recent projects"
 fee: "Free Event"
 soon: false
+past: true
 hours: "Thursday 24th April 19:30-21:00"
 slug: makers-meetup
 image:
@@ -14,11 +15,42 @@ image:
     display: false
     title: 
     credits: 
-    original: 
+    original:
+slideshow:
+    - url: /events/makers-meetup-01.jpg
+      title: "RepRap Mendel 90"
+      description: "Ivor O'Shea showing his RepRap Mendel 90 to meetup assistants."
+      credits: "Javier Buron CC BY 3.0"
+    - url: /events/makers-meetup-02.jpg
+      title: "Dave Hunt - raspberry pi time-lapse"
+      description: "Dave Hunt explains his raspberry pi time-lapse camera project"
+      credits: "Javier Buron CC BY 3.0"
+    - url: /events/makers-meetup-03.jpg
+      title: "SML - Laser engraving on timber"
+      description: "SML - Graphic designers Mariel Mazan Palacios & Lucia Poliakova, laser engraving on timber."
+      credits: "Javier Buron CC BY 3.0"
+    - url: /events/makers-meetup-04.jpg
+      title: "Ivor O'Shea - limerick 3D printer pioneer"
+      description: "Ivor O'Shea is one of the first people in limerick involved in the RepRap communitiy."
+      credits: "Javier Buron CC BY 3.0"
+    - url: /events/makers-meetup-05.jpg
+      title: "Clare Jordan Ceramics"
+      description: "Clare Jordan Ceramics"
+      credits: "Javier Buron CC BY 3.0"
+    - url: /events/makers-meetup-06.jpg
+      title: "Clare Jordan Ceramics - 3d printed swallow cutter"
+      description: "Clare Jordan Ceramics explains her recent Fab Lab project, a 3d printed swallow cutter."
+      credits: "Javier Buron CC BY 3.0"
 ---
 
-During our lauch event we met with lots of people who are making interesting things in Limerick. We would like to organize an evening of presentations so you can share with us all those cool projects in which you are working.
+Since Fab Lab Limerick opened, we have met with lots of people who are making interesting things in Limerick. We decided to organise this evening of presentations so makers from all disciplines can share with us all those cool projects in which they are working on right now.
 
-Technology, arts, design and specially all projects in which 3D printing, laser cutting and CNC Routing can be applied are welcome. 
+DAVE HUNT Dave is an embedded software engineer by day, photographer and maker by night. Most of his projects involve a Raspberry Pi or a microcontroller of some kind.
 
-If you want to take part send us your proposal to our general email (a photo and a short parapraph or web link is enough) for a 15 minutes presentation of the project (or projects) you want to talk about before Monday April 22nd midnight. If you have any questions drop us a line to our general email or contact us via twitter [@fablablimerick](http://twitter.com/fablablimerick/)
+CLARE JORDAN Clare creates porcelain with passion in jewellery, table top and scultpure for personal and corporate gifting. Unique, innovative designs, beautifully handmade in Limerick.
+
+IVOR O'SHEA Ivor is an avid 3D Printer enthusiast, blogger, follower & contributor to the RepRap community, Technology graduate, with a day-job in IT.
+
+SML Lucia Poliakova and Mariel Mazan are LSAD visual communications graduates and they have started their own design agency this year.
+
+*This event has free admission and no previous reservation is required.*

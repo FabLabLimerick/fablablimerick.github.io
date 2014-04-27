@@ -8,6 +8,7 @@ hours: "Wednesday 23th April 19:00-21:00"
 description: "Introduction To Lasercutting Wednesday 23th April from 19:00 to 21:00"
 fee: "€6 per person"
 slug: lasercutting3
+past: true
 image:
   url: /events/lasercutting3.jpg
   caption:
