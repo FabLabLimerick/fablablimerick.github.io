@@ -17,8 +17,17 @@
   }
 }
 
+#body-how{
+  .booking{
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+  }
+}
 
 .equipment{
+  .list-header{
+    margin-top: 0em;
+  }
   .machinetype{
     font-family: "fablab_500";
     text-transform: uppercase;
