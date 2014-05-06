@@ -21,6 +21,13 @@
   .booking{
       margin-top: 2em;
       margin-bottom: 1.5em;
+      //Overwrite bottom redline for links
+      a:link, a:visited{
+        border-bottom: 1px solid $btn-default-border!important;
+      }
+      a:hover{
+        border-bottom: 1px solid #adadad!important;
+      }
   }
 }
 
