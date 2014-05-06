@@ -23,10 +23,11 @@
       margin-bottom: 1.5em;
       //Overwrite bottom redline for links
       a:link, a:visited{
-        border-bottom: 1px solid $btn-default-border!important;
+        color: white;
+        border-bottom: 1px solid $btn-success-border!important;
       }
       a:hover{
-        border-bottom: 1px solid #adadad!important;
+        border-bottom: 1px solid darken($btn-success-border, 5%)!important;
       }
   }
 }
