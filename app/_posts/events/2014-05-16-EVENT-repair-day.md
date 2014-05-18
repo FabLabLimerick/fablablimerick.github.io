@@ -17,7 +17,7 @@ image:
     original:
 ---
 
-On Friday May 16, in collaboration with [3DCamp](http://3dcamp.barcamp.ie) and to commemorate [Freedom Culture Day](http://www.culturefreedomday.org) we are running an event to make public aware about how digital fabrication technologies and 3D printing in particular can be useful in daily life.
+On Friday, May 16, in collaboration with [3DCamp](http://3dcamp.barcamp.ie) and to commemorate [Freedom Culture Day](http://www.culturefreedomday.org) we are running an event to make public aware about how digital fabrication technologies and 3D printing in particular can be useful in daily life.
 
 We all have at home all sort of small objects or appliances that no longer work because of a small broken plastic part. In many occasions we find out that these small parts are poorly designed or even worse, they have been intentionally designed to break after a specific number of uses, this is known as ["planned obsolescence"](http://en.wikipedia.org/wiki/Planned_obsolescence). 
 
