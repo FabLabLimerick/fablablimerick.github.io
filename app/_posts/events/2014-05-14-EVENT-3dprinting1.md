@@ -8,6 +8,7 @@ hours: "Wednesday 14th May 19:00-21:00"
 description: "Introduction To 3D Printing Wednesday 14th May from 19:00 to 21:00"
 fee: "€6 per person"
 slug: 3dprinting1
+past: true
 image:
   url: /events/3dprinting1.jpg
   caption:

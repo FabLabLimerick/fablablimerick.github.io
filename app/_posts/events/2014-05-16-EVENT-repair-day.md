@@ -8,6 +8,7 @@ hours: "Friday 16th May 16:00-21:00"
 description: "Introduction To 3D Printing Wednesday 14th May from 19:00 to 21:00"
 fee: "Free Event"
 slug: repair-day
+past: true
 image:
   url: /events/repair-day.jpg
   caption:
