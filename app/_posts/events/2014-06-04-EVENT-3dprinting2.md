@@ -14,7 +14,7 @@ image:
   caption:
     display: true
     title: 
-    credits: "Michael McLauglin"
+    credits: "RepRapPro"
     original: 
 ---
 
