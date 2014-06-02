@@ -28,7 +28,7 @@ We encourage you to bring your own laptops on the night so that softwares can be
 
 *This workshop is co-hosted together with local 3D printer pioneer Ivor O'Shea, you can find more info about Ivor on [his blog](http://numbersixreprap.blogspot.com.es)* 
 
-*The course fee is €6 per person and places are limited.[You can book your place here](http://fablablimerick.ticketleap.com/admin/events/introduction-to-3d-printing2)*
+*The course fee is €6 per person and places are limited.[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-3d-printing2/)*
 
 Looking forward to some 3D printing!
 
