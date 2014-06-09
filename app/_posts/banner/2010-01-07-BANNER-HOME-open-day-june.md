@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Open Day
 layout:
 permalink: 
