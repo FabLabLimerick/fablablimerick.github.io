@@ -28,3 +28,13 @@
     font-weight: 5000;
     font-style: normal;
 }
+@font-face {
+    font-family: 'fablab_stencil';
+    src: url('../fonts/fablabstencil-stencil-webfont.eot');
+    src: url('../fonts/fablabstencil-stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fablabstencil-stencil-webfont.woff') format('woff'),
+         url('../fonts/fablabstencil-stencil-webfont.ttf') format('truetype'),
+         url('../fonts/fablabstencil-stencil-webfont.svg#fab_lab_stencilstencil') format('svg');
+    font-weight: 5000;
+    font-style: normal;
+}
