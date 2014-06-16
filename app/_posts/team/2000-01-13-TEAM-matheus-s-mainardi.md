@@ -5,6 +5,6 @@ country: Brazil
 category: team
 published: true
 position: Researcher
-image: matheus-mainardi.jpg
+image: matheus-s-mainardi.jpg
 project: current summer-research
 ---
