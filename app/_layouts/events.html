@@ -56,35 +56,26 @@
             </div>
         </div>
     </section>
-    <section id="body-events">
+    <section id="body-events" class="current">
         <div class="container">
-            <!--
+            <!-- EVENTS HEADER -->
             <div class="section-header">
                 <div class="row">
                     <div class="col-md-12">
                         <hgroup class="text-center">
-                            <h1>Who</h1>
-                            <h2 class="subheader"><span class="hidden-xs">Where Are A group Of Staff, Students and <br> graduates from The School Of Architecture at UL</span><span class="visible-xs">Where are The School <br>of Architecture at UL</span></h2>
+                            <h1>Next Events</h1>
+                            <h2 class="subheader"></h2>
                         </hgroup>
                     </div>
                 </div>
             </div>
-            <div class="section-description">
-                <div class="row">
-                    <div class="col-md-6" lang="en">
-                        <p>Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick.</p>
-                    </div>
-                    <div class="col-md-6" lang="en">
-                        <p>We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!</p>
-                    </div>
-                </div>
-            </div>
-            -->
             <!-- EVENTS LIST -->
             <div class="section-list">
                 {% for event in site.categories.events %}
+                {% if event.past %}
+                {% else %}
                     {% if forloop.first %}
-                    <!-- <hr class="event"> -->
+                    <hr class="event">
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
@@ -105,7 +96,8 @@
                                         <h4>{{event.hours}}</h4>
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
-                                        <p class="fee">{{event.fee}}</p>
+                                        <p class="fee hidden-xs">{{event.fee}}</p>
+                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
@@ -116,8 +108,66 @@
                             </div>
                         </div>
                     </article>
+                {% endif %}
                 {% endfor %}
-                <!--<hr class="event">-->
+                <hr class="event">
+            </div>
+        </div>
+    </section>
+    <section id="body-events" class="current">
+        <div class="container">
+            <!-- EVENTS HEADER -->
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hgroup class="text-center">
+                            <h1>Previous Events</h1>
+                            <h2 class="subheader"></h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+            <!-- EVENTS LIST -->
+            <div class="section-list">
+                {% for event in site.categories.events %}
+                {% if event.past %}
+                    {% if forloop.first %}
+                    <hr class="event">
+                    {% else %}
+                    <hr class="event gray">
+                    {% endif %}
+                    <article class="row event {% if event.past %}past{% endif %}">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="image" style="background-image: url(../img{{event.image.url}})"></div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="title" lang="en">
+                                        {% if event.soon %}
+                                        {% capture link %} <a class="eventlink versalite disabled">MORE INFO SOON</a>{% endcapture %}
+                                        {% else %}
+                                        {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
+                                        {% endif %}
+                                        <h3>{{event.title}}</h3>
+                                        <h4>{{event.hours}}</h4>
+                                        <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
+                                        <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
+                                        <p class="fee hidden-xs">{{event.fee}}</p>
+                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <div class="description" lang="en">
+                                        <p>{{event.excerpt }}  {{ link }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                {% else %}
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>

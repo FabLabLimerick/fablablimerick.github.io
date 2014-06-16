@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include socialmeta-page.html %}
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/css/fablabtheme.css">
+    <!-- endbuild -->
+
+    <!-- build:js(app) /js/head-scripts.js -->
+    <!-- Replace with a custom modernizer build for production -->
+    <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="header">
+        {% include header.html %}
+    </header>
+    <section class="header-hero">
+        {% for banner in site.categories.banner-space limit:1 %}
+        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ banner.image }})"></div>
+        {% endfor %}
+        </div>
+        <div class="header-hero-title">
+            <div class="container">
+                <div class="header-hero-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <hgroup class="text-center">
+                                <h1>Team</h1>
+                                <h2 class="subheader"><span class="hidden-xs">Who We Are And How You <br>Can Use The Fab Lab</span><span class="visible-xs">How You Can Use<br>the Fab Lab</span></h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            {% for banner in site.categories.banner-space limit:1 %}
+                            <p class="text-center imagecredits clearfix">
+                                {% if banner.caption.display != false %}
+                                <span class="hidden-xs">Background image: {{banner.title}} by {{banner.caption.credits}}</span><span class="visible-xs">Image by {{banner.caption.credits}}</span>
+                                {% else %}
+                                <span></span>
+                                {% endif %}
+                            </p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Current team -->
+    <section id="body-who">
+        <div class="container">
+            <div class="section-list">
+                <div class="row list-header">
+                    <div class="col-md-12">
+                        <hr class="none">
+                        <h3 class="text-center">The Team</h3>
+                        <hr class="bottom">
+                    </div>
+                </div>
+                <div class="row list-body">
+                    {% for member in site.categories.team reversed %}
+                    {% if member.project contains 'current' %}
+                    <div class="col-md-2 col-sm-3 col-xs-6 list-member">
+                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        <hgroup class="text-center membertext">
+                            <h4>{{ member.title }}</h4>
+                            <h5>{{ member.position }}</h5>
+                        </hgroup>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Current team -->
+    <section id="body-who">
+        <div class="container">
+            <div class="section-list">
+                <div class="row list-header">
+                    <div class="col-md-12">
+                        <hr class="none">
+                        <h3 class="text-center">Previous members</h3>
+                        <hr class="bottom">
+                    </div>
+                </div>
+                <div class="row list-body">
+                    {% for member in site.categories.team reversed %}
+                    {% if member.project contains 'past' %}
+                    <div class="col-md-2 col-sm-3 col-xs-6 list-member">
+                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        <hgroup class="text-center membertext">
+                            <h4>{{ member.title }}</h4>
+                            <h5>{{ member.position }}</h5>
+                        </hgroup>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        {% include footer.html %}
+    </section>
+    {% include scripts-home.html %}
+    <script>
+        new Share('.share-button', {
+            url: 'http://fablab.saul.ie{{ page.url}}',
+            image: 'http://fablab.saul.ie/img{{ page.image.url }}',
+            title: '{{ page.title }}',
+            text: '{{ page.description }}',
+            ui: {
+                button_icon: 'false',
+                button_text: 'Share it',
+                button_font: 'false',
+                button_background: 'none',
+                button_color: '#4A4A4A'
+            },
+            networks: {
+                facebook: {
+                    enabled: true,
+                    load_sdk: false
+                },
+                twitter: {
+                    enabled: true
+                }
+            }
+        });
+    </script>
+    {% include googleanalytics.html %}
+  </body>
+</html>

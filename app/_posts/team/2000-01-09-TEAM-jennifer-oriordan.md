@@ -4,4 +4,5 @@ category: team
 published: true
 position: Collaborator
 image: jennifer-oriordan.jpg
+project: current
 ---
