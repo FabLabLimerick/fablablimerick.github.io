@@ -97,6 +97,11 @@ article.event{
       font-family: "fablab_300";
       color: $gray-color;
     }
+    .fee-phone{
+      bottom: 0px;
+      font-family: "fablab_300";
+      color: $gray-color;
+    }
   }
   .description{
     p{
@@ -256,7 +261,7 @@ article.event{
     height: rhythm(20);
     .description, .title{
       @include rhythm(1, 0, 0, 1, $base-font-size);
-      height: rhythm(8);
+      height: rhythm(9);
     }
     .image{
       height: rhythm(10);
