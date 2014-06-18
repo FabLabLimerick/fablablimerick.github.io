@@ -8,7 +8,7 @@ hours: "Saturday 14th June 10:00-15:00"
 description: "Open Day Saturday 14th June from 10:00 to 15:00"
 fee: "Free Event"
 slug: open-day-june
-past: false
+past: true
 image:
   url: /events/open-day-june.jpg
   caption:

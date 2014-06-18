@@ -5,6 +5,7 @@ category: events
 permalink: /events/makers-gallery/
 excerpt: "We offer our shopfront as a temporary gallery space so makers creating artwork with digital fabrication technologies can exhibit and sell their creations to the public."
 hours: "Open Call"
+past: false
 description: "We offer our shopfront as a temporary gallery space"
 fee: "Free Event"
 slug: makers-gallery
