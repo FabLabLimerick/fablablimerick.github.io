@@ -131,6 +131,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			}
 		}
 	}
+	.section-title{
+		@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+	}
 	.section-link{
 		@include rhythm(0, 0, 0, 1, $base-font-size);
 		hr{

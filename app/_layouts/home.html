@@ -42,9 +42,52 @@
                     </div>
                 </div>
             </div>
+            <!-- EVENTS TITLE -->
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                         WORKSHOPS ON A MONTHLY BASIS
+                    </div>
+                </div>
+            </div>
+            <!-- EVENTS TITLE -->
+            <!-- EVENTS STRIP -->
+            <div class="section-strip">
+                <div class="row">
+                    {% for event in site.posts reversed %}
+                    {% if event.category contains 'recurring' %}
+                    <article class="col-md-3 col-sm-3 col-xs-6 text-center event-strip lasercutting">
+                        <a href="{{event.permalink}}">
+                        <div class="content" style="background-image: url(../img{{event.image.thumbnail}})">
+                            <div class="title">
+                                <hgroup>
+                                    <h3>{{ event.title }}</h3>
+                                    <h4>{{ event.description }}</h4>
+                                </hgroup>
+                            </div>
+                        </div>
+                        </a>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- EVENTS STRIP -->
+            <!-- EVENTS TITLE -->
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        FORTHCOMING EVENTS
+                    </div>
+                </div>
+            </div>
+            <!-- EVENTS TITLE -->
             <!-- EVENTS LIST -->
             <div class="section-list">
-                {% for event in site.categories.events reversed %}
+                {% for event in site.posts reversed %}
+                {% if event.category contains 'recurring' %}
+                {% else %}
+                {% if event.category contains 'events' %}
                 {% if event.past %}
                 {% else %}
                     {% if forloop.first %}
@@ -70,7 +113,6 @@
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
-                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
@@ -81,6 +123,8 @@
                             </div>
                         </div>
                     </article>
+                {% endif %}
+                {% endif %}
                 {% endif %}
                 {% endfor %}
                 <hr class="event">

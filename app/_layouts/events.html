@@ -93,11 +93,10 @@
                                         {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
-                                        <h4>{{event.hours}}</h4>
+                                        <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
-                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
@@ -150,11 +149,10 @@
                                         {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
-                                        <h4>{{event.hours}}</h4>
+                                        <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
-                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
