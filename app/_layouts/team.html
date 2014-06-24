@@ -73,7 +73,9 @@
                     {% for member in site.categories.team reversed %}
                     {% if member.project contains 'current' %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
-                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        <div class="imagenmarco">
+                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
                             <h5>{{ member.position }}</h5>
@@ -100,7 +102,9 @@
                     {% for member in site.categories.team reversed %}
                     {% if member.project contains 'past' %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
-                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        <div class="imagenmarco">
+                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
                             <h5>{{ member.position }}</h5>
