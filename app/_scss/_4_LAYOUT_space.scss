@@ -17,6 +17,25 @@
   }
 }
 
+
+.imagenmarco{
+  position: relative;
+}
+.imagenmarco:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
+}
+.imagen{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position:center center;
+  @include background-size (cover);
+}
+
 #body-how{
   .booking{
       margin-top: 2em;
@@ -50,25 +69,25 @@
 
 @media (max-width: $screen-xs-max) {
   .imagen{
-    height: 110px;
-    width: 110px;
+    //height: 110px;
+    //width: 110px;
   }
 }
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .imagen{
-    height: 100px;
-    width: 100px;
+    //height: 135px;
+    //width: 135px;
   }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   .imagen{
-    height: 120px;
-    width: 120px;
+    //height: 120px;
+    //width: 120px;
   }
 }
 @media (min-width: $screen-lg-min) {
   .imagen{
-    height: 140px;
-    width: 140px;
+    //height: 140px;
+    //width: 140px;
   }
 }

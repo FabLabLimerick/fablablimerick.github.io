@@ -91,7 +91,9 @@
                 <div class="row list-body">
                     {% for member in site.categories.team reversed %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
-                        <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        <div class="imagenmarco">
+                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                        </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
                             <h5>{{ member.position }}</h5>
