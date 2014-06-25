@@ -1,6 +1,6 @@
 @import "_2_THEME_variables&mixins";
 
-#body-who{
+.body-who{
   .imagen{
       @include box-sizing (border-box);
       display: block;
