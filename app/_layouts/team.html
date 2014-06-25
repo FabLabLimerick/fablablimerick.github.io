@@ -58,27 +58,32 @@
             </div>
         </div>
     </section>
-    <!-- Current team -->
+
+    {% for teamcategory in site.categories.team-category reversed %}
     <section class="body-who">
         <div class="container">
             <div class="section-list">
                 <div class="row list-header">
                     <div class="col-md-12">
                         <hr class="none">
-                        <h3 class="text-center">The Team</h3>
+                        <h3 class="text-center">{{ teamcategory.title }}</h3>
                         <hr class="bottom">
                     </div>
                 </div>
                 <div class="row list-body">
                     {% for member in site.categories.team reversed %}
-                    {% if member.project contains 'current' %}
+                    {% if member.project contains teamcategory.project %}
+                    {% if teamcategory.project == 'current' %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
+                    {% else %}
+                    <div class="col-md-2 col-sm-3 col-xs-6 list-member">
+                    {% endif %}
                         <div class="imagenmarco">
                             <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
                         </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
-                            <h5>{{ member.position }}</h5>
+                            <h5>{% if teamcategory.project == 'current' %}{{ member.position }} {% endif %}</h5>
                         </hgroup>
                     </div>
                     {% endif %}
@@ -87,35 +92,7 @@
             </div>
         </div>
     </section>
-    <!-- Current team -->
-    <section class="body-who">
-        <div class="container">
-            <div class="section-list">
-                <div class="row list-header">
-                    <div class="col-md-12">
-                        <hr class="none">
-                        <h3 class="text-center">Previous members</h3>
-                        <hr class="bottom">
-                    </div>
-                </div>
-                <div class="row list-body">
-                    {% for member in site.categories.team reversed %}
-                    {% if member.project contains 'past' %}
-                    <div class="col-md-2 col-sm-3 col-xs-6 list-member">
-                        <div class="imagenmarco">
-                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
-                        </div>
-                        <hgroup class="text-center membertext">
-                            <h4>{{ member.title }}</h4>
-                            <h5>{{ member.position }}</h5>
-                        </hgroup>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </section>
+    {% endfor %}
     <section class="footer">
         {% include footer.html %}
     </section>

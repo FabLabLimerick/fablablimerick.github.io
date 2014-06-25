@@ -4,5 +4,5 @@ category: team
 position: Coordinator
 image: michael-mclaughlin.jpg
 fullname: Michael McLaughlin
-project: current
+project: current cnc-assembly
 ---
