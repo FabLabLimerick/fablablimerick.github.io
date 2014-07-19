@@ -8,7 +8,7 @@ hours: "July 14th to 18th 11:30-15:30"
 description: "Fab Lab Limerick Summer Camp July 14th to 18th 11:30-15:30"
 fee: "€100 per kid"
 slug: kidsummercamp
-past: false
+past: true
 image:
   url: /events/kidsummercamp.jpg
   caption:
