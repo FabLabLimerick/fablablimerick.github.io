@@ -22,4 +22,4 @@ In Collaboration with [Elemental Festival](http://www.elementalfestival.com), Fa
 
 Each child can bring home their own Doodle Bot and the workshop will last about 30 to 40 minutes. Parents or Guardians need to be present with the kids throughout the workshop.
 
-[Sign up for Doodle Bot Workshop here](http://fablablimerick.ticketleap.com/doodle-bot-workshop/)
+*The workshop fee is €6 per kid.[You can book your place here](http://fablablimerick.ticketleap.com/doodle-bot-workshop/)*
