@@ -21,3 +21,5 @@ image:
 In Collaboration with [Elemental Festival](http://www.elementalfestival.com), Fab Lab Limerick would like to invite kids of 6 years and up to build their very own elemental themed doodle bot. The doodle bot is a small robot that does random doodles/drawings. The kids will build it under the guidance of the Fab Lab team. They will be involved in Arts and crafts and some basic electronics.
 
 Each child can bring home their own Doodle Bot and the workshop will last about 30 to 40 minutes. Parents or Guardians need to be present with the kids throughout the workshop.
+
+[Sign up for Doodle Bot Workshop here](http://fablablimerick.ticketleap.com/doodle-bot-workshop/)
