@@ -10,12 +10,20 @@ fee: "€100 per kid"
 slug: kidsummercamp
 past: true
 image:
-  url: /events/kidsummercamp.jpg
+  url: /events/kidsummercamp-01.jpg
   caption:
-    display: true
+    display: false
     title: 
-    credits: "Michael Mc Laughlin  CC BY-NC-SA 2.0"
-    original: 
+    credits: "Evelyn O'Connor"
+    original:
+ 
+slideshow:
+    - url: /events/kidsummercamp-01.jpg
+      credits: "Evelyn O'Connor"
+    - url: /events/kidsummercamp-02.jpg
+      credits: "Evelyn O'Connor"
+    - url: /events/kidsummercamp-03.jpg
+      credits: "Evelyn O'Connor"
 ---
 
 ### Day 1 
