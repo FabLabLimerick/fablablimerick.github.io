@@ -23,16 +23,22 @@ slideshow:
     credits: "Javier Burón CC-BY-SA"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget magna eget tortor ultrices convallis. Morbi vitae nisl tristique, ultrices eros suscipit, ullamcorper dolor. Suspendisse euismod quis ipsum nec scelerisque. Aenean fermentum nisi nibh, non elementum dui tincidunt vel. Vivamus id placerat magna. Ut in molestie sem. In hac habitasse platea dictumst. Donec dictum, erat ultrices cursus molestie, elit augue maximus libero, vitae mattis metus turpis vitae augue. Maecenas sollicitudin cursus dolor. Pellentesque consequat urna nec augue interdum efficitur. Praesent elementum eu velit eu efficitur.
+This research explores the possibility of self-build collective and temporary spaces in the public space. This type of systems can expand the type of activities citizens perform in the public space and, for example, test the success of public facilities in an experimental way before using more permanents building systems. 
 
-Curabitur vestibulum facilisis dui et posuere. Cras pellentesque, sem nec dictum efficitur, mi libero ullamcorper felis, vel pretium purus erat a erat. Aliquam lobortis tincidunt elit. Sed pharetra leo ac neque tempus fringilla. Vestibulum suscipit consequat blandit. Vestibulum nec sapien ultrices, luctus ligula et, efficitur dui. Vestibulum id ante vitae turpis tincidunt fringilla. Sed condimentum ac ex id convallis. Nunc tristique eu nisl at dignissim. Vivamus arcu ante, ultrices a dignissim eu, pellentesque ac odio. Praesent lobortis vestibulum libero at tempus. Curabitur eget interdum velit.
+The geodesic dome was developed by Buckminster Fuller in the first half of the 20th century and was highly popular in the United Stated during the sixties and seventies. The design offers a great resistance to wind and can cover big spaces by using small size elements, this feature makes it very suitable for using green materials and distributed and personal digital fabrication techniques
+
+In the summer of 2013 [colaborativa.eu developed a first dome prototype](http://colaborativa.eu/en/projects/geodesica-scarpia/) using bamboo and 3d printed connectors. In august 2014 Fab Lab Limerick partnered with Colaborativa.eu to develop a second iteration of the design, following the same principles of low-cost, digitally fabricated but using cardboard tubes and CNC cut connectors instead.  
+
+[Global Green](https://www.facebook.com/GlobalGreenAtEP) and [WeCreate](http://wecreate.ie) provided the opportunity to test the prototype in a real case scenario when they invited us to assembly the dome at [ Electric Picnic 2014](http://www.electricpicnic.ie).
 
 <img src="/img/research/geodesicpicnic-4.jpg" />
 
-Curabitur vestibulum facilisis dui et posuere. Cras pellentesque, sem nec dictum efficitur, mi libero ullamcorper felis, vel pretium purus erat a erat. Aliquam lobortis tincidunt elit. Sed pharetra leo ac neque tempus fringilla. Vestibulum suscipit consequat blandit. Vestibulum nec sapien ultrices, luctus ligula et, efficitur dui. Vestibulum id ante vitae turpis tincidunt fringilla. Sed condimentum ac ex id convallis. Nunc tristique eu nisl at dignissim. Vivamus arcu ante, ultrices a dignissim eu, pellentesque ac odio. Praesent lobortis vestibulum libero at tempus. Curabitur eget interdum velit.
+The geodesic dome is based on the 3V 5/9 Kruschke geometry. The frame is formed by 165 waterproofed cardboard tube struts of 4 different lengths and 61 digitally fabricated birch plywood connectors. The dome has a spherical diameter of 10 meters and it is 6 meters high. It has a floor area of 77 sqm and a perimeter of 32 meters.
 
 <div class="video">
   <iframe src="//player.vimeo.com/video/105420872?title=0&amp;portrait=0"> </iframe>
 </div>
 
-This four week research project was carried out by **Javier Burón, Stephen Bourke, Jack Byrne, Aoife Marnane and Jennifer O'Riordan**. Dome assembly at the Electric Picnic was made by **Michael McLaughlin, Aidan Byrne, Stephen Bourke, Jack Byrne, Aoife Marnane, Jennifer O'Riordan & Javier Burón**. The research was a collaboration between [Fab Lab Limerick](http://fablab.saul.ie) and [Colaborativa.eu](http://colaborativa.eu). We are grateful to [Global Green](https://www.facebook.com/GlobalGreenAtEP) and [WeCreate](http://wecreate.ie) for inviting to their area at the Electric Picnic.
+This four week research project was carried out by **Javier Burón, Stephen Bourke, Jack Byrne, Aoife Marnane and Jennifer O'Riordan**. Dome prototype was assembled at the Electric Picnic by **Michael McLaughlin, Aidan Byrne, Stephen Bourke, Jack Byrne, Aoife Marnane, Jennifer O'Riordan & Javier Burón**. The research was a collaboration between [Fab Lab Limerick](http://fablab.saul.ie) and [Colaborativa.eu](http://colaborativa.eu). We are grateful to [Global Green](https://www.facebook.com/GlobalGreenAtEP) and [WeCreate](http://wecreate.ie) for inviting to their area at the Electric Picnic.
+
+This design will be open sourced soon.

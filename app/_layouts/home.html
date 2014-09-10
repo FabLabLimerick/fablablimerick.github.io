@@ -56,7 +56,7 @@
                     {% for event in site.posts reversed %}
                     {% if event.category contains 'recurring' %}
                     <article class="col-md-3 col-sm-3 col-xs-6 text-center event-strip lasercutting">
-                        <a href="{{event.permalink}}">
+                        <a {% if event.active %}href="{{event.permalink}}"{% else %}{% endif %}>
                         <div class="content" style="background-image: url(../img{{event.image.thumbnail}})">
                             <div class="title">
                                 <hgroup>

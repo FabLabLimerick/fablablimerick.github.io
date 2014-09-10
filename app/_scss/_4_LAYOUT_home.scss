@@ -108,10 +108,17 @@
     display: block;
     padding-top: 100%;  /* initial ratio of 1:1*/
   }
-  .content{
+  a .content{
+    &:hover{
+      opacity: 1;
+    }
+  }
+  a:link .content{
     &:hover{
       opacity: 0.75;
     }
+  }
+  .content{
     position:  absolute;
     top: 0;
     left: 0;
