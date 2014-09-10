@@ -1,20 +1,20 @@
 ---
-title: Adobe Illustrator for Digital Fabrication
+title: Adobe Illustrator for digital fabrication course
 layout: single-event
 category: events
-permalink: /events/opennight/
-excerpt: "Fab Lab Limerick celebrates its first Open Night with tutorials and activities on 3D printing, 3D scanning and laser cutting. "
+permalink: /events/illustrator/
+excerpt: "Four week course on Adobe Illustrator for Digital Fabrication"
 hours: "September 19th 17:00-22:00"
-description: "Tutorials and activities on 3D printing, 3D scanning and laser cutting. September 19th 17:00-22:00"
-fee: "Free Event"
+description: "Four week course on Adobe Illustrator for Digital Fabrication. September 19th 17:00-22:00"
+fee: "€40/80 students/adults"
 slug: opennight
 past: false
 image:
-  url: /events/opennight.jpg
+  url: /events/illustrator.jpg
   caption:
     display: false
     title: 
-    credits: "Don Moloney"
+    credits: "Fab Lab Limerick"
     original: 
 ---
 

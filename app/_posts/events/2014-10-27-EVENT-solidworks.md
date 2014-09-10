@@ -2,6 +2,7 @@
 title: Solidworks for Digital Fabrication
 layout: single-event
 category: events
+published: false
 permalink: /events/opennight/
 excerpt: "Fab Lab Limerick celebrates its first Open Night with tutorials and activities on 3D printing, 3D scanning and laser cutting. "
 hours: "September 19th 17:00-22:00"
