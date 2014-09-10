@@ -26,7 +26,13 @@
         {% include header.html %}
     </header>
     <section class="header-single">
-        <div class="header-single-image" style="background-image: url(/img{{ page.image.url }})"></div>
+        {% if page.slideshow %}
+            <section id="headerslideshow">
+                {% include carousel-single.html %}
+            </section>
+        {% else %}
+            <div class="header-single-image" style="background-image: url(/img{{ page.image.url }})"></div>
+        {% endif %}
         <div class="header-single-title">
             <div class="container">
                 <div class="header-single-container col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
@@ -40,7 +46,11 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <p class="text-center imagecredits"><span>Image by {{ page.image.credits }}</span></p>
+                            <p class="text-center imagecredits">                                
+                                {% if page.image.caption.display != false %}
+                                <span>Image by {{ page.image.caption.credits }}</span>
+                                {% else %}
+                                {% endif %}
                         </div>
                     </div>
                 </div>

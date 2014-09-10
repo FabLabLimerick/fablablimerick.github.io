@@ -56,15 +56,51 @@
             </div>
         </div>
     </section>
-    <section id="body-events" class="current">
+    <section>
         <div class="container">
             <!-- EVENTS HEADER -->
             <div class="section-header">
                 <div class="row">
                     <div class="col-md-12">
                         <hgroup class="text-center">
-                            <h1>Next Events</h1>
-                            <h2 class="subheader"></h2>
+                            <h1></h1>
+                            <h2 class="subheader">MONTHLY 101 TUTORIALS</h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+            <div class="section-strip">
+                <div class="row">
+                    {% for event in site.posts reversed %}
+                    {% if event.category contains 'recurring' %}
+                    <article class="col-md-3 col-sm-3 col-xs-6 text-center event-strip lasercutting">
+                        <a href="{{event.permalink}}">
+                        <div class="content" style="background-image: url(../img{{event.image.thumbnail}})">
+                            <div class="title">
+                                <hgroup>
+                                    <h3>{{ event.title }}</h3>
+                                    <h4>{{ event.description }}</h4>
+                                </hgroup>
+                            </div>
+                        </div>
+                        </a>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- EVENTS STRIP -->
+    </section>
+    <section class="body-events current">
+        <div class="container">
+            <!-- EVENTS HEADER -->
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hgroup class="text-center">
+                            <h1></h1>
+                            <h2 class="subheader">Next Events</h2>
                         </hgroup>
                     </div>
                 </div>
@@ -93,11 +129,10 @@
                                         {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
-                                        <h4>{{event.hours}}</h4>
+                                        <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
-                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
@@ -114,15 +149,15 @@
             </div>
         </div>
     </section>
-    <section id="body-events" class="current">
+    <section class="body-events previous">
         <div class="container">
             <!-- EVENTS HEADER -->
             <div class="section-header">
                 <div class="row">
                     <div class="col-md-12">
                         <hgroup class="text-center">
-                            <h1>Previous Events</h1>
-                            <h2 class="subheader"></h2>
+                            <h1></h1>
+                            <h2 class="subheader">Previous Events</h2>
                         </hgroup>
                     </div>
                 </div>
@@ -150,11 +185,10 @@
                                         {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
-                                        <h4>{{event.hours}}</h4>
+                                        <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
                                         <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
                                         <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
-                                        <p class="fee-phone visible-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">

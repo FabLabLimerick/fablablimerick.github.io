@@ -8,7 +8,7 @@ hours: "Wednesday 18th June 19:00-21:00"
 description: "Learn how to 3D Print Wednesday 18th June from 19:00 to 21:00"
 fee: "€6 per person"
 slug: 3dprinting3
-past: false
+past: true
 image:
   url: /events/3dprinting3.jpg
   caption:

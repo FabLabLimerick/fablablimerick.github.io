@@ -4,6 +4,5 @@ category: team
 published: true
 position: Collaborator
 image: colin-dorgan.jpg
-project:
-  - past
+project: past cnc-assembly
 ---

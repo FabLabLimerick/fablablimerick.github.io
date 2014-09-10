@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include socialmeta-page.html %}
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/css/fablabtheme.css">
+    <!-- endbuild -->
+
+    <!-- build:js(app) /js/head-scripts.js -->
+    <!-- Replace with a custom modernizer build for production -->
+    <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="header">
+        {% include header.html %}
+    </header>
+    <section class="header-hero">
+        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ page.image.url }})"></div>
+        </div>
+        <div class="header-hero-title">
+            <div class="container">
+                <div class="header-hero-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <hgroup class="text-center">
+                                <h1>Research</h1>
+                                <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            {% for banner in site.categories.banner-space limit:1 %}
+                            <p class="text-center imagecredits clearfix">
+                                {% if banner.caption.display != false %}
+                                <span class="hidden-xs">Background image: {{banner.title}} by {{banner.caption.credits}}</span><span class="visible-xs">Image by {{banner.caption.credits}}</span>
+                                {% else %}
+                                <span></span>
+                                {% endif %}
+                            </p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="research">
+        <div class="container">
+            <div class="section-list">
+                <div class="row">
+                    {% for research in site.categories.research limit:20 %}
+                    {% if forloop.last %}
+                    {% assign hiddensmall = "hidden-sm hidden-xs" %}
+                    {% endif %}
+                    <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
+                        <a href="{{research.permalink}}">
+                            <div class="gradient">
+                                <div class="caption">
+                                    <h3>{{research.title}}</h3>
+                                    <h4>{{research.description}}</h4>
+                                </div>
+                            </div>
+                            <div class="marco" style="background-image: url(../img{{research.image.url}})" >
+                            </div>
+                        </a>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe">
+        {% include _subscribe.html %}
+    </section>
+    <section class="footer">
+        {% include footer.html %}
+    </section>
+    {% include scripts-home.html %}
+    <script>
+        new Share('.share-button', {
+            url: 'http://fablab.saul.ie{',
+            image: 'http://fablab.saul.ie/thumbnail.jpg',
+            title: 'Fab Lab Limerick',
+            text: 'A space for makers in Limerick city',
+            ui: {
+                button_icon: 'false',
+                button_text: 'Share it',
+                button_font: 'false',
+                button_background: 'none',
+                button_color: '#4A4A4A'
+            },
+            networks: {
+                facebook: {
+                    enabled: true,
+                    load_sdk: false
+                },
+                twitter: {
+                    enabled: true
+                }
+            }
+        });
+    </script>
+    {% include googleanalytics.html %}
+  </body>
+</html>

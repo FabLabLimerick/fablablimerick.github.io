@@ -1,6 +1,7 @@
 ---
 title: Makers Gallery
 layout: single-event
+published: false
 category: events
 permalink: /events/makers-gallery/
 excerpt: "We offer our shopfront as a temporary gallery space so makers creating artwork with digital fabrication technologies can exhibit and sell their creations to the public."

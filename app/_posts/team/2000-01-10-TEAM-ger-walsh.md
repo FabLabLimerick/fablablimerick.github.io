@@ -4,5 +4,5 @@ category: team
 published: true
 position: Collaborator
 image: ger-walsh.jpg
-project: current
+project: current limerick-city-model
 ---

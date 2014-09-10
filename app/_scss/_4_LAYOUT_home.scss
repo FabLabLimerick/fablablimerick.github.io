@@ -23,6 +23,7 @@
       h2{
         font-family: "fablab_500";
         text-transform: uppercase;
+        @include text-shadow(rgba(0,0,0,0.6) 0px 0px 50px);
         color: white;
         width:100%;
         display: table-cell;
@@ -69,6 +70,80 @@
 //
 // EVENTS
 //
+.section-strip{
+  .row{
+    margin-left: 0px;
+    margin-right:0px;
+    .col-md-3{
+      &:first-child{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 2px;
+      }
+      &:nth-child(2){
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 1px;
+      }
+      &:nth-child(3){
+        margin-left: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      &:last-child{
+        margin-left: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+      }
+    }
+  }
+  /* make elements on teh strip squares based on this http://www.mademyday.de/css-height-equals-width-with-pure-css.html*/
+  .event-strip{
+    background-color: black;
+    position: relative;
+  }
+  .event-strip:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* initial ratio of 1:1*/
+  }
+  a .content{
+    &:hover{
+      opacity: 1;
+    }
+  }
+  a:link .content{
+    &:hover{
+      opacity: 0.75;
+    }
+  }
+  .content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position:center center;
+    @include background-size (cover);
+    .title{
+      width:100%;
+      height: 50%;
+      position: absolute;
+      bottom: 0px;
+      hgroup{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        h3{
+          font-family: "fablab_500";
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
 article.event{
   &.past{
     opacity: 0.6;
@@ -166,35 +241,133 @@ article.event{
       margin-left: 0px;
       margin-right:0px;
       .col-md-4{
-        &:first-child{
-          padding-left: 0px;
-          padding-right: 0px;
-          margin-right: 2px;
-          .marco{
-            margin-left: 0px;
+        @media (min-width: $screen-md-min) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
             margin-right: 2px;
+            .marco{
+              margin-left: 0px;
+              margin-right: 2px;
+            }
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 2px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 2px;
+            .marco{
+              margin-left: 0px;
+              margin-right: 2px;
+            }
+          }   
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 2px;
           }
         }
-        &:nth-child(2){
-          padding-left: 0px;
-          padding-right: 0px;
+        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+            margin-left: 0px;
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+            margin-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+            margin-left: 0px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+            margin-right: 0px;
+          }
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+          }
         }
-        &:nth-child(3){
-          padding-left: 0px;
-          padding-right: 0px;
-          margin-left: 2px;
-        }
-      }
-      .col-md-4.col-sd-6{
-        &:first-child{
-          padding-left: 0px;
-          padding-right: 0px;
-          margin-right: 1px;
-        }
-        &:nth-child(2){
-          padding-left: 0px;
-          padding-right: 0px;
-          margin-left: 1px;
+        @media (max-width: $screen-xs-max) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 10px;
+            margin-right: 0px;
+          }
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+          }
         }
       }
     }
@@ -267,6 +440,7 @@ article.event{
       height: rhythm(10);
     }
   }
+
   .research {
     height: 300px;
     width: 100% !important;
@@ -277,6 +451,48 @@ article.event{
     .marco{
       height: 300px;
       width: 100% !important;
+    }
+  }
+  .event-strip{
+    width: 49% !important;
+  }
+  .section-strip{
+    .row{
+      margin-left: 0px;
+      margin-right:0px;
+      .col-md-3{
+        &:first-child{
+          margin-left: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 1px;
+          margin-bottom: 1px;
+        }
+        &:nth-child(2){
+          margin-left: 1px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 0px;
+          margin-bottom: 1px;
+        }
+        &:nth-child(3){
+          margin-left: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 1px;
+          margin-top: 1px;
+        }
+        &:last-child{
+          margin-left: 1px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 0px;
+          margin-top: 1px;  
+        }
+      }
+    }
+    .event-strip{
+      background-color: black;
     }
   }
 }
@@ -291,6 +507,9 @@ article.event{
     .image{
       height: rhythm(10);
     }
+  }
+  .event-strip{
+    width: 178px !important;
   }
   .research {
     height: 359px;
@@ -313,6 +532,9 @@ article.event{
       height: rhythm(7);
     }
   }
+  .event-strip{
+    width: 233px !important;
+  }
   .research {
     height: 312px;
     width: 312px !important;
@@ -334,6 +556,9 @@ article.event{
     .image{
       height: rhythm(7);
     }
+  }
+  .event-strip{
+    width: 283px !important;
   }
   .research {
     height: 378px;
