@@ -5,7 +5,7 @@ category: events recurring
 active: true
 permalink: /events/tutorial-3dprinting/
 excerpt: "This is an introductory course so no previous experienced is required. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics."
-hours: "Second Wednesday of each month 19:00-21:00"
+hours: "Third Wednesday of each month 19:00-21:00"
 description: "Wed 3rd Week"
 fee: "€6/12 per person"
 slug: tutorial-3dprinting
