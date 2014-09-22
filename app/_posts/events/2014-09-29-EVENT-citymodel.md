@@ -14,7 +14,7 @@ image:
   caption:
     display: true
     title: 
-    credits: "Evelyn O'Connor"
+    credits: "Ger Walsh"
     original: 
 ---
 
