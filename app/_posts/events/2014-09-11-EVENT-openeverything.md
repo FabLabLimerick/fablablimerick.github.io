@@ -8,7 +8,7 @@ hours: "September 11th 14:00-17:00"
 description: "An exploration of commons based peer production and design. September 11th 14:00-17:00"
 fee: "€5 Suggested donation"
 slug: openeverything
-past: false
+past: true
 image:
   url: /events/openeverything.jpg
   caption:
