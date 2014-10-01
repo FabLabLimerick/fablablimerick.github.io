@@ -8,7 +8,7 @@ hours: "September 25th 20:00"
 description: "Fab Lab Limerick would like to invite everybody to the official unveiling of Limerick City Model. September 25th 20:00"
 fee: "Free Event"
 slug: citymodel
-past: false
+past: true
 image:
   url: /events/citymodel.jpg
   caption:
