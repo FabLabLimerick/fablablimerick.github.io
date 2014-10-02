@@ -13,9 +13,9 @@ past: false
 image:
   url: /events/makers-launch.jpg
   caption:
-    display: false
+    display: true
     title: 
-    credits: ""
+    credits: "Jennifer O'Riordan & Aoife Marmane"
     original: 
 ---
 
