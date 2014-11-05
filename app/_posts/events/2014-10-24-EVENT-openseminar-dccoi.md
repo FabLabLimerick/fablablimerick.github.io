@@ -9,7 +9,7 @@ hours: "24 Oct 14:00-17:00"
 description: "This introductory seminar on digital fabrication for the craft and design sectors. 24 Oct 14:00-17:00"
 fee: "€10"
 slug: openseminar-dccoi
-past: false
+past: true
 image:
   url: /events/openseminar-dccoi.jpg
   caption:

@@ -9,7 +9,7 @@ hours: "October 31st"
 description: "This Halloween we invite kids aged 6 and up to make their own masks using LED lights. October 31st"
 fee: "€15 per child"
 slug: halloween-mask
-past: false
+past: true
 image:
   url: /events/halloween-mask.jpg
   caption:

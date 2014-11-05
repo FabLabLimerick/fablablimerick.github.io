@@ -9,7 +9,7 @@ hours: "October 30th 19:00"
 description: "Coming soon - Makers is a new platform in Limerick city that aims to celebrate design and facilitates conversation between disciplines."
 fee: "Free Event"
 slug: makers-launch
-past: false
+past: true
 image:
   url: /events/makers-launch.jpg
   caption:

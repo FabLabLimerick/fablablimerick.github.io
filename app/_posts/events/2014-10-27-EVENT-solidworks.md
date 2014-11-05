@@ -9,7 +9,7 @@ hours: "27 Oct to 17 Nov 19:00-22:00"
 description: "Four week course on Solidworks for Digital Fabrication. 27 Oct to 17 Nov 19:00-22:00"
 fee: "€40/€80 12 Students/Adults"
 slug: solidworks
-past: false
+past: true
 image:
   url: /events/solidworks.jpg
   caption:

@@ -8,7 +8,7 @@ hours: "29 Sep to 20 Oct 19:00-22:00"
 description: "Four week course on Adobe Illustrator for Digital Fabrication. 29 Sep to 20 Oct 19:00-22:00"
 fee: "€40/€80 12 Students/Adults"
 slug: opennight
-past: false
+past: true
 image:
   url: /events/illustrator.jpg
   caption:
