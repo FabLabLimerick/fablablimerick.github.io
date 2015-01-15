@@ -9,7 +9,7 @@ hours: "November 29th & 30th 11.30-17.30"
 description: "Two day workshop to design and cut your very own chair. 29 and 30 Nov 11.30-17.30"
 fee: "€150 per person"
 slug: cnccutyourownchair
-past: false
+past: true
 image:
   url: /events/cnccutyourownchair.jpg
   caption:

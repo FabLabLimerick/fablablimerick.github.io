@@ -9,7 +9,7 @@ hours: "November 24th 17:00-22:00"
 description: "Four week course on Google Sketchup for Digital Fabrication. 24 Nov to 15 Dec 19:00-22:00"
 fee: "€40/€80 12 Students/Adults"
 slug: sketchup
-past: false
+past: true
 image:
   url: /events/sketchup.jpg
   caption:

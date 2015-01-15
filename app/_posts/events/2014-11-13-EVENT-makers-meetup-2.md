@@ -6,7 +6,7 @@ permalink: /events/makers-meetup2/
 excerpt: "Local makers from arts, crafts, design and technology present their most recent projects"
 fee: "Free Event"
 soon: false
-past: false
+past: true
 hours: "Thursday 13th November 19:30-21:00"
 slug: makers-meetup
 image:
