@@ -20,7 +20,7 @@ image:
     original: 
 ---
 
-The 2015 Architectural Thesis symposium will be held on 22nd January in the Limerick City Fab Lab. Now in its fourth year this day long event seeks to discuss the role and value of the thesis to architectural culture generally and will include presentations from graduates of seven schools of architecture as well as contributions from practitioners and educators. 
+The 2015 Architectural Thesis symposium will be held on 22nd January in Fab Lab Limerick. Now in its fourth year this day long event seeks to discuss the role and value of the thesis to architectural culture generally and will include presentations from graduates of seven schools of architecture as well as contributions from practitioners and educators. 
 
 Last year over 250 students attended and the event proved invaluable for many in the building of contacts between the schools and sharing of advice and ideas about the challenges and fruits of this body of work. All are welcome, the event will be of particular value to students in their final or penultimate year of formal study.
 
