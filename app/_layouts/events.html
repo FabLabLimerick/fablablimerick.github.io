@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html class="no-js">
   <head>
     <meta charset="utf-8">
@@ -107,15 +107,18 @@
             </div>
             <!-- EVENTS LIST -->
             <div class="section-list">
+                {% assign counter=0 %}
                 {% for event in site.categories.events %}
-                {% if event.past %}
-                {% else %}
-                    {% if forloop.first %}
+                {% if event.category contains 'events' %}
+                {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
+                {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
+                {% if posttime > nowunix %}
+                    {% if counter == 0 %}
                     <hr class="event">
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
-                    <article class="row event {% if event.past %}past{% endif %}">
+                    <article class="row event">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -143,8 +146,27 @@
                             </div>
                         </div>
                     </article>
+                {% assign counter=counter | plus:1 %} 
+                {% endif %}
                 {% endif %}
                 {% endfor %}
+                {% if counter == 0 %}
+                    <hr class="event">
+                    <article class="row event">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="title" lang="en">
+                                        <h3>MORE EVENTS COMING SOON </h3>
+                                        <h4><span class="visible-xs"></span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                {% endif %}
                 <hr class="event">
             </div>
         </div>
@@ -164,14 +186,17 @@
             </div>
             <!-- EVENTS LIST -->
             <div class="section-list">
+                {% assign counter=0 %}
                 {% for event in site.categories.events %}
-                {% if event.past %}
-                    {% if forloop.first %}
+                {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
+                {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
+                {% if posttime < nowunix %}
+                    {% if counter == 0 %}
                     <hr class="event">
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
-                    <article class="row event {% if event.past %}past{% endif %}">
+                    <article class="row event past">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -199,7 +224,7 @@
                             </div>
                         </div>
                     </article>
-                {% else %}
+                {% assign counter=counter | plus:1 %}     
                 {% endif %}
                 {% endfor %}
             </div>
