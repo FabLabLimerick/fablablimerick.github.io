@@ -36,3 +36,4 @@ app/_bower_components
 dist
 node_modules
 .tmp
+_site
