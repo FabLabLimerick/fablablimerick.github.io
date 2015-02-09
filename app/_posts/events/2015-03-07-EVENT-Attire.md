@@ -3,7 +3,7 @@ title: "ATTIRE"
 layout: single-event
 category: events
 published: true
-permalink: /events/thesis-symposium-2015/
+permalink: /events/attire/
 excerpt: "ATTIRE is a series of research workshops that aims to implement various electronic principles into a fashion garment"
 hours: "7th of March"
 description: "Advanced Technology & Textiles Inventive Research Eventse. 7th of March"
