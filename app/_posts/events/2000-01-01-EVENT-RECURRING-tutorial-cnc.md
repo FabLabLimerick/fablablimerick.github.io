@@ -7,7 +7,7 @@ permalink: /events/tutorial-cnc/
 excerpt: "Fab Lab Limerick would like to invite people from all disciplines to a course on how to use our CNC Router. No previous experience is required"
 hours: "First Wednesday of each month 19:00-21:00"
 description: "Wed 1st Week"
-fee: "€6/12 per person"
+fee: "€8/15 per person"
 slug: tutorial-cnc
 past: false
 image:
