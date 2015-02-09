@@ -1,31 +1,38 @@
 ---
-title: SketchUp for Digital Fabrication
+title: "Google Sketchup for Digital Fabrication and Prototyping"
 layout: single-event
 category: events
-published: false
-permalink: /events/opennight/
-excerpt: "Fab Lab Limerick celebrates its first Open Night with tutorials and activities on 3D printing, 3D scanning and laser cutting. "
-hours: "September 19th 17:00-22:00"
-description: "Tutorials and activities on 3D printing, 3D scanning and laser cutting. September 19th 17:00-22:00"
-fee: "Free Event"
-slug: opennight
-past: false
+published: true
+permalink: /events/sketchup/
+excerpt: "A four week evening course demonstrating Google Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication."
+hours: "November 24th 17:00-22:00"
+description: "Four week course on Google Sketchup for Digital Fabrication. 24 Nov to 15 Dec 19:00-22:00"
+fee: "€40/€80 12 Students/Adults"
+slug: sketchup
+past: true
 image:
-  url: /events/opennight.jpg
+  url: /events/sketchup.jpg
   caption:
-    display: false
+    display: true
     title: 
     credits: "Don Moloney"
     original: 
 ---
 
-Adobe Illustrator CS5/6 For Digital Fabrication and Prototyping has been designed for new and inexperienced users who wish to become familiar with the basics of vector creation, editing and application. We will cover everything from file formats that illustrator uses, to typography and graphic design, to its applications in the printing and manufacturing industries. The user will be guided from a novice through to an Illustrator master in an easy-going, relaxed environment. This programme will assist new learners on the basics of Adobe Illustrator CS5 or CS6, and will offer a full overview of the application interface, each tool, menu, and panel.
 
-## Week 1
-There will be an introduction to digital prototyping its possibilities, and what will be covered in this course. We will give a run-through of the basics of Laser-cutting, fabricating examples to see the process involved. During the course, each learner will have the chance to draw their own designs and print them out, so students should bring along an idea of something they would like to fabricate, even a sketch or an image- for example we will be making art-work, signage; 3D puzzles, board games, fabric printing and toys. Each design will be individually customisable and then cut with the Laser-cutter.
+Google Sketchup for Digital Fabrication and Prototyping has been designed to help users bring their ideas into 3D realities. This course will run over a four week period walking learners through the potential that lies within the friendly and forgiving interface of this 3D modeling software. We will guide the users through the very basics of Sketchup allowing everyone to fully grasp the power and ease at which we can create and design in this virtual world. We will cover everything from the basic layout, menus and tools panels, to useful plugins and real life applications. In addition to this after the four weeks you will have received the skills necessary to take your designs one step further converting them from virtual 3d models into physical realities.
 
-## Week 2 & 3 
-we will learn how to use Illustrator to prepare more complex drawings, and understand how to use illustrator for Laser cutting, CNC cutting or other industrial applications. We will go from measured drawings to unique organic creations. Each student will be able to create precise scaled drawings, trace bitmap/jpeg images, draw freehand and with the pen tool; use Compound paths, Clipping Masks and the Pathfinder panel to manipulate artwork you�ve created. Set up files and templates, be able to use Patterns, Brushstrokes and Symbols; Prepare typography in Illustrator; set Stroke, Fill, and Appearance settings.
+The cost of the full course is 40 euros for students and 80 euros for adults. Capacity of this course is 12 people and classes will be on four consecutive Mondays from 19:00-22:00 starting Monday 24th November.
 
-## Week 4 
-By week four each participant will have a solid understanding of the features, menus, tools, and panels of the Adobe Illustrator interface. Every learner will be given the chance to take all the skills they have learned throughout the course and use them to create an individual project. The projects can contain a combination of laser-cutting and CNC routing. Material will be provided by Fab Lab Limerick and each learner will be able to take home their individual projects.
+*[You can book your place here](https://fablablimerick.ticketleap.com/sketchup)*
+
+## Week 1 
+
+There will be a short introduction to the software and its applications. We will explore the potential of each machine in the FabLab understanding the relationship between them and the Google Sketchup software. We will then run through the basics of this program giving everyone the opportunity to get used to navigating this 3 dimensional world. Small tasks will be set for the week to allow users to become more familiar with the software, creating 3d models of their own.
+
+## Week 2
+In week two we will address any issues that you may have encountered while completing the tasks assigned in week one. You will then be introduced to a number of new features and will begin to fully understand the flexibility of the program and the ability to overcome obstacles by using the tools you have been taught. In this session we will explore the conversion of 3d objects into simple 2d versions producing very simple forms on the laser cutter. We will also look into using the software to prototype a jigsaw like assembly method through the use of a series of 2d planes which will translate into 3d objects. This will give a fuller understanding of the ways in which the software can be used whilst allowing everyone to become fully comfortable with all of the commands and controls.
+
+## Week 3 & 4
+
+Moving on from the skills we learnt in the last two weeks everyone will now be given the opportunity to create a 3d object of their own. This model will then be 3d printed in the final week. Using the skills learnt in the earlier sessions we will move forward creating a more sophisticated model that we will be able to 3d print. We will investigate the requirements necessary to export the files and make them ready to print on the 3d printer. Each user will then be given the opportunity to design a unique object and print it themselves. By the end of the course you will not only be proficient in Google Sketchup but you will also have acquired the in-depth understanding necessary to convert these virtual models into physical realities.

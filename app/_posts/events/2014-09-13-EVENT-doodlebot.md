@@ -8,7 +8,7 @@ hours: "September 13th 10:30-16:30"
 description: "Build an Elemental Doodle Bot! September 13th 10:30-16:30"
 fee: "€6 per kid"
 slug: doodlebot
-past: false
+past: true
 image:
   url: /events/doodlebot.jpg
   caption:

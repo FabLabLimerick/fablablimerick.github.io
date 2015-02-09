@@ -5,9 +5,9 @@ category: events recurring
 active: true
 permalink: /events/tutorial-lasercutting3/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
-hours: "Third Wednesday of each month 19:00-21:00"
+hours: "Fourth Wednesday of each month 19:00-21:00"
 description: "Wed 4th Week"
-fee: "€6/12 per person"
+fee: "€8/15 per person"
 slug: tutorial-lasercutting
 past: false
 image:
