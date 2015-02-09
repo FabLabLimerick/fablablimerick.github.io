@@ -5,7 +5,7 @@ category: events
 published: true
 permalink: /events/arduinoforbeginners/
 excerpt: "Two day Arduino course covering basics of platform, programming, electronics and participant led project work with an emphasis on physical interaction by Ed Devane and Kristian Skelly"
-hours: "7th of March"
+hours: "14th and 15th of March"
 description: "Two day Arduino for beginners course. 7th of March"
 fee: "€100 per person"
 slug: arduinoforbeginners
