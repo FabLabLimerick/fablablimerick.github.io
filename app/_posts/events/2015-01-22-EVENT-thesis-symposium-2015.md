@@ -10,7 +10,7 @@ description: "A day long event to discuss the role and value of the thesis to ar
 fee: "Free Event"
 slug: thesis-symposium-2015
 soon: false
-past: false
+past: true
 image:
   url: /events/thesis-symposium-2015.jpg
   caption:
