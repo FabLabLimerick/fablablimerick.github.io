@@ -75,13 +75,13 @@
             <!-- EVENTS TITLE -->
             <div class="section-title">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div id="nextEvents" class="col-md-12 text-center">
                         FORTHCOMING EVENTS
                     </div>
                 </div>
             </div>
             <!-- EVENTS TITLE -->
-            <!-- EVENTS LIST -->
+            <!-- EVENTS LIST  -->
             <div class="section-list">
                 {% assign counter=0 %}
                 {% for event in site.posts reversed %}
@@ -96,7 +96,7 @@
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
-                    <article class="row event free">
+                    <article class="row event free" date="{{ event.date}}">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -129,26 +129,6 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
-                {% if counter == 0 %}
-                <article class="row event free">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6">
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="title" lang="en">
-                                        <h3>MORE EVENTS COMING SOON </h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 hidden-xs hidden-sm">
-                                    <div class="description" lang="en">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                {% endif %}
                 <hr class="event">
             </div>
             <!-- END EVENTS LIST -->

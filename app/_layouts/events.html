@@ -108,7 +108,7 @@
             <!-- EVENTS LIST -->
             <div class="section-list">
                 {% assign counter=0 %}
-                {% for event in site.categories.events %}
+                {% for event in site.categories.events reversed %}
                 {% if event.category contains 'events' %}
                 {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
                 {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
@@ -118,7 +118,7 @@
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
-                    <article class="row event">
+                    <article class="row event" date="{{ event.date}}">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -150,23 +150,6 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
-                {% if counter == 0 %}
-                    <hr class="event">
-                    <article class="row event">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6">
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="title" lang="en">
-                                        <h3>MORE EVENTS COMING SOON </h3>
-                                        <h4><span class="visible-xs"></span></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                {% endif %}
                 <hr class="event">
             </div>
         </div>
