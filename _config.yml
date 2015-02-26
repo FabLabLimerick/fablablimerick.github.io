@@ -109,32 +109,12 @@ prose:
           label: "Past Event"
           value: "false"
           help: "Select TRUE or FALSE to indicate a past or future event."
-      image:
-         - name: "url"
-             field:
-               element: "text"
-               label: "Relative link to an image"
-               value: "/events/thenewways-gregsaul.jpg"
-               help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."
-      caption:
-         - name: "display"
-             field:
-               element: "checkbox"
-               label: "Show image caption"
-               value: "false"
-               help: "Select true or false to show or hide the image caption"
-         - name: "title"
-             field:
-               element: "text"
-               label: "Image caption"
-               help: "Introduce the image caption"
-         - name: "credits"
-             field:
-               element: "text"
-               label: "Image credits"
-               help: "Introduce the image credits"  
-         - name: "original"
-             field:
-               element: "text"
-               label: "External Link"
-               help: "Introduce the external link to the original credited image"     
+      - name: "image"
+        field:
+          - name: "url"
+            field:
+              element: "text"
+              label: "Relative link to an image"
+              value: "/events/thenewways-gregsaul.jpg"
+              help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."
+      
