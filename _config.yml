@@ -43,7 +43,7 @@ prose:
   rooturl: "app/_posts/events"
   media: "img/events"
   metadata:
-    _posts/events:
+    app/_posts/events:
       - name: "title"
         field:
           element: "text"
