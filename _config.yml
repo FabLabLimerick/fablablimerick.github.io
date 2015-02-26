@@ -68,7 +68,7 @@ prose:
           element: "text"
           label: "File Name or Slug"
           value: "thenewways-gregsaul"
-          help: "Introduce the event file name. Lowercase words without accent separated by dash. "   
+          help: "Introduce the event file name. Lowercase words without accent separated by dash."
       - name: "permalink"
         field:
           element: "text"
@@ -96,27 +96,27 @@ prose:
           element: "text"
           label: "Event Fee"
           value: "Free event"
-          help: "Introduce the event fee (for example: Free event or €100 per person)."	          
+          help: "Introduce the event fee (for example: Free event or €100 per person)."
       - name: "soon"
         field:
           element: "checkbox"
           label: "Coming soon link"
           value: "false"
-          help: "if the event is coming soon (meaning there is not 'more info page') then select TRUE, otherwise select FALSE."  
+          help: "if the event is coming soon (meaning there is not more info page) then select TRUE, otherwise select FALSE."
       - name: "past"
         field:
           element: "checkbox"
           label: "Past Event"
           value: "false"
-          help: "Select TRUE or FALSE to indicate a past or future event."     
-      name: "image"
+          help: "Select TRUE or FALSE to indicate a past or future event."
+      image:
          - name: "url"
              field:
                element: "text"
                label: "Relative link to an image"
                value: "/events/thenewways-gregsaul.jpg"
-               help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."   
-      name: "caption"
+               help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."
+      caption:
          - name: "display"
              field:
                element: "checkbox"
@@ -132,9 +132,9 @@ prose:
              field:
                element: "text"
                label: "Image credits"
-               help: "Introduce the image credits"	
+               help: "Introduce the image credits"  
          - name: "original"
              field:
                element: "text"
                label: "External Link"
-               help: "Introduce the external link to the original credited image"	  
+               help: "Introduce the external link to the original credited image"     
