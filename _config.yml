@@ -43,8 +43,7 @@ prose:
   rooturl: "app/_posts/events"
   media: "img/events"
   metadata:
-    _posts:
-      events:
+    _posts/events:
       - name: "title"
         field:
           element: "text"
@@ -99,12 +98,12 @@ prose:
       - name: "soon"
         field:
           element: "checkbox"
-          label: "More info link"
+          label: "Coming soon link"
           value: "false"
-          help: "Enable or disable link to more info page"	          
+          help: "if the event is coming soon then select TRUE as there is no more info page, otherwise select FALSE"  
       - name: "past"
         field:
           element: "checkbox"
           label: "Past Event"
           value: "false"
-          help: "Select true or false to indicate that it is a past or future event"       
+          help: "Select TRUE or FALSE to indicate that it is a past or future event"       
