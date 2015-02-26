@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	var num = $("#events .container .section-list").children("article").size();
     // Hide past events on Home Page
     $.each($("#events .container .section-list").children("article"),function(index,value){
-    	var currentDate = new Date("2015-04-06");
+    	var currentDate = new Date();
     	var eventDate = new Date(this.getAttribute("date"));
     	if(eventDate <  currentDate){
     		$(this).next("hr").remove();
