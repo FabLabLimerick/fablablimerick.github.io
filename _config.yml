@@ -68,24 +68,24 @@ prose:
         field:
           element: "text"
           label: "File Name or Slug"
-           value: "thenewways-gregsaul"
-		  help: "Introduce the event file name. Lowercase words without accent separated by dash (for example: 'thenewways-gregsaul')"   
+          value: "thenewways-gregsaul"
+          help: "Introduce the event file name. Lowercase words without accent separated by dash (for example: thenewways-gregsaul)"   
       - name: "permalink"
         field:
           element: "text"
           label: "Permalink"
           value: "/events/thenewways-gregsaul/"
-          help: "Introduce the relative link to the event based on the selected file name (for example: /events/thenewways-gregsaul/)
+          help: "Introduce the relative link to the event based on the selected file name (for example: /events/thenewways-gregsaul/)"
       - name: "excerpt"
         field:
           element: "text"
           label: "Excerpt"
-   		  help: "A short sentence introducing the event"
+          help: "A short sentence introducing the event"
       - name: "hours"
         field:
           element: "text"
           label: "Hours"
-		  help: "Date and time of the event celebration in humman readeable format (for example: 25th of March 6pm)
+          help: "Date and time of the event celebration in humman readeable format (for example: 25th of March 6pm)"
       - name: "description"
         field:
           element: "text"
@@ -95,47 +95,16 @@ prose:
         field:
           element: "text"
           label: "Event Fee"
-		  help: "Introduce the event fee (for example: 'Free event' or '€100 per person')	          
+          help: "Introduce the event fee (for example: Free event or €100 per person)"	          
       - name: "soon"
         field:
           element: "checkbox"
           label: "More info link"
           value: "false"
-		  help: "Enable or disable link to more info page"	          
+          help: "Enable or disable link to more info page"	          
       - name: "past"
         field:
           element: "checkbox"
           label: "Past Event"
           value: "false"
-		  help: "Select true or false to indicate that it is a past or future event"       
-      - name: "image"
-        - name: "url"
-          field:
-            element: "text"
-            label: "Relative link to an image"
-            value: "/events/thenewways-gregsaul.jpg"
-		    help: "Please load and name the image accordingly"
-		- name: "caption"
-		  - name: "display"
-            field:
-              element: "checkbox"
-              label: "Show image caption"
-              value: "false"
-		      help: "Select true or false to show or hide the image caption"
-		  - name: "title"
-            field:
-              element: "text"
-              label: "Image caption"
-		      help: "Introduce the image caption"
-		  - name: "credits"
-            field:
-              element: "text"
-              label: "Image credits"
-		      help: "Introduce the image credits"	
-		  - name: "original"
-            field:
-              element: "text"
-              label: "External Link"
-		      help: "Introduce the external link to the original credited image"			    	      	          
-
-
+          help: "Select true or false to indicate that it is a past or future event"       
