@@ -109,14 +109,14 @@ prose:
           label: "Past Event"
           value: "false"
           help: "Select TRUE or FALSE to indicate a past or future event."     
-      - name: "image"
+      name: "image"
          - name: "url"
-           field:
-             element: "text"
-             label: "Relative link to an image"
-             value: "/events/thenewways-gregsaul.jpg"
-             help: "Please load and name the image accordingly"   
-      - name: "caption"
+             field:
+               element: "text"
+               label: "Relative link to an image"
+               value: "/events/thenewways-gregsaul.jpg"
+               help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."   
+      name: "caption"
          - name: "display"
              field:
                element: "checkbox"
@@ -135,6 +135,6 @@ prose:
                help: "Introduce the image credits"	
          - name: "original"
              field:
-              element: "text"
-              label: "External Link"
-              help: "Introduce the external link to the original credited image"	  
+               element: "text"
+               label: "External Link"
+               help: "Introduce the external link to the original credited image"	  
