@@ -1,6 +1,4 @@
 
-# FABLABLIMERICK Website
-
 ## Installation instructions for Configuring Development Environment
 
 Install project dependencies specified in *package.json* file:

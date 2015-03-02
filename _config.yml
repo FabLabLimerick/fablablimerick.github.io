@@ -62,7 +62,7 @@ prose:
           element: "checkbox"
           label: "Published"
           value: "false"
-          help: "Select false when writting a draft-event"
+          help: "Uncheck when writting a draft-event"
       - name: "slug"
         field:
           element: "text"
@@ -120,12 +120,12 @@ prose:
           element: "checkbox"
           label: "Show image caption"
           value: "false"
-          help: "Select true or false to show or hide the image caption"
+          help: "Select TRUE or FALSE to show or hide the image caption"
       - name: "imagetitle"
         field:
           element: "text"
           label: "Image caption"
-          help: "Introduce the image caption"
+          help: "Introduce a caption for the image"
       - name: "imagecredits"
         field:
           element: "text"
@@ -135,4 +135,4 @@ prose:
         field:
           element: "text"
           label: "External Link"
-          help: "Introduce the external link to the original credited image"     
+          help: "If exists, then introduce the external link to the original credited image"     
