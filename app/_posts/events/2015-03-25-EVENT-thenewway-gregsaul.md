@@ -11,11 +11,9 @@ fee: "Free event"
 slug: thenewways-gregsaul
 soon: true
 past: false
-image:
-  url: /events/thenewways-gregsaul.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+imageurl: /events/thenewways-gregsaul.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal
 ---

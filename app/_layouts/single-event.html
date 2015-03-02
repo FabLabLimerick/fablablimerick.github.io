@@ -31,7 +31,7 @@
                 {% include carousel-single.html %}
             </section>
         {% else %}
-            <div class="header-single-image" style="background-image: url(/img{{ page.image.url }})"></div>
+            <div class="header-single-image" style="background-image: url(/img{{ page.imageurl }})"></div>
         {% endif %}
          <div class="header-single-title">
             <div class="container">
@@ -47,8 +47,8 @@
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                             <p class="text-center imagecredits clearfix">
-                                {% if page.image.caption.display != false %}
-                                <span>Image by {{ page.image.caption.credits }}</span>
+                                {% if page.imagedisplay != false %}
+                                <span>Image by {{ page.imagecredits }}</span>
                                 {% else %}
                                 {% endif %}
                             </p>
@@ -93,7 +93,7 @@
     <script>
         new Share('.share-button', {
             url: 'http://fablab.saul.ie{{ page.url}}',
-            image: 'http://fablab.saul.ie/img{{ page.image.url }}',
+            image: 'http://fablab.saul.ie/img{{ page.imageurl }}',
             title: '{{ page.title }}',
             text: '{{ page.description }}',
             ui: {

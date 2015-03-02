@@ -10,13 +10,12 @@ description: "This introductory seminar on digital fabrication for the craft and
 fee: "€10"
 slug: openseminar-dccoi
 past: true
-image:
-  url: /events/openseminar-dccoi.jpg
-  caption:
-    display: false
-    title: 
-    credits:
-    original: 
+
+imageurl: /events/openseminar-dccoi.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits:
+imageoriginal: 
 ---
 
 This seminar is the prelude to an intensive digital fabrication programme for makers. After the seminar there will be a call out for makers to participate in a dynamic programme to learn the basics of laser cutting and CNC milling where makers will be given the opportunity to use the machines and gain some valuable hands on experience. Key speakers; Tara Whelan (designer), member of the Fab Lab Limerick Team and guest maker (TBC) will present a concentrated overview of laser cutting and 3D printing in relation to craft and design.

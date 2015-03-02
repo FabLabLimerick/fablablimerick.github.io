@@ -12,12 +12,12 @@ slug: tutorial-cnc
 past: false
 image:
   thumbnail: /events/tutorial-cnc-thumb.jpg
-  url: /events/tutorial-cnc.jpg
-  caption:
-    display: true
-    title: 
-    credits: "sindrianarts.com"
-    original: https://www.flickr.com/photos/sindrianarts/5860990924
+
+imageurl: /events/tutorial-cnc.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "sindrianarts.com"
+imageoriginal: https://www.flickr.com/photos/sindrianarts/5860990924
 ---
 
 Fab Lab Limerick would like to invite people from all disciplines to a course on how to use our CNC (computer numerical controlled) Router. The course is an introductory course so no previous experience is required. 

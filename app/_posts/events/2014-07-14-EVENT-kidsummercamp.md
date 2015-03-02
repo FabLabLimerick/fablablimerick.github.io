@@ -9,21 +9,20 @@ description: "Fab Lab Limerick Summer Camp July 14th to 18th 11:30-15:30"
 fee: "€100 per kid"
 slug: kidsummercamp
 past: true
-image:
-  url: /events/kidsummercamp-01.jpg
-  caption:
-    display: false
-    title: 
-    credits: "Evelyn O'Connor"
-    original:
+
+imageurl: /events/kidsummercamp-01.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: "Evelyn O'Connor"
+imageoriginal:
  
 slideshow:
     - url: /events/kidsummercamp-01.jpg
-      credits: "Evelyn O'Connor"
+  imagecredits: "Evelyn O'Connor"
     - url: /events/kidsummercamp-02.jpg
-      credits: "Evelyn O'Connor"
+  imagecredits: "Evelyn O'Connor"
     - url: /events/kidsummercamp-03.jpg
-      credits: "Evelyn O'Connor"
+  imagecredits: "Evelyn O'Connor"
 ---
 
 ### Day 1 

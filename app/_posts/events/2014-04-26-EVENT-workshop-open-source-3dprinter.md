@@ -9,10 +9,11 @@ soon: false
 past: true
 hours: "Saturday 26th and Sunday 27th April"
 slug: workshop-open-source-3dprinter
-image:
-  url: /events/workshop-open-source-3dprinter.jpg
-  title: Ormerod 3D printer
-  credits: SA UL CC-BY-SA
+
+imagedisplay: true
+imageurl: /events/workshop-open-source-3dprinter.jpg
+imagetitle: Ormerod 3D printer
+imagecredits: SA UL CC-BY-SA
 ---
 
 Have you ever think about building your own domestic 3D printer but you dont know how to get started? In this weekend workshop you will build a RepRapPro Ormerod Open-source 3D printer and learn the basis of 3D printing. 

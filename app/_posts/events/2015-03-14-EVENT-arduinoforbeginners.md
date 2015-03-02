@@ -11,13 +11,11 @@ fee: "€100 per person"
 slug: arduinoforbeginners
 soon: false
 past: false
-image:
-  url: /events/arduinoforbeginners.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+imageurl: /events/arduinoforbeginners.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 Ed Devane is a musician and instrument builder. He has been using Arduino for various audio or instrument related purposes for several years, and has been aided and abetted by audio programmer Kristian Skelly. The two have worked together on several projects, with Devane designing and building hardware, and Skelly writing software. An example of this can be seen throughout the month of March in the Kiosk at People's Park Limerick - an interactive music installation using mechanical musical instruments and electronic drums.

@@ -10,13 +10,12 @@ description: "Four week course on Solidworks for Digital Fabrication. 27 Oct to 
 fee: "€40/€80 12 Students/Adults"
 slug: solidworks
 past: true
-image:
-  url: /events/solidworks.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Javier Burón"
-    original: 
+
+imageurl: /events/solidworks.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Javier Burón"
+imageoriginal: 
 ---
 
 Fab Lab Limerick would like to invite people from all disciplines to take part in a course to learn Solidworks in conjunction with our 3D printers. Solidworks is a popular 3D CAD design software and together with 3D printing is an excellent method for fabricating an individual’s ideas and designs. This is an introductory course so no previous experience on the software is required.

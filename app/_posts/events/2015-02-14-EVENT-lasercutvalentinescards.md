@@ -11,13 +11,12 @@ fee: "€12 per kid"
 slug: lasercutvalentinescards
 soon: false
 past: false
-image:
-  url: /events/lasercutvalentinescards.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+
+imageurl: /events/lasercutvalentinescards.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 Roses are red,

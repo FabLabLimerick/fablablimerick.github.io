@@ -10,13 +10,12 @@ description: "This Halloween we invite kids aged 6 and up to make their own mask
 fee: "€15 per child"
 slug: halloween-mask
 past: true
-image:
-  url: /events/halloween-mask.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Evelyn O'Connor"
-    original: 
+
+imageurl: /events/halloween-mask.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Evelyn O'Connor"
+imageoriginal: 
 ---
 
 Kids will learn the basics of electricity which will bring their masks to life! Workshops will be on throughout the day and will last 1 hour each. All materials will be provided by Fab Lab Limerick and parents or guardians must be present with the kids for the duration of the workshops.

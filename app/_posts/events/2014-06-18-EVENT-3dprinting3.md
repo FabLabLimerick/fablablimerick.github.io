@@ -9,13 +9,12 @@ description: "Learn how to 3D Print Wednesday 18th June from 19:00 to 21:00"
 fee: "€6 per person"
 slug: 3dprinting3
 past: true
-image:
-  url: /events/3dprinting3.jpg
-  caption:
-    display: true
-    title: 
-    credits: "rasterweb.net CC BY-NC-SA 2.0"
-    original: 
+
+imageurl: /events/3dprinting3.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "rasterweb.net CC BY-NC-SA 2.0"
+imageoriginal: 
 ---
 
 Staff and students @ Fab Lab Limerick have worked together to build their very own 3D printers. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics, It has the ability to produce objects up to 210mm x 190 mm x 140mm in size.

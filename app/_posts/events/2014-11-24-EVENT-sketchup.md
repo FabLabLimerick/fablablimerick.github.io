@@ -10,13 +10,12 @@ description: "Four week course on Google Sketchup for Digital Fabrication. 24 No
 fee: "€40/€80 12 Students/Adults"
 slug: sketchup
 past: true
-image:
-  url: /events/sketchup.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Don Moloney"
-    original: 
+
+imageurl: /events/sketchup.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Don Moloney"
+imageoriginal: 
 ---
 
 

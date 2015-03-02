@@ -9,13 +9,12 @@ description: "Introduction To 3D Printing Wednesday 14th May from 19:00 to 21:00
 fee: "€6 per person"
 slug: 3dprinting1
 past: true
-image:
-  url: /events/3dprinting1.jpg
-  caption:
-    display: true
-    title: 
-    credits: "3d-printfo.com"
-    original: https://www.flickr.com/photos/stfnix/8468620403/
+
+imageurl: /events/3dprinting1.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "3d-printfo.com"
+imageoriginal: https://www.flickr.com/photos/stfnix/8468620403/
 ---
 
 Staff and students @ Fab Lab Limerick have worked together to build their very own 3D printers. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics, It has the ability to produce objects up to 210mm x 190 mm x 140mm in size.

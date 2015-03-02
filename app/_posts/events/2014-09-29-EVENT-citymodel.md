@@ -9,13 +9,12 @@ description: "Fab Lab Limerick would like to invite everybody to the official un
 fee: "Free Event"
 slug: citymodel
 past: true
-image:
-  url: /events/citymodel.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Ger Walsh"
-    original: 
+
+imageurl: /events/citymodel.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Ger Walsh"
+imageoriginal: 
 ---
 
 Limericks history and heritage is reflected in its built environment, which has evolved over the centuries. The Limerick City model is a celebration of Limericks built fabric through the construction of a scaled architectural model, which will be on display @ Fab Lab Limerick and will be freely accessible to the general public. This first stage of the model consists of the rigorous gridded pattern of Georgian Limerick.

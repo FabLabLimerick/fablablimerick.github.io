@@ -11,13 +11,12 @@ fee: "Free event"
 slug: 3dprintingatthehuntmuseum
 soon: false
 past: false
-image:
-  url: /events/3dprintingatthehuntmuseum.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+
+imageurl: /events/3dprintingatthehuntmuseum.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 *[Link to Hunt museum website](http://www.huntmuseum.com/whats-on/festivals-and-special-events/i-love-the-hunt.aspx)*

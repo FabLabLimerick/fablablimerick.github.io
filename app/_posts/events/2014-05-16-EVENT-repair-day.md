@@ -9,13 +9,12 @@ description: "Introduction To 3D Printing Wednesday 14th May from 19:00 to 21:00
 fee: "Free Event"
 slug: repair-day
 past: true
-image:
-  url: /events/repair-day.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Javier Burón CC-BY-SA"
-    original:
+
+imageurl: /events/repair-day.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Javier Burón CC-BY-SA"
+imageoriginal:
 ---
 
 On Friday, May 16, in collaboration with [3DCamp](http://3dcamp.barcamp.ie) and to commemorate [Freedom Culture Day](http://www.culturefreedomday.org) we are running an event to make public aware about how digital fabrication technologies and 3D printing in particular can be useful in daily life.

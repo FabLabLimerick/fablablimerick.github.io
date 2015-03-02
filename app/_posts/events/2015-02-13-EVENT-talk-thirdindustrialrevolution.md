@@ -11,13 +11,12 @@ fee: "Free event"
 slug: thirdindustrialrevolution
 soon: false
 past: false
-image:
-  url: /events/thirdindustrialrevolution.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+
+imageurl: /events/thirdindustrialrevolution.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 The first industrial revolution started with the textile industry in Britain at the end of the 18th century. The second industrial revolution came at the latter half of 19th century first with the introduction of petroleum, electrification and mass production. Both industrialization periods arrived late to the Limerick region. Now a third revolution is under way, manufacturing is going digital but Limerick could be better prepared this time

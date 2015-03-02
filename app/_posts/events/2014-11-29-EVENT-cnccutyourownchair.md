@@ -10,13 +10,12 @@ description: "Two day workshop to design and cut your very own chair. 29 and 30 
 fee: "€150 per person"
 slug: cnccutyourownchair
 past: true
-image:
-  url: /events/cnccutyourownchair.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Maciej Wojnicki"
-    original: 
+
+imageurl: /events/cnccutyourownchair.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Maciej Wojnicki"
+imageoriginal: 
 ---
 
 This is a two day workshop starting Saturday 29th and finishing Sunday 30th. No previous experience is required apart from basic computer literacy. Each participant will be supplied with one sheet of 18mm Birch Plywood (worth €60) as part of the course to make their designs. Participants are welcome to bring other materials to the workshop if they wish to do so. 

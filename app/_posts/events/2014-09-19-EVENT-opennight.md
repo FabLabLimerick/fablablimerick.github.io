@@ -10,21 +10,20 @@ fee: "Free Event"
 slug: opennight
 past: true
 
-image:
-  url: /events/opennight-01.jpg
-  caption:
-    display: false
-    title: 
-    credits: "Javier Burón"
-    original:
+
+imageurl: /events/opennight-01.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: "Javier Burón"
+imageoriginal:
  
 slideshow:
     - url: /events/opennight-01.jpg
-      credits: "Javier Burón"
+  imagecredits: "Javier Burón"
     - url: /events/opennight-03.jpg
-      credits: "Javier Burón"
+  imagecredits: "Javier Burón"
     - url: /events/opennight-04.jpg
-      credits: "Javier Burón"
+  imagecredits: "Javier Burón"
 ---
 
 Adults and children, artists and technologists, students and professionals… everyone is welcome to come to our premises on 7 Rutland Street on Culture Night between 5pm and 10pm and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning! 

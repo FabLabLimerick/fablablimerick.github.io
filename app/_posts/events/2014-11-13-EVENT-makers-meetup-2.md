@@ -9,13 +9,12 @@ soon: false
 past: true
 hours: "Thursday 13th November 19:30-21:00"
 slug: makers-meetup
-image:
-  url: /events/makers-meetup2.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Michael Porter"
-    original:
+
+imageurl: /events/makers-meetup2.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Michael Porter"
+imageoriginal:
 ---
 
 Since Fab Lab Limerick opened, we have met with lots of people who are making interesting things in Limerick. Our second Makers Meetup allows makers from all disciplines share with us all those cool projects in which they are working on right now.

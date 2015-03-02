@@ -10,13 +10,12 @@ description: "Coming soon - Makers is a new platform in Limerick city that aims 
 fee: "Free Event"
 slug: makers-launch
 past: true
-image:
-  url: /events/makers-launch.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Jennifer O'Riordan & Aoife Marmane"
-    original: 
+
+imageurl: /events/makers-launch.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Jennifer O'Riordan & Aoife Marmane"
+imageoriginal: 
 ---
 
 We will be opening soon at 7 Rutland Street and would like welcome everyone and encourage you to join us in designing, creating and chatting over a cup of coffee!

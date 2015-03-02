@@ -12,12 +12,12 @@ slug: tutorial-3dprinting
 past: false
 image:
   thumbnail: /events/tutorial-3dprinting-thumb.jpg
-  url: /events/tutorial-3dprinting.jpg
-  caption:
-    display: true
-    title: 
-    credits: "rasterweb.net CC BY-NC-SA 2.0"
-    original: 
+
+imageurl: /events/tutorial-3dprinting.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "rasterweb.net CC BY-NC-SA 2.0"
+imageoriginal: 
 ---
 
 Fab Lab Limerick would like to invite people from all disciplines to take part in a course on 3D printing.  It is an introductory course so no previous experienced is required.

@@ -9,13 +9,12 @@ description: "Introduction To Lasercutting Wednesday 23th April from 19:00 to 21
 fee: "€6 per person"
 slug: lasercutting3
 past: true
-image:
-  url: /events/lasercutting3.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Lasersaur.com"
-    original: https://www.flickr.com/photos/stfnix/8468620403/
+
+imageurl: /events/lasercutting3.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Lasersaur.com"
+imageoriginal: https://www.flickr.com/photos/stfnix/8468620403/
 ---
 
 Staff and students @ Fab Lab Limerick have worked together to build their very own Laser Cutter. 'Lasersaur' is an open-source laser cutter with the ability to cut plastics, wood and textiles at a high speed with a high degree of accuracy. It has a bed size of 1220mm x 610mm and a 100 Watt laser output so it has the ability to cut and engrave large sheets of material.

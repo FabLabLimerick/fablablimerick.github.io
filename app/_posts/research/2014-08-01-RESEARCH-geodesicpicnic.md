@@ -6,13 +6,11 @@ category: research
 description: "Low cost geodesic dome using cardboard tubes and plywood"
 excerpt: "Low cost, digitally fabricated geodesic dome using cardboard tubes and CNC cut plywood connectors. This research is a collaboration project between Fab Lab Limerick and Colaborativa.eu"
 author:
-image:
-  url: /research/geodesicpicnic-0.jpg
-  caption:
-    display: false
-    title: 
-    credits: "Javier Burón CC-BY-SA"
-    original:
+imageurl: /research/geodesicpicnic-0.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: "Javier Burón CC-BY-SA"
+imageoriginal:
 
 slideshow:
   - url: /research/geodesicpicnic-1.jpg

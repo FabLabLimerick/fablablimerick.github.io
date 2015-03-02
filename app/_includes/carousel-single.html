@@ -5,14 +5,14 @@
     {% for image in page.slideshow %}
     <div class="item {% if forloop.first %}active{% endif %}">
       <div class="carousel-caption">
-        <p class="hidden-xs imagecredits"><span class="title">{{ image.title }}</span>. Image by {{ image.credits }}</p>
-        <p class="visible-xs imagecredits">Image by {{ image.credits }}</p>
+        <p class="hidden-xs imagecredits"><span class="title">{{ imagetitle }}</span>. Image by {{ imagecredits }}</p>
+        <p class="visible-xs imagecredits">Image by {{ imagecredits }}</p>
       </div>
       <div class="image image{{ forloop.index }}">
       </div>
       <style>
           .image{{ forloop.index }}{
-            background: url(/img{{ image.url }}) top center no-repeat; 
+            background: url(/img{{ imageurl }}) top center no-repeat; 
           }
       </style>
     </div>

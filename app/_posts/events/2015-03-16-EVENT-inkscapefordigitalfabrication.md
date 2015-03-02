@@ -11,13 +11,11 @@ fee: "€60/€100 12 Students/Adults"
 slug: inkscapefordigitalfabrication
 soon: false
 past: false
-image:
-  url: /events/inkscapefordigitalfabrication.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+imageurl: /events/inkscapefordigitalfabrication.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 Inkscape For Prototyping and Digital Fabrication has been designed for new and inexperienced users who wish to become familiar with the basics of vector creation and editing using open source software. We will cover everything from file formats that Inkscape uses, to typography and graphic design, to its applications in the printing and manufacturing industries. The user will be guided from a novice through to an Inkscape master in an easy-going, relaxed environment. This programme will assist new learners on the basics of the Inkscape package, and will offer a full overview of the application interface, each tool, menu, and panel.

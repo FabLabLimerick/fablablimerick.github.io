@@ -9,12 +9,11 @@ description: "Open Day Saturday 14th June from 10:00 to 15:00"
 fee: "Free Event"
 slug: open-day-june
 past: true
-image:
-  url: /events/open-day-june.jpg
-  caption:
-    display: true
-    title: 
-    credits: Lynne Brisbane
+
+imageurl: /events/open-day-june.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: Lynne Brisbane
 ---
 
 Adults and children, artists and technologists, students and professionals… everyone is welcome to come to our premises on 7 Rutland Street this Saturday 14th at anytime between 10:00 and 15:00 and take part in three simultaneous activities to get started on 3D printing, laser cutting and 3D scanning.

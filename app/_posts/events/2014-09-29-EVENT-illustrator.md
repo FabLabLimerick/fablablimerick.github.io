@@ -9,13 +9,12 @@ description: "Four week course on Adobe Illustrator for Digital Fabrication. 29 
 fee: "€40/€80 12 Students/Adults"
 slug: opennight
 past: true
-image:
-  url: /events/illustrator.jpg
-  caption:
-    display: false
-    title: 
-    credits: "Fab Lab Limerick"
-    original: 
+
+imageurl: /events/illustrator.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: "Fab Lab Limerick"
+imageoriginal: 
 ---
 
 Adobe Illustrator CS5/6 For Digital Fabrication and Prototyping has been designed for new and inexperienced users who wish to become familiar with the basics of vector creation, editing and application. We will cover everything from file formats that illustrator uses, to typography and graphic design, to its applications in the printing and manufacturing industries. The user will be guided from a novice through to an Illustrator master in an easy-going, relaxed environment. This programme will assist new learners on the basics of Adobe Illustrator CS5 or CS6, and will offer a full overview of the application interface, each tool, menu, and panel.

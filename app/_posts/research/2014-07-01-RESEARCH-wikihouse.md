@@ -7,14 +7,11 @@ published: true
 description: "An analysis of experimental construction self-build methods based on digital fabrication"
 excerpt: "An analysis of experimental construction self-build methods based on digital fabrication. This research has been possible thanks of the support of University of Limerick' Science without borders programme"
 author: 
-image:
-  url: /research/self-build-0.jpg
-  title: Wikihouse and Facit Homes model analysis
-  caption:
-    display: false
-    title: 
-    credits: "Evelyn O'Connor"
-    original:
+imageurl: /research/self-build-0.jpg
+imagetitle: Wikihouse and Facit Homes model analysis
+imagedisplay: true
+imagecredits: "Evelyn O'Connor"
+imageoriginal:
 ---
 
 Fab Lab Limerick at the School of Architecture is researching about the use of digital fabrication technologies and open design methodologies in architecture design and building industry.

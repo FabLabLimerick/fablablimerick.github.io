@@ -9,13 +9,12 @@ description: "An exploration of commons based peer production and design. Septem
 fee: "€5 Suggested donation"
 slug: openeverything
 past: true
-image:
-  url: /events/openeverything.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+
+imageurl: /events/openeverything.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 Participants will gain practical experience of open hardware projects:

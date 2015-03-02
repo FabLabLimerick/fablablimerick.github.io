@@ -11,13 +11,12 @@ fee: "Free event"
 slug: attire
 soon: false
 past: false
-image:
-  url: /events/attire.jpg
-  caption:
-    display: false
-    title: 
-    credits: ""
-    original: 
+
+imageurl: /events/attire.jpg
+imagedisplay: false
+imagetitle: 
+imagecredits: ""
+imageoriginal: 
 ---
 
 ATTIRE is a series of research workshops that aims to implement various electronic principles into a fashion garment. During these workshops we will be connecting various disciplines such as fashion design, software and hardware design, dressmaking and 3D printing.

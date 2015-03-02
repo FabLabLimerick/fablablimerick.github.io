@@ -10,13 +10,12 @@ past: false
 description: "We offer our shopfront as a temporary gallery space"
 fee: "Free Event"
 slug: makers-gallery
-image:
-  url: /events/makers-gallery.jpg
-  caption:
-    display: true
-    title: 
-    credits: "Fab Lab Limerick CC-BY-SA"
-    original:
+
+imageurl: /events/makers-gallery.jpg
+imagedisplay: true
+imagetitle: 
+imagecredits: "Fab Lab Limerick CC-BY-SA"
+imageoriginal:
 ---
 
 If you are interested in exhibiting in our Makers Gallery send us an email describing yourself and your artwork including photos of the pieces that you will display, how you have used digital fabrication technologies and your preferred days for the exhibition –It is recommended that you provide at least two tentative dates in order to accommodate all the requests–
