@@ -7,7 +7,7 @@ This guide is for editors of FabLab Limerick website.
 
 ### Step #1: Register in https://github.com/
 
-FabLab Limerick Website is hosted in github so you need to create an account in github.com and ask the web administer to grant you access to the website.
+FabLab Limerick Website is hosted in github so you will need to create an account in github.com and ask the web administer to grant you access to the website.
 
 ### Step #2: Log in into http://prose.io
 
@@ -32,12 +32,12 @@ On the right side of the editor window you will find the following options:
 - Save
 
 ### Step #6: Add text and images to the event
-In prose.io editor window, write the text using markdown format. Markdown is a markup language with plain text formatting syntax for easy conversion into HTML. Do not worry, markdown has a very gentle learning curve.
+In prose.io editor window, write the event content using markdown format. Markdown is a markup language with plain text formatting syntax for easy conversion into HTML. Do not worry, markdown has a very gentle learning curve.
 
-On toolbar above click on the **?** button to learn how to include format using markdown such as headers, bold style, lists, etc. 
+On toolbar above, click on the **?** button to learn how to include format using markdown such as headers, bold style, lists, etc. 
 At any moment you can click the **view** button on the right top side and see the formatted text.
 
-For adding an image, on toolbar above click the **image** button and then upload an image by dragging and dropping or selecting one. The uploaded image will be saved at **/img/events/** folder. For now only one image per event is permitted.
+For adding an image, on toolbar above click the **image** button and then upload an image by dragging and dropping or selecting one. The uploaded image will be automatically stored at **/img/events/** folder. For now only one image per event is permitted.
 
 ### Step #7: Fill out Metadata
 
