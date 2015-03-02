@@ -22,8 +22,7 @@ In prose.io, swicth to branch **developer** by clicking on the dropdown at the r
 Please be sure you switch to branch **developer** before doing any changes.
 
 ### Step #5: Create a new event file
-In prose.io, on toolbar above click on **new file** and the editor window will open. Start by naming the file using the following format (replace *untitled* at the top of the window by the file name):
-- YEAR-MONTH-DAY-title.md
+In prose.io, on toolbar above click on **new file** and the editor window will open. Start replacing *untitled* at the top of the window by the event title.
 
 On the right side of the editor window you will find the following options:
 - Edit
