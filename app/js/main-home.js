@@ -55,7 +55,6 @@ $( document ).ready(function() {
     			
     	}
     	if ( index == (num-1)){
-    		console.log("events");
 			if($(".body-events.current .section-list").children('article').size() == 0){
 						$(".body-events.current .section-header").remove();
 			}
