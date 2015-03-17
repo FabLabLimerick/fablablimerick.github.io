@@ -18,11 +18,11 @@ imageoriginal:
  
 slideshow:
     - url: /events/kidsummercamp-01.jpg
-  imagecredits: "Evelyn O'Connor"
+      imagecredits: "Evelyn O'Connor"
     - url: /events/kidsummercamp-02.jpg
-  imagecredits: "Evelyn O'Connor"
+      imagecredits: "Evelyn O'Connor"
     - url: /events/kidsummercamp-03.jpg
-  imagecredits: "Evelyn O'Connor"
+      imagecredits: "Evelyn O'Connor"
 ---
 
 ### Day 1 

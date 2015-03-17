@@ -18,29 +18,29 @@ imageoriginal:
 
 slideshow:
     - url: /events/makers-meetup-01.jpg
-  imagetitle: "RepRap Mendel 90"
+      imagetitle: "RepRap Mendel 90"
       description: "Ivor O'Shea showing his RepRap Mendel 90 to meetup assistants."
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
     - url: /events/makers-meetup-02.jpg
-  imagetitle: "Dave Hunt - raspberry pi time-lapse"
+      imagetitle: "Dave Hunt - raspberry pi time-lapse"
       description: "Dave Hunt explains his raspberry pi time-lapse camera project"
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
     - url: /events/makers-meetup-03.jpg
-  imagetitle: "SML - Laser engraving on timber"
+      imagetitle: "SML - Laser engraving on timber"
       description: "SML - Graphic designers Mariel Mazan Palacios & Lucia Poliakova, laser engraving on timber."
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
     - url: /events/makers-meetup-04.jpg
-  imagetitle: "Ivor O'Shea - limerick 3D printer pioneer"
+      imagetitle: "Ivor O'Shea - limerick 3D printer pioneer"
       description: "Ivor O'Shea is one of the first people in limerick involved in the RepRap communitiy."
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
     - url: /events/makers-meetup-05.jpg
-  imagetitle: "Clare Jordan Ceramics"
+      imagetitle: "Clare Jordan Ceramics"
       description: "Clare Jordan Ceramics"
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
     - url: /events/makers-meetup-06.jpg
-  imagetitle: "Clare Jordan Ceramics - 3d printed swallow cutter"
+      imagetitle: "Clare Jordan Ceramics - 3d printed swallow cutter"
       description: "Clare Jordan Ceramics explains her recent Fab Lab project, a 3d printed swallow cutter."
-  imagecredits: "Javier Buron CC BY 3.0"
+      imagecredits: "Javier Buron CC BY 3.0"
 ---
 
 Since Fab Lab Limerick opened, we have met with lots of people who are making interesting things in Limerick. We decided to organise this evening of presentations so makers from all disciplines can share with us all those cool projects in which they are working on right now.

@@ -15,5 +15,5 @@ imageurl: /events/thenewways-gregsaul.jpg
 imagedisplay: false
 imagetitle: 
 imagecredits: ""
-imageoriginal
+imageoriginal:
 ---

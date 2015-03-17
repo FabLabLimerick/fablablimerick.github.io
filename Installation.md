@@ -20,3 +20,7 @@ Install ruby gems:
 Install Bower:
 
 	* bower install
+
+Install compass ruby:
+    * gem update --system
+    * gem install compass
