@@ -18,10 +18,11 @@ $('div#botones').click(function(){
 */
 $( document ).ready(function() {
 	var num = $("#events .container .section-list").children("article").size();
-    // Hide past events on Home Page
+   // Hide past events on Home Page
     $.each($("#events .container .section-list").children("article"),function(index,value){
     	var currentDate = new Date();
     	var eventDate = new Date(this.getAttribute("date"));
+    	eventDate.setTime('23:59');
     	if(eventDate <  currentDate){
     		$(this).next("hr").remove();
     		$(this).remove();
@@ -34,11 +35,13 @@ $( document ).ready(function() {
 	    	}
 	    }
     });
+    
     // Hide past events on Event Page
     num = $(".body-events.current .section-list").children("article").size();
     $.each($(".body-events.current .section-list").children("article"),function(index,value){
 		var currentDate = new Date();	
 		var eventDate = new Date(this.getAttribute("date"));
+		eventDate.setTime('23:59');
 		if(eventDate <  currentDate){ // It is a previous event
 			$(this).addClass("past");
 			if($(".body-events.previous .section-list hr").first().hasClass("gray") == false ){
@@ -58,4 +61,5 @@ $( document ).ready(function() {
 			}
     	}
 	}); // end each
+
 });

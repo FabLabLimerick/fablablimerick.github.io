@@ -110,9 +110,10 @@
                 {% assign counter=0 %}
                 {% for event in site.categories.events reversed %}
                 {% if event.category contains 'events' %}
-                {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
-                {% capture posttime %}{{ event.date | date: '%s'}}{% endcapture %}
-                {% if posttime > nowunix %}
+                {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+                {% capture posttime %}{{ event.date | date: '%s'| plus: 89940 }}{% endcapture %}
+                <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
+                {% if posttime >= nowunix %}
                     {% if counter == 0 %}
                     <hr class="event">
                     {% else %}
