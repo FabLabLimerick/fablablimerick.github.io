@@ -12,5 +12,8 @@
     "jquery-defuscate": "1.0.0",
     "share-button": "0.1.1",
     "fitvids": "1.1.0"
+  },
+  "resolutions": {
+    "jquery": "2.1.3"
   }
 }
