@@ -64,5 +64,7 @@ $( document ).ready(function() {
 			}
     	}
 	}); // end each
-
+    if (num == 0){
+		$(".body-events.current .section-header").remove();    
+	}
 });
