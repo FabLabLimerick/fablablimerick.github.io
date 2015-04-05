@@ -17,13 +17,15 @@ $('div#botones').click(function(){
 	Improving list of events
 */
 $( document ).ready(function() {
+	var eventDate = new Date();	
+	var currentDate = new Date();
+    currentDate = Date.parse(currentDate); // number of miliseconds
 	var num = $("#events .container .section-list").children("article").size();
    // Hide past events on Home Page
     $.each($("#events .container .section-list").children("article"),function(index,value){
-    	var currentDate = new Date();
-    	var eventDate = new Date(this.getAttribute("date"));
-    	eventDate.setTime('23:59');
-    	if(eventDate <  currentDate){
+    	eventDate = Date.parse(this.getAttribute("date"))+(23*60*60*1000); 
+		// add 23H:00M in miliseconds 
+		if(eventDate <  currentDate){
     		$(this).next("hr").remove();
     		$(this).remove();
     		}
@@ -35,13 +37,16 @@ $( document ).ready(function() {
 	    	}
 	    }
     });
+    if (num == 0){
+    	$("#events .container #nextEvents").text("MORE EVENTS COMING SOON");
+    }
     
     // Hide past events on Event Page
     num = $(".body-events.current .section-list").children("article").size();
     $.each($(".body-events.current .section-list").children("article"),function(index,value){
-		var currentDate = new Date();	
-		var eventDate = new Date(this.getAttribute("date"));
-		eventDate.setTime('23:59');
+		eventDate = Date.parse(this.getAttribute("date"))+(23*60*60*1000); 
+		// add 23H:00M in miliseconds 
+		console.log("eventDate " + eventDate + "currentDate "+currentDate);
 		if(eventDate <  currentDate){ // It is a previous event
 			$(this).addClass("past");
 			if($(".body-events.previous .section-list hr").first().hasClass("gray") == false ){
@@ -52,7 +57,6 @@ $( document ).ready(function() {
     		$(".body-events.previous .section-list").prepend("<hr class='event'>");
     		$(this).next("hr").remove();
     		$(this).remove();
-    			
     	}
     	if ( index == (num-1)){
 			if($(".body-events.current .section-list").children('article').size() == 0){
