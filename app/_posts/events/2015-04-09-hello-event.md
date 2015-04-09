@@ -2,7 +2,7 @@
 category: events
 layout: "single-event"
 published: false
-title: "hello-event"
+title: "2015-05-01-hello-event"
 slug: "hello-event"
 permalink: "/events/hello-event/"
 hours: 25th of March 6pm
