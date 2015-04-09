@@ -1,7 +1,7 @@
 ---
 category: events
 layout: "single-event"
-published: false
+published: true
 title: "THE NEW WAYS WE BUILD. BRUCE BELL, FACIT HOMES"
 slug: "the-new-ways-we-build-bruce-bell-facit-homes"
 permalink: "/events/thenewwayswebuild-brucebell/"

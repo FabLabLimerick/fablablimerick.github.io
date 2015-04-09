@@ -41,7 +41,7 @@ external:
 # Prose configuration
 prose:
   rooturl: "app/_posts/events"
-  media: "img/events"
+  media: "app/img/events"
   metadata:
     app/_posts/events:
       - name: "title"
