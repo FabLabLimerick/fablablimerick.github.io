@@ -114,7 +114,7 @@ prose:
           element: "text"
           label: "Relative link to an image"
           value: "/events/thenewways-gregsaul.jpg"
-          help: "Introduce relative link to image. Make sure to load image with same name at /img/events/ folder."
+          help: "Introduce relative link to image. Make sure to load image with same name at /app/img/events/ absolute path using top tool bar."
       - name: "imagedisplay"
         field:
           element: "checkbox"
