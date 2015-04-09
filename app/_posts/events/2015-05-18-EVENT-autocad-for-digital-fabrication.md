@@ -37,3 +37,5 @@ Students will start to draw up there projects in class and will have one on one 
 
 ##WEEK FOUR
 Students will finish drawing up there projects while getting one on one tutorials. Students will lasercut their designs if applicable. We will finish up with an over view of what we have covered and go through any issues that the class found difficult to grasp. 
+
+[You can book your place here](http://fablablimerick.ticketleap.com/autocad-for-digital-fabrication/)
