@@ -1,7 +1,7 @@
 ---
 category: events
 layout: "single-event"
-published: true
+published: false
 title: "hello-event"
 slug: "hello-event"
 permalink: "/events/hello-event/"
