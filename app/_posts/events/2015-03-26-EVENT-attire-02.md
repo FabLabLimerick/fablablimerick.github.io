@@ -3,12 +3,13 @@ title: "ATTIRE 2"
 layout: single-event
 category: events
 published: true
-permalink: /events/attire2/
+slug: "attire-02"
+permalink: "/events/attire-02/"
 excerpt: "ATTIRE is a series of research workshops that aims to implement various electronic principles into a fashion garment"
 hours: "26th of March 20:00"
 description: "Advanced Technology & Textiles Inventive Research Events. 26th of March 20:00"
 fee: "€5 students €10 professionals"
-slug: attire2
+
 soon: false
 past: false
 

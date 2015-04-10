@@ -1,22 +1,20 @@
 ---
 category: events
 layout: "single-event"
-published: false
+published: true
 title: "SKETCHUP FOR DIGITAL FABRICATION & PROTOTYPING"
-slug: "sketchup-for-digital-fabrication-2"
-permalink: /events/sketchup2
-hours: APRIL 20TH 19.30
+slug: "sketchup-digital-fab-2"
+permalink: /events/sketchup-digital-fab-2
+hours: April 20th 19.30
 fee: €60 STUDENT €100 PROFESSIONAL
 soon: false
 past: false
-imageurl: /app/img/events/sketchup.jpg
+imageurl: "/events/sketchup.jpg"
 imagedisplay: true
 excerpt: A four week evening course demonstrating  Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication.
 description: A four week evening course demonstrating Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication.
 imagecredits: Javier Buron
 ---
-
-![sketchup.jpg](/app/img/events/sketchup.jpg)
 
 Sketchup for Digital Fabrication and Prototyping has been designed to help users bring their ideas into 3D realities. This course will run over a four week period walking learners through the potential that lies within the friendly and forgiving interface of this 3D modeling software. We will guide the users through the very basics of Sketchup allowing everyone to fully grasp the power and ease at which we can create and design in this virtual world. We will cover everything from the basic layout, menus and tools panels, to useful plugins and real life applications. In addition to this after the four weeks you will have received the skills necessary to take your designs one step further converting them from virtual 3d models into physical realities.
 Capacity of this course is 12 people and classes will be on four consecutive Mondays from 19:30-22:00.

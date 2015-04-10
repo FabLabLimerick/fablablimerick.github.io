@@ -1,22 +1,21 @@
 ---
 category: events
 layout: "single-event"
-published: false
+published: true
 title: AUTOCAD FOR DIGITAL FABRICATION
-slug: "autocad-for-digital-fabrication"
-permalink: /events/autocad/
-hours: MAY 18TH 19.30
+slug: "autocad-digital-fab"
+permalink: /events/autocad-digital-fab/
+hours: May 18th 19.30
 fee: €60 STUDENT €100 PROFESSIONAL
 soon: false
 past: false
-imageurl: "/app/img/events/Autocad-for-digital-fabrication.jpg"
+imageurl: "/events/Autocad-for-digital-fabrication.jpg"
 imagedisplay: false
 excerpt: A four week evening course demonstrating  2D drawing for digital fabrication using Autocad.
 description: A four week evening course demonstrating  2D drawing for digital fabrication using Autocad.
 imagecredits: Michael Mc Laughlin
 ---
 
-![Autocad-for-digital-fabrication.jpg](/app/img/events/Autocad-for-digital-fabrication.jpg)
 The  primary objective of this courseware is to teach students the basic commands necessary for 2D drawing, design, and drafting using AutoCAD . As a beginners class students will gain an understanding of the power and precision of computer-aided design and drafting. 
 
 After completing this course, students will be able to:

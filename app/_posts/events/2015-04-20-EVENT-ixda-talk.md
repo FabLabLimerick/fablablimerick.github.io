@@ -1,22 +1,21 @@
 ---
 category: events
 layout: "single-event"
-published: false
+published: true
 title: CREATING WITH PHYSICAL AND DIGITAL MATERIALS
-slug: "creating-with-physical-and-digital-materials"
-permalink: /events/IxDAtalk/
-hours: APRIL 20TH 19.00
+slug: "ixda-talk"
+permalink: "/events/ixda-talk/"
+hours: April 20th 19.00
 fee: Free event
 soon: false
 past: false
-imageurl: "//app/img/events/materialise-kit-Connie-Golsteijn.jpg"
+imageurl: "/events/materialise-kit-Connie-Golsteijn.jpg"
 imagedisplay: true
 excerpt: IxDA Limerick bring Dr. Connie Golsteijnare to give a talk on Hybrid Forms of Making in Theory and Practice.
 description: IxDA Limerick bring Dr. Connie Golsteijnare to give a talk on Hybrid Forms of Making in Theory and Practice.
 imagecredits: IxDA Limerick
 ---
 
-![materialise-kit-Connie-Golsteijn.jpg](/app/img/events/materialise-kit-Connie-Golsteijn.jpg)
 This talk is organised by  Limerick's chapter of the Interaction Design Association, [IxDA](http://ixdalimerick.org/).
 
 **Speaker:**

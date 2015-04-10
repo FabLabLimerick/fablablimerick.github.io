@@ -3,9 +3,9 @@ category: events
 layout: "single-event"
 published: true
 title: "THE NEW WAYS WE BUILD. BRUCE BELL, FACIT HOMES"
-slug: "the-new-ways-we-build-bruce-bell-facit-homes"
-permalink: "/events/thenewwayswebuild-brucebell/"
-hours: 23rd of April 18.30
+slug: "thenewwayswebuild-2"
+permalink: "/events/thenewwayswebuild-2/"
+hours: April 23rd 18.30
 fee: Free event
 soon: false
 past: false
