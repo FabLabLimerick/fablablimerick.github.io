@@ -40,6 +40,7 @@ external:
 
 # Prose configuration
 prose:
+  siteurl: "https://github.com/FabLabLimerick/fablablimerick.github.io/tree/developer"
   rooturl: "app/_posts"
   media: "app/img/events"
   metadata:
