@@ -1,0 +1,18 @@
+# Prose configuration
+prose:
+  ignore:
+    - /js
+    - /_bower_components
+    - /banner-homepage
+    - /banner-space
+    - /css
+    - /equipment
+    - /fonts
+    - /img
+    - /press
+    - /research
+    - /space
+    - /team
+    - /team-category
+    - /_layouts
+    - /_includes
