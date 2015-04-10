@@ -51,11 +51,19 @@ At this point you can go back to **edit** or **preview** until the event post is
 
 Clarifications about metadata:
 
-- The slug is the event file name (excluding date), it has to be lowercase words without accent and separated by dash. 
+- the slug is the event file name (excluding date), it has to be lowercase words without accent and separated by dash. 
+
+- the slug should be included into the permalink, file name and image url, and should always be lowercase words without accent and separated by dash, such as:
+    - slug: thenewwayswemake-1
+    - permalink: /events/thenewwayswemake-1/
+    - imageurl: /events/thenewwayswemake-1.jpg
 
 - Prose.io prepopulates the filename field with the current date prefix, yyyy-mm-dd, so the final event file name is: "yyyy-mm-dd-slug.md”.
 
-- The permalink is the final URL of the event page in the website, therefore the more info field should be equal to this URL in the newsletter.
+- the permalink is the final URL of the event page in the website, therefore the more info field should be equal to this URL in the newsletter.
+
+- the date of celebration should follow the following format: April 14th 18.30
+   
 
 ### Step #8: Rename event file name
 
