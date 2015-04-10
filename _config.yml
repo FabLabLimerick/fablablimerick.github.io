@@ -42,6 +42,30 @@ external:
 prose:
   siteurl: "https://github.com/FabLabLimerick/fablablimerick.github.io/tree/developer"
   rooturl: "app/_posts"
+  ignore:
+    - /js
+    - /_bower_components
+    - /banner-homepage
+    - /banner-space
+    - /css
+    - /equipment
+    - /fonts
+    - /img
+    - /press
+    - /research
+    - /space
+    - /team
+    - /team-category
+    - .htaccess
+    - *.html
+    - CNAME
+    - *.png
+    - *.jpg
+    - *.txt
+    - *.md
+    - _config.yml
+    - /_layouts
+    - /_includes
   media: "app/img/events"
   metadata:
     app/_posts/events:
