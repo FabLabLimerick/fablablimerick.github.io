@@ -1,6 +1,15 @@
 # Prose configuration
 prose:
   ignore:
+    - *.html
+    - *.md
+    - *.txt
+    - *.jpg
+    - *.png
+    - *.ico
+    - *.xml
+    - CNAME
+    - .htaccess
     - /js
     - /_bower_components
     - /banner-homepage
