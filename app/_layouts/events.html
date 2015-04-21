@@ -108,18 +108,19 @@
             <!-- EVENTS LIST NEXT-->
             <div class="section-list">
                 {% assign counter=0 %}
+                <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
                 {% for event in site.categories.events reversed %}
                 {% if event.category contains 'events' %}
                 {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
                 {% capture posttime %}{{ event.date | date: '%s'| plus: 89940 }}{% endcapture %}
-                <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
+                {% capture eventdate %}{{ event.date | date: '%s'| plus: 1 }}{% endcapture %}
                 {% if posttime >= nowunix %}
                     {% if counter == 0 %}
                     <hr class="event">
                     {% else %}
                     <hr class="event gray">
                     {% endif %}
-                    <article class="row event" date="{{ event.date}}">
+                    <article class="row event" date="{{ eventdate }}">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">

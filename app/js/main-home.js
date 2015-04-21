@@ -17,14 +17,16 @@ $('div#botones').click(function(){
 	Improving list of events
 */
 $( document ).ready(function() {
-	var eventDate = new Date();	
+	var eventDate = 0;	
 	var currentDate = new Date();
-    currentDate = Date.parse(currentDate); // number of miliseconds
+    currentDate = parseInt(Date.parse(currentDate))/1000; // number of miliseconds
 	var num = $("#events .container .section-list").children("article").size();
-   // Hide past events on Home Page
+   // Hide past events on HOME PAGE
     $.each($("#events .container .section-list").children("article"),function(index,value){
-    	eventDate = Date.parse(this.getAttribute("date"))+(23*60*60*1000); 
-		// add 23H:00M in miliseconds 
+    	//console.log("DATE" + value.getAttribute("date"));
+       	eventDate = parseInt(value.getAttribute("date")) + (23*60*60); 
+		console.log("homepage: eventDate " + eventDate + "currentDate "+currentDate);
+		// add 23H:00M in seconds 
 		if(eventDate <  currentDate){
     		$(this).next("hr").remove();
     		$(this).remove();
@@ -44,9 +46,9 @@ $( document ).ready(function() {
     // Hide past events on Event Page
     num = $(".body-events.current .section-list").children("article").size();
     $.each($(".body-events.current .section-list").children("article"),function(index,value){
-		eventDate = Date.parse(this.getAttribute("date"))+(23*60*60*1000); 
-		// add 23H:00M in miliseconds 
-		console.log("eventDate " + eventDate + "currentDate "+currentDate);
+		eventDate = parseInt(value.getAttribute("date")) + (23*60*60); 
+		console.log("Event page: eventDate " + eventDate + "currentDate "+currentDate);
+		// add 23H:00M in seconds 
 		if(eventDate <  currentDate){ // It is a previous event
 			$(this).addClass("past");
 			if($(".body-events.previous .section-list hr").first().hasClass("gray") == false ){
