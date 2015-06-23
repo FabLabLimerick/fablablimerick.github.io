@@ -4,7 +4,7 @@ layout: "single-event"
 published: false
 title: "2015-07-27-Fab-Lab-Limerick-Summer-Camp-Age-9-12.md"
 slug: "Fab-Lab-Limerick-Summer-Camp-Ag-9-12"
-permalink: "/events/Fab-Lab-Limerick-Summer-Camp-Age-9-12"
+permalink: "/events/fab-lab-limerick-summer-camp-age-9-12/"
 hours: 20th  July 11.30am
 fee: €100 per Child
 soon: false
