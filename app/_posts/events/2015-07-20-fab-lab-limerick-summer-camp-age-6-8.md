@@ -20,6 +20,7 @@ imagecredits: Michael Mc Laughlin
 
 
 
+
 ####20-24 July
 
 Fab Lab Limerick invites kids aged 6 to 8 to take part in a week long summer camp. Boys and girls will explore their imagination and creativity using digital technologies!
@@ -45,3 +46,5 @@ Ed Devane, a local sound artist, will instruct the group in how to create home-m
 On our final day we will turn into real designers, makers and innovators. We will use everything we have learned during the week and incorporate it into our final project. By translating an idea into an item we will learn about the process of fabrication through design and making. At the end of the day each child will have its own ‘real like from the shop’ product made ready to be packed as a cool present! 
 
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. No personal computers/tablets are permitted at the camp.
+
+[Sign up for Fab Lab Summer Camp Here](http://fablablimerick.ticketleap.com/fab-lab-limerick-summer-camp-age-6-8/)
