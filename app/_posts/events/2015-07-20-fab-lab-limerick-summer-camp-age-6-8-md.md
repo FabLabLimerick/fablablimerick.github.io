@@ -2,7 +2,7 @@
 category: events
 layout: "single-event"
 published: false
-title: "2015-07-20-fab-lab-limerick-summer-camp-age-6-8.md"
+title: "2015-07-20-fab-lab-limerick-summer-camp-age-6-8"
 slug: "fab-lab-limerick-summer-camp-age-6-8"
 permalink: "/events/fab-lab-limerick-summer-camp-age-6-8/"
 hours: 20th of July 11.30am
@@ -15,6 +15,7 @@ excerpt: "Summer Camp for kids aged 6-8"
 description: "Fab Lab Limerick invites kids aged 6 to 8 to take part in a week long summer camp. Boys and girls will explore their imagination and creativity using digital technologies!"
 imagecredits: Michael Mc Laughlin
 ---
+
 
 
 
