@@ -5,7 +5,7 @@ published: true
 title: "Fab Lab Summer Camp 6-8"
 slug: "fab-lab-limerick-summer-camp-age-6-8"
 permalink: "/events/fab-lab-limerick-summer-camp-age-6-8/"
-hours: "20th to 24th July 11.30-15.30"
+hours: "20th to 24th  July 11.30-15.30"
 fee: €100 per child
 soon: false
 past: false

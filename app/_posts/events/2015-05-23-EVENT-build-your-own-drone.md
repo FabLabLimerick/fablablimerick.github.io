@@ -1,7 +1,7 @@
 ---
 category: events
 layout: "single-event"
-published: true
+published: false
 title: BUILD YOUR OWN DRONE
 slug: "build-your-own-drone"
 permalink: /events/build-your-own-drone/

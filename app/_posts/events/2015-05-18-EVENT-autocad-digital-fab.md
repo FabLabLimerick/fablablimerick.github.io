@@ -25,10 +25,10 @@ After completing this course, students will be able to:
 * Present drawings in a detailed and visually impressive way
 * Set up a drawing for lasercutting
 
-##WEEK ONE
+## WEEK ONE
 There will be an introduction to digital fabrication and and what machines Autocad is compatible with. Students will be given an introduction into the AutoCad user interface and an overview of basic drawing commands, saving formats and filing conventions. Students will be asked to begin looking for a project that they can begin to start to draw up using the skills they have learned.
 
-##WEEK TWO
+## WEEK TWO
 We will continue to work on basic drawing commands while working on small projects. We will cover editing commands, layer management, object snaps, layout and printing.
 
 ##WEEK THREE
