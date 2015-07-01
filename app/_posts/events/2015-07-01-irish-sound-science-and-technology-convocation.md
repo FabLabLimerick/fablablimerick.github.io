@@ -13,6 +13,6 @@ imageurl: "/events/thenewways-gregsaul.jpg"
 imagedisplay: true
 ---
 
-## A New Post
+This year's theme is RESONANCE AND RECAPITULATION: ECHO OF A RENAISSANCE. There will be paper sessions, workshops, concerts and sound art. These events will be held in various venues around Limerick City. FabLab will host workshops and art. For example, we will hold a workshop at FabLab on contact microphones and their use in recording an performance. The events are open to the public but do require registration.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+[Register Here](http://www.eventbrite.com/e/isstc-2015-resonance-and-recapitulation-echo-of-a-renaissance-tickets-17182166322?aff=es2)
