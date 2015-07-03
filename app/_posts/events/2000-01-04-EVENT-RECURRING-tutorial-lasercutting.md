@@ -1,9 +1,9 @@
 ---
-title: Lasercutting
+title: Advance Lasercutting
 layout: single-event
 category: events recurring
 active: true
-permalink: /events/tutorial-lasercutting3/
+permalink: /events/advancelasercutting/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
 hours: "Fourth Wednesday of each month 19:30-21:30"
 description: "Wed 4th Week"
@@ -13,17 +13,17 @@ past: false
 image:
   thumbnail: /events/tutorial-lasercutting-thumb.jpg
 
-imageurl: /events/tutorial-lasercutting.jpg
+imageurl: /events/advancelasercutting.jpg
 imagedisplay: true
 imagetitle: 
-imagecredits: "Lasersaur.com"
-imageoriginal: https://www.flickr.com/photos/stfnix/8469714592
+imagecredits: ""
+imageoriginal: 
 ---
 
-Staff and students @ Fab Lab Limerick have worked together to build their very own Laser Cutter. 'Lasersaur' is an open-source laser cutter with the ability to cut plastics, wood and textiles at a high speed with a high degree of accuracy. It has a bed size of 1220mm x 610mm and a 100 Watt laser output so it has the ability to cut and engrave large sheets of material.
+The 'Introduction To Advanced Lasercutting' is a preparation course for using our Trotec Laser Cutter. Our Trotec is a large, fast laser cutter that has the ability to do incredible detail.
 
-Fablab Limerick would like to invite people from all disciplines to take part in a course to learn how to lasercut.  It is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with.
+The course will teach you how to take a simple drawing or image and cut or engrave it. The capabilities of laser cutting will be explained and some examples will be shown.
 
-The course will introduce you to the idea of self build machines, it will educate you in laser safety and, indeed, it will teach you how to laser cut. At the end of the two hour session you will have the ability to process a 2D drawing into a lasercut object.
+Please note that it is required to do our 'Beginners introduction to laser cutting' before taking this course course.
 
-[You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting6/)
+[You can book your place here](http://fablablimerick.ticketleap.com/advancedlasercutting/)
