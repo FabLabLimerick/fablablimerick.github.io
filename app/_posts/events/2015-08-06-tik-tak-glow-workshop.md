@@ -3,17 +3,18 @@ category: events
 layout: "single-event"
 published: true
 title: "Tik-Tak-Glow Workshop"
-slug: "thenewways-gregsaul"
-permalink: "/events/thenewways-gregsaul/"
-hours: 25th of March 6pm
-fee: Free event
+slug: "tik-tak-glow-workshop"
+permalink: "/events/tik-tak-glow-workshop/"
+hours: 12th of September
+fee: €12 per kid
 soon: true
-past: true
-imageurl: "/events/thenewways-gregsaul.jpg"
-imagedisplay: true
+past: false
+imageurl: "/events/tik-tak-glow-workshop.jpg"
+imagedisplay: false
+excerpt: Kids Workshop
+description: "In Collaboration with Elemental Festival and Ed Devane (a local sound artist), Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument. "
+imagecredits: Ed Devane
 ---
-
-## A New Post
 
 In Collaboration with [Elemental Festival](http://www.elementalfestival.com/) and [Ed Devan](http://www.eddevane.com/)e (a local sound artist), Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument. 
 
