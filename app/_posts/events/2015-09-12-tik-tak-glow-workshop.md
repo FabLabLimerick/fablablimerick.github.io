@@ -6,8 +6,8 @@ title: "Tik-Tak-Glow Workshop"
 slug: "tik-tak-glow-workshop"
 permalink: "/events/tik-tak-glow-workshop/"
 hours: September 12th
-fee: €12 per kid
-soon: true
+fee: €12 per child
+soon: false
 past: false
 imageurl: "/events/tik-tak-glow-workshop.jpg"
 imagedisplay: false
