@@ -12,7 +12,7 @@ past: false
 imageurl: "/events/tik-tak-glow-workshop.jpg"
 imagedisplay: false
 excerpt: "In Collaboration with Elemental Festival and Ed Devane, Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument."
-description: "In Collaboration with Elemental Festival and Ed Devane, Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument."
+description: "Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument."
 imagecredits: Ed Devane
 ---
 
