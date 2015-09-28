@@ -8,7 +8,7 @@ permalink: "/events/irish-sound-science-and-technology-convocation/"
 hours: ""
 fee: "Tickets from €15 (registration required)"
 soon: false
-past: false
+past: true
 imageurl: "/events/irish-sound-science-and-technology-convocation.jpg"
 imagedisplay: false
 imagecredits: ISSTA

@@ -8,7 +8,7 @@ permalink: "/events/fab-lab-limerick-summer-camp-age-6-8/"
 hours: "20th to 24th  July 11.30-15.30"
 fee: €100 per child
 soon: false
-past: false
+past: true
 imageurl: "/events/fab-lab-limerick-summer-camp-age-6-8.jpg"
 imagedisplay: false
 excerpt: "Fab Lab Limerick invites kids aged 6 to 8 to take part in a week long summer camp. Boys and girls will explore their imagination and creativity using digital technologies!"

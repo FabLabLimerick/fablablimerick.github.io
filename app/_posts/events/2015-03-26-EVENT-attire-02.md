@@ -11,7 +11,7 @@ description: "Advanced Technology & Textiles Inventive Research Events. 26th of 
 fee: "€5 students €10 professionals"
 
 soon: false
-past: false
+past: true
 
 imageurl: /events/attire2.jpg
 imagedisplay: false

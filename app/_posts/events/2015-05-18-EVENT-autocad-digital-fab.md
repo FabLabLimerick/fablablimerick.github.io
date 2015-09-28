@@ -8,7 +8,7 @@ permalink: /events/autocad-digital-fab/
 hours: May 18th 19.30
 fee: €60 STUDENT €100 PROFESSIONAL
 soon: false
-past: false
+past: true
 imageurl: "/events/Autocad-for-digital-fabrication.jpg"
 imagedisplay: false
 excerpt: A four week evening course demonstrating  2D drawing for digital fabrication using Autocad.

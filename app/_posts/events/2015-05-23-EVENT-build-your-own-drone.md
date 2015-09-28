@@ -8,7 +8,7 @@ permalink: /events/build-your-own-drone/
 hours: "May 23rd & 24th"
 fee: ""
 soon: true
-past: false
+past: true
 imageurl: "/events/diy-drone-worskhop.jpg"
 imagedisplay: false
 excerpt: Two day workshop in which participants will build their own open source quadcopter drone from scratch.

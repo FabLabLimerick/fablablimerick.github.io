@@ -8,7 +8,7 @@ permalink: /events/sketchup-digital-fab-2
 hours: April 20th 19.30
 fee: €60 STUDENT €100 PROFESSIONAL
 soon: false
-past: false
+past: true
 imageurl: "/events/sketchup.jpg"
 imagedisplay: true
 excerpt: A four week evening course demonstrating  Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication.

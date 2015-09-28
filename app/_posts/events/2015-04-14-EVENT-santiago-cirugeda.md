@@ -8,7 +8,7 @@ permalink: "/events/santiago-cirugeda"
 hours: April 14th 18.30
 fee: Free event
 soon: false
-past: false
+past: true
 imageurl: "/events/santiago-cirugeda.jpg"
 imagedisplay: false
 excerpt: "This talk is part of the School of Architecture lecture series programme. Santiago Cirugeda is the personification of ‘guerrilla architecture'."

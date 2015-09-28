@@ -8,7 +8,7 @@ permalink: "/events/thenewwayswebuild-2/"
 hours: April 23rd 18.30
 fee: Free event
 soon: false
-past: false
+past: true
 imageurl: "/events/the-new-ways-we-build.jpg"
 imagedisplay: true
 excerpt: "A talk about the impact of digital fabrication in design with the support of Irish Design 2015. "

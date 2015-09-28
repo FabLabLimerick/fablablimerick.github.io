@@ -8,7 +8,7 @@ permalink: "/events/ixda-talk/"
 hours: April 20th 19.00
 fee: Free event
 soon: false
-past: false
+past: true
 imageurl: "/events/materialise-kit-Connie-Golsteijn.jpg"
 imagedisplay: true
 excerpt: IxDA Limerick bring Dr. Connie Golsteijnare to give a talk on Hybrid Forms of Making in Theory and Practice.

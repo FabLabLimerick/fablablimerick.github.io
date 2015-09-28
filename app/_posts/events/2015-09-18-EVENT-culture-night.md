@@ -8,7 +8,7 @@ permalink: "/events/opennight2015/"
 hours: Friday September 18th
 fee: Free
 soon: false
-past: false
+past: true
 imageurl: "/events/opennight2015.jpg"
 imagedisplay: false
 excerpt: "Fab Lab Limerick celebrates its second Open Night with tutorials and activities on 3D printing, 3D scanning and laser cutting."

@@ -8,7 +8,7 @@ permalink: "/events/tik-tak-glow-workshop/"
 hours: September 12th
 fee: €12 per child
 soon: false
-past: false
+past: true
 imageurl: "/events/tik-tak-glow-workshop.jpg"
 imagedisplay: false
 excerpt: "In Collaboration with Elemental Festival and Ed Devane, Fab Lab Limerick would like to invite kids of 6 years and up to build their very own Tik-Tak-Glow instrument."

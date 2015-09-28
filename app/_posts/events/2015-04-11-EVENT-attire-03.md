@@ -8,7 +8,7 @@ permalink: /events/attire-03
 hours: "April 11th 10.00 -12.00"
 fee: €5 STUDENTS €10 PROFESSIONALS
 soon: false
-past: false
+past: true
 imageurl: "/events/Attire-03.jpg"
 imagedisplay: true
 excerpt: ATTIRE is a series of research workshops that aims to implement various electronic principles into a fashion garment
