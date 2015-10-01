@@ -25,4 +25,4 @@ This four week course will cover Introduction to 3D CAD part design and modeling
 
 The cost of the full course is 40 euros for students and 80 euros for adults. Capacity of this course is 12 people and classes will be on four consecutive Tuesdays from 19:30-21:30 starting Tuesday 3rd November.
 
-[http://fablablimerick.ticketleap.com/solid-works-course/)
+[You can book your place here](http://fablablimerick.ticketleap.com/solid-works-course/)
