@@ -83,3 +83,26 @@ Once your event is finished and ready to be published ask your web administrator
 
 For any question please send email to info@colaborativa.eu
 
+## Setting a developer and deploy enviroment (November 2015)
+
+### MacOSX
+
+Install Homebrew http://brew.sh
+
+After homebrew is installed install node.js ``` brew install node ```
+
+Now install ruby, rbenv and ruby-build to set up a ruby installation ```brew install rbenv ruby-build```
+
+Add rbenv to bash so that it loads every time you open a terminal
+
+```
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+Install Ruby
+```
+rbenv install 2.2.3
+rbenv global 2.2.3
+ruby -v
+```
