@@ -5,7 +5,7 @@ published: true
 slug: pythoncoderdojoevent
 permalink: /events/pythoncoderdojoevent
 excerpt: ""
-hours: "10th of November 7pm - 9pm"
+hours: "November 10th, 17th and 24th, 7pm - 9pm"
 description: Coding Workshops with CoderDojo Limerick
 fee: "\"Pay What You Can\" donation to CoderDojo"
 soon: true
