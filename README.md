@@ -106,3 +106,11 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 ruby -v
 ```
+
+Non install bundler 
+```
+gem install bundle
+rbenv rehash
+```
+
+After this steps you will have a node.js installation and a clean ruby installation, well done!
