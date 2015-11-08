@@ -113,4 +113,14 @@ gem install bundle
 rbenv rehash
 ```
 
-After this steps you will have a node.js installation and a clean ruby installation, well done!
+Finally install bower and grunt globally ```npm install -g bower``` and ```npm install -g grunt-cli```
+
+After this steps you will have a node.js installation with bower and a clean ruby installation in your Mac, well done!
+
+Now, let's get your developer and deploy set up for fab lab limerick website:
+
++ Clone fablablimerick.github.io repo in your computer
++ Open fablablimerick.github.io folder in your terminal (simply drag and drop the folder on top of the terminal app and will open a new terminal window in the right path)
++ Type ```bundle install```to install all the ruby gems that the website needs
++ Now install all the node packages needed in the website with ```npm install```
++ Finally install all the bower packages that the website uses ```bower install``
