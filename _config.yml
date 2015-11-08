@@ -56,7 +56,7 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "events"      
+          value: "events"
       - name: "published"
         field:
           element: "checkbox"
@@ -130,9 +130,9 @@ prose:
         field:
           element: "text"
           label: "Image credits"
-          help: "Introduce the image credits"  
+          help: "Introduce the image credits"
       - name: "imageoriginal"
         field:
           element: "text"
           label: "External Link"
-          help: "If exists, then introduce the external link to the original credited image"     
+          help: "If exists, then introduce the external link to the original credited image"
