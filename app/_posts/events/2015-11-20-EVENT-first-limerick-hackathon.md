@@ -1,7 +1,7 @@
 ---
 category: events
 layout: "single-event"
-published: false
+published: true
 title: "First Limerick Hackathon"
 slug: "first-limerick-hackathon"
 permalink: "/events/first-limerick-hackathon/"
@@ -13,7 +13,7 @@ imageurl: "/events/first-limerick-hackathon.jpg"
 imagedisplay: false
 excerpt: "Are you a developer with an interest in getting together with other developers to hack for fun?"
 description: "Are you a developer with an interest in getting together with other developers to hack for fun?"
-imagecredits: 
+imagecredits:
 ---
 
 The first Limerick Hackathon will take place on Saturday 21st November. The theme of the hackathon will be Arduino-based hardware projects.

@@ -4,13 +4,13 @@ layout: "single-event"
 published: true
 slug: pythoncoderdojoevent
 permalink: /events/pythoncoderdojoevent
-excerpt: ""
-hours: "November 10th, 17th and 24th, 7pm - 9pm"
-description: Coding Workshops with CoderDojo Limerick
-fee: "\"Pay What You Can\" donation to CoderDojo"
-soon: true
+excerpt: "A series of three workshops that will guide you from writing your first computer program to programming your very own text-based adventure game!"
+hours: "November 10th, 17th & 24th"
+description: "A series of three workshops that will guide you from writing your first computer program to programming your very own text-based adventure game!"
+fee: "Pay What You Can"
+soon: false
 past: false
-imageurl: /app/img/events/pythoncoderdojoevent.jpg
+imageurl: /events/pythoncoderdojoevent.jpg
 imagedisplay: true
 imagetitle: ""
 imagecredits: the Python logo is a trademark of the Python Software Foundation
