@@ -124,3 +124,6 @@ Now, let's get your developer and deploy set up for fab lab limerick website:
 + Type ```bundle install```to install all the ruby gems that the website needs
 + Now install all the node packages needed in the website with ```npm install```
 + Finally install all the bower packages that the website uses ```bower install``
+
+After that you will be able to run the website locally by typing ```grunt serve``` and deploy the website by typing ```grunt deploy``` DO NOT DEPLOY the website unless everything is working in your local version.
+
