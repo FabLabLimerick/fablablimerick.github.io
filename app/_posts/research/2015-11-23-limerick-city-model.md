@@ -1,3 +1,5 @@
+![limerickcitymodel-0.jpg]({{site.baseurl}}/app/img/events/limerickcitymodel-0.jpg)
+![limerickcitymodel-1.jpg]({{site.baseurl}}/app/img/events/limerickcitymodel-1.jpg)
 ##Limerick City Model
 
 The idea of Limerick City Model was conceived in late 2013 when three graduates of The School of Architecture, University Of Limerick (SA UL), applied for funding from Limerick City Of Culture 2014. Those graduates were Michael Mc Laughlin, Ger Walsh and Sean Collins. 
