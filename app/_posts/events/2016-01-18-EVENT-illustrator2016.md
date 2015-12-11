@@ -2,12 +2,12 @@
 title: "Adobe Illustrator for digital fabrication"
 layout: single-event
 category: events
-permalink: /events/illustrator/
+permalink: /events/illustrator2/
 excerpt: "Four week course on Adobe Illustrator for Digital Fabrication"
 hours: "18 Jan to 8 Feb 19:30-21:30"
 description: "Four week course on Adobe Illustrator for Digital Fabrication. 29 Sep to 20 Oct 19:00-22:00"
 fee: "€60 Students/€100 Adults; 12 places available"
-slug: illustrator
+slug: illustrator2
 past: false
 
 imageurl: /events/illustrator.jpg

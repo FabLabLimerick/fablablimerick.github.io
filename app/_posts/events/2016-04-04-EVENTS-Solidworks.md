@@ -7,7 +7,7 @@ permalink: /events/solidworks2016/
 excerpt: "Solidworks is a popular 3D CAD design software and together with 3D printing is an excellent method for fabricating an individual’s ideas and designs."
 hours: "April 4th - April 25th"
 description: "Solidworks is a popular 3D CAD design software and together with 3D printing is an excellent method for fabricating an individual’s ideas and designs."
-fee: "€40 student/€80 adult"
+fee: "€60 student/€100 adult"
 slug: solidworks2016
 soon: true
 past: false
