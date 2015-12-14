@@ -1,11 +1,11 @@
 ---
-title: "Ceramics Talk [draft]"
+title: "Ceramics Talk"
 layout: single-event
 category: events
 published: true
 permalink: /events/ceramics-talk-kate-o-kelly/
 excerpt: "Fab Lab Limerick is holding a talk with Kate O' Kelly resident ceramics artist about her recent works with NCAD, Fab Lab and LSAD"
-hours: "April 16th"
+hours: "TBD"
 description: "Fab Lab Limerick is holding a talk with Kate O' Kelly resident ceramics artist about her recent works with NCAD, Fab Lab and LSAD"
 fee: "Free"
 slug: ceramics-talk-kate-o-kelly

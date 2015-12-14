@@ -2,7 +2,7 @@
 title: "Make Your Own Urban Garden Furniture"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/myo-urban-garden-furniture/
 excerpt: ""
 hours: "June 6th"

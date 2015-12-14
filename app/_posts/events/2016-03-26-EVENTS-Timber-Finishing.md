@@ -2,7 +2,7 @@
 title: "Timber Finishing"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/timber-finishing/
 excerpt: "Victorica Breathnach Furniture Designer, recent DCCoi awarded designer will hold a workshop on finishing and treatment for high quality timber products at Fab Lab Limerick"
 hours: "March 26th"
