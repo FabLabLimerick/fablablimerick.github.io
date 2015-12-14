@@ -18,9 +18,7 @@ imagecredits: "Snowflake by CreativeTools CC-AT-SA"
 imageoriginal: "CreativeTools"
 ---
 
-Limerick Fab Lab presents a Christmas Open Evening - with a flurry of exciting and innovative technologies on offer, to soothe your shopping-flustered souls with some fun for all ages!
+Limerick Fab Lab presents a Christmas Open Evening - with a flurry of exciting and innovative technologies on offer, to soothe your shopping-flustered souls with some fun for all ages! Check out our open source digital fabrication machines in action - design your own unique decorations at our Laser mini-workshops, see 3D printing Christmas decorations - and many more!
 
-Check out our open source digital fabrication machines in action - design your own unique decorations - 3D printing Christmas decorations, Laser mini-workshop, LED kits at our mini solder station - and many more!
-
-Come along for some digital Christmas cheer!
-
+This event has free admission and no previous reservation is required.
+**Come along for some digital Christmas cheer!**
