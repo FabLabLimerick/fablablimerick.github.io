@@ -11,7 +11,8 @@
     "bootstrap-touch-carousel": "git://github.com/javierburongarcia/bootstrap-touch-carousel",
     "jquery-defuscate": "1.0.0",
     "share-button": "0.1.1",
-    "fitvids": "1.1.0"
+    "fitvids": "1.1.0",
+    "google-calendar": "GoogleWebComponents/google-calendar#~1.0.1"
   },
   "resolutions": {
     "jquery": "2.1.3"
