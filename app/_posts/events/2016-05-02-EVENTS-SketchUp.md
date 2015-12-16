@@ -2,7 +2,7 @@
 title: "SketchUp"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/sketchup2/
 excerpt: "A four week evening course demonstrating  Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication."
 hours: "May 2nd - May 23rd"

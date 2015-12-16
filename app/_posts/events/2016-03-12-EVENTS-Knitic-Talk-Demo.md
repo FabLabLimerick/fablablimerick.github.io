@@ -2,7 +2,7 @@
 title: "Knitic/Ultralab Talk"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/knit-ultralab/
 excerpt: "Knitic is an arduino-based open hardware knitting machine developed by Varvara Guljajeva & Mar Canet"
 hours: "TBD"

@@ -3,7 +3,7 @@ title: "Springboard Certificate in Digital Fabrication"
 layout: single-event
 category: events
 permalink: /events/certificate-digital-fabrication-2/
-excerpt: "This certificate will give participants an insight into digital fabrication. Covering a broad range of technologies that offer the prospects of on-demand, mass personalisation, with more localized and sustainable production"
+excerpt: "This certificate will give participants an insight into digital fabrication. Covering a  range of technologies that offer the prospects of on-demand, with localised and sustainable production"
 hours: "January to April, Deadline for applications: 10th of Jan"
 description: "This certificate will give participants an insight into digital fabrication. Covering a broad range of technologies that offer the prospects of on-demand, mass personalisation, with more localized and sustainable production"
 fee: "Free (Apply now at Springboard+)"

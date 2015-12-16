@@ -1,5 +1,5 @@
 ---
-title: "Computer Aided Product Design (CAPD) for Startups and Makers "
+title: "Product Design for Startups and Makers"
 layout: single-event
 category: events
 published: true
