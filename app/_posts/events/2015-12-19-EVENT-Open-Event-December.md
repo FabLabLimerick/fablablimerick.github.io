@@ -2,7 +2,7 @@
 title: "Xmas Open Evening"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/xmas-open-evening/
 excerpt: "Fab Lab Limerick presents a Christmas Open Evening on Saturday the 19th with a flurry of exciting and innovative technologies"
 hours: "December 19th, from 5pm to 9pm "

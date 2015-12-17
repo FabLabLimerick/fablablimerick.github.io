@@ -2,7 +2,7 @@
 title: "Reacción : Design Sprint"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/reaccion/
 excerpt: "Reacción is a collaborative design project to create a Disaster Relief Device. The goal is to turn humanitarian aid upside down - to let communities manage and respond to coordinated relief efforts"
 hours: "TBD"

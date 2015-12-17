@@ -2,14 +2,14 @@
 title: "Product Design for Startups and Makers"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/fusion/
 excerpt: "Introduction to Computer Aided Product Design and Design for Manufacture. Part 1 will focus on Fusion 360 as part of the Design Process"
 hours: "March 1st - 22nd, from 7:30pm to 9pm "
 description: "Introduction to Computer Aided Product Design and Design for Manufacture. Part 1 will focus on Fusion 360 as part of the Design Process"
 fee: "€60/€100 12 Students/Adults"
 slug: fusion
-soon: true
+soon: false
 past: false
 imageurl: /events/fusion-360.jpg
 imagedisplay: false

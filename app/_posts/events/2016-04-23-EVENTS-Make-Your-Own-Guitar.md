@@ -2,7 +2,7 @@
 title: "Make Your Own Guitar"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/myo-guitar/
 excerpt: "Using CNC cutting and Digital Fabrication - we will be holding a workshop on making your own kit CNC guitar with your own unique designs"
 hours: "April 23rd"

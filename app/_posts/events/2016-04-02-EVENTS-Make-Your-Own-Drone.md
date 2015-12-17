@@ -2,7 +2,7 @@
 title: "Make Your Own Drone"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/myo-drone/
 excerpt: "The Fab Lab would like to invite you to take part in our two day workshop to design and  manufacture an open source drone with digitally fabricated parts"
 hours: "April 2nd & 3th"
