@@ -2,6 +2,7 @@
 title: "Limerick Hackathon"
 layout: single-event
 category: events
+published: false
 permalink: /events/hackathon2/
 excerpt: "Are you a developer with an interest in getting together with other developers to hack for fun?"
 hours: "9th April"
@@ -12,9 +13,9 @@ past: false
 soon: false
 imageurl: /events/first-limerick-hackathon.jpg"
 imagedisplay: false
-imagetitle: 
+imagetitle:
 imagecredits: "Fab Lab Limerick"
-imageoriginal: 
+imageoriginal:
 ---
 
 The Limerick Hackathon is a friendly event where programmers and other developers can get together and collaborate intensively on software and electronics projects. After the success of the first Limerick Hackathon in November, the second Limerick Hackathon will take place on Saturday 9th April in the Fab Lab main space.

@@ -2,7 +2,7 @@
 title: "Solidworks"
 layout: single-event
 category: events
-published: true
+published: false
 permalink: /events/solidworks2016/
 excerpt: "Solidworks is a popular 3D CAD design software, together with 3D printing and digital fabrication, it is an excellent method for fabricating and prototyping designs."
 hours: "April 5th - April 26th"
@@ -19,7 +19,7 @@ imageoriginal: ""
 ---
 
 
-Fab Lab Limerick would like to invite people from all disciplines to take part in a course to learn Solidworks in conjunction with the 3D printing and digital fabrication facilities at Fab Lab Limerick. This is an introductory course so no previous experience on the software is required. 
+Fab Lab Limerick would like to invite people from all disciplines to take part in a course to learn Solidworks in conjunction with the 3D printing and digital fabrication facilities at Fab Lab Limerick. This is an introductory course so no previous experience on the software is required.
 
 This four week course will cover introduction to 3D CAD part design and modeling development through Solidworks, explanation of 3D printing; its possibilities and limitations, using software and preparing files for 3D printing. Each student will get a chance to print a personal design using a 3D printer at Fab Lab Limerick. The cost of the full course is 60 euros for students and 100 euros for adults. Capacity of this course is 10 people and classes will be on four consecutive Tuesdays from 19:30 to ­21:30 starting Tuesday 5th of April.
 
