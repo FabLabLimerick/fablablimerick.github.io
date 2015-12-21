@@ -10,11 +10,11 @@ fee: "Free"
 slug: open-night-jan
 past: false
 soon: false
-imageurl: /events/open-night-jan.jpg
+imageurl: /events/opennight-jan.jpg
 imagedisplay: false
-imagetitle: 
+imagetitle:
 imagecredits: "Fab Lab Limerick"
-imageoriginal: 
+imageoriginal:
 ---
 
 Limerick Fab Lab presents our first open evening of 2016 - with a broad range of exciting and innovative technologies on offer, with some fun for all ages! Check out our open source digital fabrication machines in action - take part in our activities, make your own unique designs at our Laser mini-workshops - and much more!
