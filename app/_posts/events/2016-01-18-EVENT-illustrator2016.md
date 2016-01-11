@@ -19,7 +19,7 @@ imageoriginal:
 
 Adobe Illustrator For Digital Fabrication and Prototyping has been designed for new and inexperienced users who wish to become familiar with the basics of vector creation, editing and application. We will cover everything from file formats that illustrator uses, to typography and graphic design, to its applications in the printing and manufacturing industries. The user will be guided from a novice through to an Illustrator master in an easy-going, relaxed environment. This programme will assist new learners on the basics of Adobe Illustrator, and will offer a full overview of the application interface, each tool, menu, and panel.
 
-The cost of the full course is 60 euros for students and 100 euros for adults. Capaticy of this course is 12 people and classes will be on four consecutive mondays from 19:30-21:30 starting Tuesday 19th January.
+The cost of the full course is 60 euros for students and 100 euros for adults. Capaticy of this course is 12 people and classes will be on four consecutive mondays from 19:30-21:30 starting Tuesday 19th of January.
 
 ### Week 1 (19 Jan)
 There will be an introduction to digital prototyping its possibilities, and what will be covered in this course. We will give a run-through of the basics of Laser-cutting, fabricating examples to see the process involved. During the course, each learner will have the chance to draw their own designs and print them out, so students should bring along an idea of something they would like to fabricate, even a sketch or an image- for example we will be making art-work, signage; 3D puzzles, board games, fabric printing and toys. Each design will be individually customisable and then cut with the Laser-cutter.
