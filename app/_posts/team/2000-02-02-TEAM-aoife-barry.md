@@ -1,0 +1,11 @@
+---
+title: Aoife Barry
+fullname: Aoife Barry
+country: Ireland
+category: team
+published: false
+position: Researcher
+image: aoife-barry.jpg
+project: current
+
+---
