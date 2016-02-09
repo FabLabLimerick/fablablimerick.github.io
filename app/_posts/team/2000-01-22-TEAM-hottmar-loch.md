@@ -3,8 +3,8 @@ title: Hottmar Loch
 fullname: Hottmar Loch
 country: Brazil
 category: team
-published: false
+published: true
 position: Researcher
 image: hottmar-loch.jpg
-project: current
+project: past
 ---

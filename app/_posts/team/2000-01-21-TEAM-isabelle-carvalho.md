@@ -6,5 +6,5 @@ category: team
 published: false
 position: Researcher
 image: isabelle-carvalho.jpg
-project: current
+project: past
 ---

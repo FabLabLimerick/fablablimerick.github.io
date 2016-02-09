@@ -6,5 +6,5 @@ category: team
 published: true
 position: Collaborator
 image: luke-benson.jpg
-project: current city-model
+project: past city-model
 ---

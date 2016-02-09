@@ -3,8 +3,8 @@ title: Diego Augusto Tavares
 fullname: Diego Augusto Tavares
 country: Brazil
 category: team
-published: false
+published: true
 position: Researcher
 image: diego-augusto-tavares.jpg
-project: current
+project: past
 ---

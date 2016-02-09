@@ -3,8 +3,8 @@ title: Tamires Lourdes
 fullname: Tamires Lourdes
 country: Brazil
 category: team
-published: false
+published: true
 position: Researcher
 image: tamires-lourdes.jpg
-project: current
+project: past
 ---

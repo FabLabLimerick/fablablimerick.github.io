@@ -3,8 +3,8 @@ title: Ahsan Iqbal
 fullname: Ahsan Iqbal
 country: Ireland
 category: team
-published: false
-position: Collaborator
+published: true
+position: Assistant
 image: ahsan-iqbal.jpg
-project: current
+project: past
 ---

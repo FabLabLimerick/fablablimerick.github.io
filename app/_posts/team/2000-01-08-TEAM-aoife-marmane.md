@@ -4,5 +4,5 @@ category: team
 published: true
 position: Collaborator
 image: aoife-marnane.jpg
-project: current
+project: past
 ---

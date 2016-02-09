@@ -6,5 +6,5 @@ category: team
 published: true
 position: Researcher
 image: matheus-s-mainardi.jpg
-project: current summer-research
+project: past summer-research
 ---

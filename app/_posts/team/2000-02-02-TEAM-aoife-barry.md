@@ -6,6 +6,6 @@ category: team
 published: false
 position: Researcher
 image: aoife-barry.jpg
-project: current
+project: past
 
 ---

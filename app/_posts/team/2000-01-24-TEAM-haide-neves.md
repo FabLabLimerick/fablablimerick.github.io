@@ -6,5 +6,5 @@ category: team
 published: false
 position: Researcher
 image: haide-neves.jpg
-project: current
+project: past
 ---

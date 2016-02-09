@@ -3,8 +3,8 @@ title: Alejandro Sanchez
 fullname: Alejandro Sanchez
 country: Ireland
 category: team
-published: false
-position: Collaborator
+published: true
+position: Assistant
 image: alejandro-sanchez.jpg
-project: current
+project: past
 ---

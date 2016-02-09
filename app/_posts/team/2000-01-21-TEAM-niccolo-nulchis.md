@@ -4,7 +4,7 @@ fullname: Niccolo Nulchis
 country: Ireland
 category: team
 published: true
-position: Collaborator
+position: Assistant
 image: niccolo-nulchis.jpg
-project: current
+project: past
 ---
