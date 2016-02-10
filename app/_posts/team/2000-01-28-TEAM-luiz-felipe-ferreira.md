@@ -5,6 +5,6 @@ country: Brazil
 category: team
 published: true
 position: Researcher
-image: luiz-felipe-ferreira.jpg
+image: luiz-felipe.jpg
 project: past
 ---
