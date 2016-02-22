@@ -20,7 +20,7 @@ imageoriginal: "https://www.eventbrite.ie/e/python-programming-for-absolute-begi
 
 These workshops will guide you from writing your first computer program to programming your very own text-based adventure game! CoderDojo Limerick in collaboration with Fab Lab Limerick will be running two introductory workshops on Tuesday 1st of March and the following Tuesday, 8th of March, for adults interested in learning the Python programming language.
 
-Workshops will run in Fab Lab Limerick from 7:30pm to 9:30pm in the Fab Lab space. The classes will be run on a _"Pay What You Can"_ donation basis with all proceeds going towards supporting CoderDojo helping kids learn to code. Booking is advisable to reserve your place - booking link will follow shortly.
+Workshops will run in Fab Lab Limerick from 7:30pm to 9:30pm in the Fab Lab space. The classes will be run on a _"Pay What You Can"_ donation basis with all proceeds going towards supporting CoderDojo helping kids learn to code. Booking is advisable to reserve your place - [please book through this link](https://www.eventbrite.ie/e/beginners-python-programming-for-adults-part-12-tickets-21438609458).
 
 No prior knowledge of computer programming necessary, but you will need your own laptop (don't forget the charger) with Python 3.5 installed and a text editor (We recommend notepad++).
 
