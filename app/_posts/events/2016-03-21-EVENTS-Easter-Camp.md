@@ -23,3 +23,5 @@ Kids will be encouraged to explore their own creativity and imagination with the
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. The camp will be over three days - Monday the 21st to Wednesday the 23rd inclusive, from 10:30am to 3:30pm. The cost of the workshop is €100 per child.
 
 [Book places here](http://fablablimerick.ticketleap.com/easter-camp-2016/)
+
+If you encounter any issues with our booking system, [please don't hesitate to email us.](mailto:fablab@saul.ie)
