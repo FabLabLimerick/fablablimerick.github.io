@@ -1,15 +1,15 @@
 ---
-title: "SketchUp"
+title: "SketchUp For Digital Fabrication"
 layout: single-event
 category: events
 published: false
 permalink: /events/sketchup2/
 excerpt: "A four week evening course demonstrating  Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication."
-hours: "May 2nd - May 23rd"
+hours: "April 4th - April 25th, 7:30pm - 9:30pm"
 description: "A four week evening course demonstrating  Sketchup with the view to creating 3D drawings for use in conjunction with digital fabrication."
 fee: "€60 student/€100 adult"
 slug: sketchup2
-soon: true
+soon: false
 past: false
 imageurl: /events/sketchup.jpg
 imagedisplay: false
