@@ -26,3 +26,5 @@ This four week course will cover introduction to 3D CAD part design and modeling
 Please obtain your own license for Solidworks. Please bring your own laptop and mouse.
 
 [You can book your place here](http://fablablimerick.ticketleap.com/solidworks-course-2016/)
+
+Some have reported issues with our booking system - we are in the process of sorting this. If you are have problems, drop us an email at [fablab@saul.ie](mailto:fablab@saul.ie) and we will take your details. You can pay on the night if you let us know in advance.

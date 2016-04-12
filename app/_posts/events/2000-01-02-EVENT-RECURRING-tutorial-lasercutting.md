@@ -27,3 +27,5 @@ Fablab Limerick would like to invite people from all disciplines to take part in
 The course will introduce you to the idea of self build machines, it will educate you in laser safety and, indeed, it will teach you how to laser cut. At the end of the two hour session you will have the ability to process a 2D drawing into a lasercut object.
 
 [You can book your place here](http://fablablimerick.ticketleap.com/introduction-to-lasercutting6/)
+
+Some have reported issues with our booking system - we are in the process of sorting this. If you are have problems, drop us an email at [fablab@saul.ie](mailto:fablab@saul.ie) and we will take your details. You can pay on the night if you let us know in advance.
