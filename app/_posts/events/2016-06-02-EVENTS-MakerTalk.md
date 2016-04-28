@@ -4,10 +4,10 @@ layout: single-event
 category: events
 permalink: /events/makertalk-apr2016/
 excerpt: "A snapshot of some really cool projects by various Limerick makers."
-hours: "May 12th, 7:30pm"
+hours: "June 2nd, 7:30pm"
 description: "A snapshot of some really cool projects by various Limerick makers."
 fee: "Free, no booking required!"
-slug: makertalk-apr2016
+slug: makertalk-jun2016
 past: false
 soon: false
 published: true
