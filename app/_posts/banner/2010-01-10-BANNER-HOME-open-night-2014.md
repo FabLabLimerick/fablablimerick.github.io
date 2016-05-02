@@ -2,7 +2,7 @@
 published: true
 title: Open Night
 layout:
-permalink: 
+permalink:
 category: banner-homepage
 slug: opennight
 link: /events/opennight/

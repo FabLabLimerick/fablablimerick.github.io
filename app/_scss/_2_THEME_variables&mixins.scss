@@ -114,11 +114,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		.body-single-content{
 			@include adjust-font-size-to($base-font-size);
 			@include rhythm(1.5, 0, 0, 1.5, $base-font-size);
+			br{
+				@include rhythm(1, 0, 0, 0, $base-font-size);
+			}
+			h2{
+				@include rhythm(1, 0, 0, 0, $base-font-size);
+			}
+			h2 + p {
+				@include rhythm(0.5, 0, 0, 0.75, $base-font-size);
+			}
+			h3{
+				text-transform: uppercase;
+				font-family: "fablab_500";
+				@include rhythm(1, 0, 0, 0.25, $base-font-size);
+			}
+			h2 + h3{
+				@include rhythm(0, 0, 0, 0.5, $base-font-size);
+			}
 			img{
-				@include rhythm(1, 0, 0, 1, $base-font-size); 
+				@include rhythm(1, 0, 0, 1, $base-font-size);
 			}
 			p{
-				@include rhythm(0, 0, 0, 1, $base-font-size); 
+				@include rhythm(0, 0, 0, 0.75, $base-font-size);
+			}
+			ul{
+				@include rhythm(0, 0, 0, 0.25, $base-font-size);
+			}
+			ul > li{
+				@include rhythm(0, 0, 0, 0.25, $base-font-size);
+			}
+			li{
+				@include rhythm(2.5, 0, 0, 0.25, $base-font-size);
 			}
 			.video{
 				@include rhythm(1, 0, 0, 2, $base-font-size);
@@ -163,7 +189,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	  }
 	}
 	img{
-		@include rhythm(0, 0, 0, 1.2, $base-font-size); 
+		@include rhythm(0, 0, 0, 1.2, $base-font-size);
 	}
 	h1{
 		@include rhythm(0.7, 0, 0, 0, $base-font-size);
