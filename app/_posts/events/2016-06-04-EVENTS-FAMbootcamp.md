@@ -18,18 +18,17 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-The programme has been developed by The Nerve Centre in Derry, Ultralab in Madrid and Fab Lab Limerick and is co-funded by Creative Europe programme of the European Union.
+FAB LAB LIMERICK FUTURE ARTIST MAKERS - SUMMER BOOTCAMP has been developed by [The Nerve Centre in Derry](http://nervecentre.org), [Ultralab in Madrid](http://ultra-lab.net) and Fab Lab Limerick and co-funded by Creative Europe programme of the European Union.
 
-FAB LAB LIMERICK FUTURE ARTIST MAKERS - SUMMER BOOTCAMP is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, and offering to participate in an artistic project for them to develop their skills and portfolio of work.
+The Summer Bootcamp is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, offering the opportunity to participate in an artistic project, to develop skills and their portfolio of work.
 
-An open call to will select two projects. Any artist/creative based in Ireland working already with digital fabrication technologies can submit a project. Fab Lab Limerick will cover the traveling costs of one artist/creative per project and their accommodation during the celebration of the bootcamp, as well as materials, training & use of all Fab Lab Limerick equipment. Selected projects will be developed collaboratively by 12 art students and recent graduates during a period of two weeks. As for the collaborators Fab Lab Limerick will cover the accommodation of up to 6 places in student accommodation in the city.
+During this open call **two projects** will be selected. Any artist/creative based in Ireland working already with digital fabrication technologies can submit a project. Fab Lab Limerick will cover the traveling costs of one artist/creative per project and their accommodation during the celebration of the bootcamp, as well as materials, training & use of all Fab Lab Limerick equipment. Selected projects will be developed collaboratively by 12 art students and recent graduates during a period of two weeks. As for the collaborators Fab Lab Limerick will cover the accommodation of up to 6 places in student accommodation in the city.
 
 ### Important dates
-+ Publication of the Call for projects **May 2nd 2016**
 + Call for projects deadline **May 30th 2016**
-+ Publication of selected projects **June 7th 2016**
++ Announcement of selected projects **June 7th 2016**
 + Collaborators Call from **May 2nd until June 17th 2016**
-+ Publications of selected collaborators **June 24th 2016**
++ Notifications sent to selected collaborators **June 24th 2016**
 + SUMMER BOOTCAMP **July 4th - July 15th 2016**
 <br/>
 
@@ -50,9 +49,7 @@ We are looking for proposals that experiment from an artistic and critical desig
 ### Open Call Rules and Regulations for Proposals
 The call is open to any artist based in the Republic of Ireland with existing experience in digital fabrication technologies within his/her artistic practice.
 
-2 proposals will be developed during the bootcamp, they will be selected from the applications to this open call and each artist responsible will lead a group of six collaborators during the bootcamp.
-
-The proposals submitted must be open to the participation of the collaborators during the bootcamp.
+Two proposals will be developed during the bootcamp, selected from the applications to this open call. Each artist responsible will lead a group of six collaborators during the bootcamp. The proposals submitted must be open to the participation of the collaborators during the bootcamp.
 
 ### Workshop Schedule
 On **July 4th** an initial presentation of both projects will be held.
@@ -63,17 +60,13 @@ During the workshop, ideas will be tested out and prototypes will be developed i
 These must be requested in the initial proposal.
 
 ### Obligations of Selected Parties
-Selected individuals, collaborators and project leaders, will have to attend all days of the workshop.
-Selected individuals will have to finish and appropriately document the proposed projects.
+Selected individuals, collaborators and project leaders, will have to attend all days of the workshop. Selected individuals will have to finish and appropriately document the proposed projects. Basic information on the projects will be documented in Fab Lab Limerick wiki/web page.
 
 The projects submitted must be open to and promote the participation of collaborators.
 
-Basic information on the projects will be documented in Fab Lab Limerick wiki.
+Project credits shall list the participation of each member of the team and their role within the bootcamp. Fab Lab Limerick  encourages and supports the use of open-source programs and licenses for the purpose of developing the projects.
 
-Project credits shall list the participation of each member of the team and their role within the bootcamp.
-Fab Lab Limerick  encourages and supports the use of open-source programs and licenses for the purpose of developing the projects.
-
-Once the exhibition has ended, participants will have to remove their material within a maximum period of 15 days.
+On completion of the SUMMER BOOTCAMP, participants will have to remove their material within a maximum period of 15 days.
 
 ### Project Evaluation Criteria
 - Relevance to the general aims and theme of the call.
@@ -104,22 +97,22 @@ Form link: https://fablablimerick.typeform.com/to/yOsGAw <br/>
 
 ---
 ## COLLABORATORS CALL
-### About this call
-Fab Lab Limerick publishes a call for Art and designs students and recent graduates interested in participating in FUTURE ARTIST MAKERS - SUMMER BOOTCAMP workshop as a collaborator in one of the workgroups that will develop the selected projects.
 
-FUTURE ARTIST MAKERS - SUMMER BOOTCAMP It is an environment in which there is an horizontal relationship among technical staff, project leaders and the collaborators. As it is specified in the rules, the names of the collaborators will appear in the project’s credits. Also, Fab Lab Limerick will give a document certifying the participation in the workshop to all the participants that request it. All the collaborators will receive formal training on digital fabrication technologies although a basic knowledge on software and hardware tools will be necessary.
+This is a call for art and design students and recent graduates interested in participating in FUTURE ARTIST MAKERS - SUMMER BOOTCAMP workshop as a collaborator. Collaborators will have the opportunity to join in one of the workgroups to develop the selected projects, and take part in a unique collaborative environment, in which there is a supportive, horizontal relationship among technical staff, project leaders and the collaborators.
+
+Each collaborator will receive formal training on digital fabrication technologies although a basic knowledge on software and hardware tools will be necessary. As specified in the rules, the names of the collaborators will appear in the project’s credits. Also, Fab Lab Limerick will give a document certifying the participation in the workshop to all the participants that request it.
 
 The workshop runs from Monday to Saturday from July 4 to 15, 2016. Timetable will be from 10am to 6:30pm with a break for lunch. Some days after 6:30pm there will be little workshops and presentations until 8:30pm.
-If you are interested, fill the FORM that you will find below. For any other questions about the proposal please contact fablab@saul.ie
+If you are interested, fill the form that you will find below. For any other questions about the proposal please contact [fablab@saul.ie](mailto:fablab@saul.ie)
 
 ### Appointment of participants in the workshop
 Collaborators will be selected based on the following criteria:
-+ Art and designs students and recent graduates (less than two years after graduation) from any art and/or design school in Ireland.
++ Art and designs students and recent graduates (less than two years after graduation) from any 3rd level art and/or design programme, and currently based in Ireland.
 + Some basic skills with creative software tools.
 Experience working on collaborative artistic environments.
 
 ### Accommodation
-For collaborators not based in Limerick, Fab Lab Limerick will cover up to 6 people for the stay (Maximum stay: Check-in July 3rd and check-out July 16th, 2016). Each space will be allocated by strict order of registration. Therefore, signing in as a collaborator does not necessarily guarantee that you have accommodation. Fab Lab Limerick is not able to cover traveling costs nor other expenses during the stay.
+For collaborators not based in Limerick, Fab Lab Limerick will cover *up to 6 people* for the stay (Maximum stay: Check-in July 3rd and check-out July 16th, 2016). Each space will be allocated by strict order of registration. Therefore, signing up as a collaborator does not necessarily guarantee that you have accommodation. Fab Lab Limerick is not able to cover traveling costs nor other expenses during the stay.
 
 [Join as collaborator. Deadline June 17th 2016](https://fablablimerick.typeform.com/to/Q3H7vd) <br/>
 Form link: https://fablablimerick.typeform.com/to/Q3H7vd <br/>
