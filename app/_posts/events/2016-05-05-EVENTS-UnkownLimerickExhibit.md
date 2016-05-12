@@ -6,7 +6,7 @@ published: true
 permalink: /events/unknownlimerick-exhibit/
 excerpt: "An exhibition of work by Visual Communications Year 2, Limerick School of Art & Design
 "
-hours: "Opening May 5th 7:00pm, until May 19"
+hours: "Open until May 19"
 description: "An exhibition of work by Visual Communications Year 2, Limerick School of Art & Design
 "
 fee: "Free, no booking required!"
