@@ -3,9 +3,9 @@ title: "Future Artist Makers - Summer Bootcamp"
 layout: single-event
 category: events
 permalink: /events/FAMbootcamp/
-excerpt: "CALL FOR PROJECTS OPEN. Future Artist-Maker is a programme which explores the potential for artists to experiment with digital fabrication in their artistic practice."
-hours: "July 4th - July 15th"
-description: "CALL FOR PROJECTS OPEN. Future Artist-Maker is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
+excerpt: "CALL FOR PROJECTS OPEN. Future Artist-Makers is a programme which explores the potential for artists to experiment with digital fabrication in their artistic practice."
+hours: "July 4th - July 16th"
+description: "CALL FOR PROJECTS OPEN. Future Artist-Makers is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
 fee: "Free"
 slug: FAMbootcamp
 past: false
@@ -20,7 +20,7 @@ imageoriginal: ""
 
 FAB LAB LIMERICK FUTURE ARTIST MAKERS - SUMMER BOOTCAMP has been developed by [The Nerve Centre in Derry](http://nervecentre.org), [Ultralab in Madrid](http://ultra-lab.net) and Fab Lab Limerick and co-funded by Creative Europe programme of the European Union.
 
-The Summer Bootcamp is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, offering the opportunity to participate in an artistic project, to develop skills and their portfolio of work.
+The SUM is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, offering the opportunity to participate in an artistic project, to develop skills and their portfolio of work.
 
 During this open call **two projects** will be selected. Any artist/creative based in Ireland working already with digital fabrication technologies can submit a project. Fab Lab Limerick will cover the traveling costs of one artist/creative per project and their accommodation during the celebration of the bootcamp, as well as materials, training & use of all Fab Lab Limerick equipment. Selected projects will be developed collaboratively by 12 art students and recent graduates during a period of two weeks. As for the collaborators Fab Lab Limerick will cover the accommodation of up to 6 places in student accommodation in the city.
 
