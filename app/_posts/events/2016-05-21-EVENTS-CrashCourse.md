@@ -26,4 +26,4 @@ The course includes 4 mini-modules, with experience and trials on each machine:
 * Advanced Laser Cutting with the Trotec Speedy 400 Laser Cutter,
 * 3D printing with the Ultimaker2
 
-For more information on the specifications of each machine you can check out [our wiki](https://github.com/FabLabLimerick/fablablimerick.github.io/wiki). For booking please book your tickets here: [http://fablablimerick.ticketleap.com/digital-fabrication-crash-course/](http://fablablimerick.ticketleap.com/digital-fabrication-crash-course/). Please note this workshop will only run subject to demand, catering to groups of up to 20.
+For more information on the specifications of each machine you can check out [our wiki](https://github.com/FabLabLimerick/fablablimerick.github.io/wiki). For booking please book your tickets here: [http://fablablimerick.ticketleap.com/digital-fabrication-crash-course/](http://fablablimerick.ticketleap.com/digital-fabrication-crash-course/). Please note this workshop will only run subject to demand, catering to groups of up to 14.
