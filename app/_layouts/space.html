@@ -107,13 +107,20 @@
                 <div class="row">
                   <div class="col-md-12">
                   <p><strong>Former Fab Lab Limerick collaborators:</strong>
+                    {% assign members = '' %}
                     {% for member in site.categories.team reversed %}
-                    {% if member.current != true %}
-                    <span>
-                    {{ member.title }}{% unless forloop.last %}, {% endunless %}
-                    </span>
-                    {% endif %}
+                      {% if member.current != true %}
+                      {% assign members = members | append: member.title | append: ', ' %}
+                      {% endif %}
                     {% endfor %}
+                    {% assign members = members |  append: '---' %}
+                    <span>
+                      {{ members |  replace: ', ---','.' }}
+                    </span>
+                    {% comment %}
+                    After creating a string with all the members separated by comma, the string '---' is
+                    appended in order to replace it afterwards by '.'. This way the last comma is eliminated.
+                    {% endcomment %}
                   </p>
                   </div>
                 </div>
