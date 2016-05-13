@@ -1,17 +1,17 @@
 ---
-title: "Raspberry Pi workshop for Teens with CoderDojo Limerick"
+title: "Raspberry Pi workshop for Teens!"
 layout: single-event
 category: events
-permalink: /events/makertalk-apr2016/
-excerpt: "Supported by Fab Foundation Ireland, and in collaboration with CoderDojo Limerick this workshop is going to be an introduction to the amazing power of the Raspberry Pi especially for teens"
+permalink: /events/emw-raspi-workshop/
+excerpt: "Supported by Fab Foundation Ireland, and in collaboration with CoderDojo Limerick/Nenagh: An introduction to the amazing power of the Raspberry Pi especially for teenagers"
 hours: "May 31st, 7:30pm"
-description: "Supported by Fab Foundation Ireland, and in collaboration with CoderDojo Limerick this workshop is going to be an introduction to the amazing power of the Raspberry Pi especially for teens"
+description: "Supported by Fab Foundation Ireland, and in collaboration with CoderDojo Limerick/Nenagh: An introduction to the amazing power of the Raspberry Pi especially for teenagers"
 fee: "Free, no booking required!"
-slug: makertalk-jun2016
+slug: emw-raspi-workshop
 past: false
-soon: false
-published: false
-imageurl: /events/maker-talk-jun.jpg
+soon: true
+published: true
+imageurl: /events/emw-raspi-workshop.jpg
 imagedisplay: false
 imagetitle: 
 imagecredits: ""
