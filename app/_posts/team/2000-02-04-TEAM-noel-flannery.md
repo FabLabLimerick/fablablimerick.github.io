@@ -1,11 +1,12 @@
 ---
-title: Ivor O'Shea
-fullname: Ivor O'Shea
-country: Ireland
+title: Noel Flannery
+fullname: Noel Flannery
+country: ireland
 category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
+image: noel-flannery.jpg
 project: current
+
 ---

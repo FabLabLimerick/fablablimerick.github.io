@@ -90,28 +90,35 @@
                 </div>
                 <div class="row list-body">
                     {% for member in site.categories.team reversed %}
+                    {% if member.current %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
                         <div class="imagenmarco">
-                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}})"></div>
+                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}}); background-color: #d7d7d7"></div>
                         </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
                             <h5>{{ member.position }}</h5>
                         </hgroup>
                     </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
-            </div>
-            <!-- EQUIPMENT
-            <div class="section-link">
+                <br/>
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <hr class="top">
-                        <a href="#" class="text-center"><span class="hidden-xs">Check out everybody involved</span><span class="visible-xs">Check out everybody involved</span></a>
-                        <hr class="none">
-                    </div>
+                  <div class="col-md-12">
+                  <p><strong>Former Fab Lab Limerick collaborators:</strong>
+                    {% for member in site.categories.team reversed %}
+                    {% if member.current != true %}
+                    <span>
+                    {{ member.title }}{% unless forloop.last %}, {% endunless %}
+                    </span>
+                    {% endif %}
+                    {% endfor %}
+                  </p>
+                  </div>
                 </div>
-            </div> -->
+                <br/>
+            </div>
             <div class="section-link">
                 <div class="row">
                     <div class="col-md-12 text-center" style = "text-transform: lowercase;">

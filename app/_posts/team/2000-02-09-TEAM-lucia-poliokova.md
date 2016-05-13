@@ -1,11 +1,12 @@
 ---
-title: Ivor O'Shea
-fullname: Ivor O'Shea
-country: Ireland
+title: Lucia Poliokova
+fullname: Lucia Poliokova
+country: 
 category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
+image: lucia-poliokova.jpg
 project: current
+
 ---

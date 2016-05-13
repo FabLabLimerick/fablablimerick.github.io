@@ -1,11 +1,12 @@
 ---
-title: Ivor O'Shea
-fullname: Ivor O'Shea
-country: Ireland
+title: Andrew Tynan
+fullname: Andrew Tynan
+country: ireland
 category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
+image: andrew-tynan.jpg
 project: current
+
 ---

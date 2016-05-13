@@ -1,11 +1,12 @@
 ---
-title: Ivor O'Shea
-fullname: Ivor O'Shea
+title: Thomas O'Brian
+fullname: Thomas O'Brian
 country: Ireland
 category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
+image: thomas-o-brian.jpg
 project: current
+
 ---

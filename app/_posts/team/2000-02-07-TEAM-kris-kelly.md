@@ -1,11 +1,12 @@
 ---
-title: Ivor O'Shea
-fullname: Ivor O'Shea
+title: Kris Kelly
+fullname: Kris Kelly
 country: Ireland
 category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
+image: kris-kelly.jpg
 project: current
+
 ---
