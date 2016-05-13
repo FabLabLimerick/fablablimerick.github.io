@@ -1,7 +1,7 @@
 ---
-title: Javier Buron
+title: Javi BuronGarcia
 category: team
 position: Director
-image: javier-buron.jpg
+image: javi-burongarcia.jpg
 project: current cnc-assembly
 ---
