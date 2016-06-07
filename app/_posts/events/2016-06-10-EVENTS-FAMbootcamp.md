@@ -3,9 +3,9 @@ title: "Future Artist Makers - Summer Bootcamp"
 layout: single-event
 category: events
 permalink: /events/FAMbootcamp/
-excerpt: "CALL FOR PROJECTS OPEN. Future Artist-Makers is a programme which explores the potential for artists to experiment with digital fabrication in their artistic practice."
+excerpt: "CALL FOR PROJECTS OPEN UNTIL 5PM, FRIDAY JUNE 10TH. Future Artist-Makers is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
 hours: "July 4th - July 16th"
-description: "CALL FOR PROJECTS OPEN. Future Artist-Makers is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
+description: "CALL FOR PROJECTS EXTENDED UNTIL 5PM, FRIDAY JUNE 10TH"
 fee: "Free"
 slug: FAMbootcamp
 past: false
@@ -25,8 +25,8 @@ The SUM is an activity part of this programme which gives art students and recen
 During this open call **two projects** will be selected. Any artist/creative based in Ireland working already with digital fabrication technologies can submit a project. Fab Lab Limerick will cover the traveling costs of one artist/creative per project and their accommodation during the celebration of the bootcamp, as well as materials, training & use of all Fab Lab Limerick equipment. Selected projects will be developed collaboratively by 12 art students and recent graduates during a period of two weeks. As for the collaborators Fab Lab Limerick will cover the accommodation of up to 6 places in student accommodation in the city.
 
 ### Important dates
-+ Call for projects deadline **May 30th 2016**
-+ Announcement of selected projects **June 7th 2016**
++ Call for projects deadline **Extended until June 10th 2016**
++ Announcement of selected projects **June 15th 2016**
 + Collaborators Call from **May 2nd until June 17th 2016**
 + Notifications sent to selected collaborators **June 24th 2016**
 + SUMMER BOOTCAMP **July 4th - July 15th 2016**
