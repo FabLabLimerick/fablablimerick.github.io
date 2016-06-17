@@ -3,9 +3,9 @@ title: "Future Artist Makers - Summer Bootcamp"
 layout: single-event
 category: events
 permalink: /events/FAMbootcamp/
-excerpt: "CALL FOR PROJECTS OPEN UNTIL 5PM, FRIDAY JUNE 10TH. Future Artist-Makers is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
+excerpt: "CALL FOR COLLABORATORS OPEN NOW. Future Artist-Makers is a programme which explores the potential for artists  to experiment with digital fabrication in their artistic practice."
 hours: "July 4th - July 16th"
-description: "CALL FOR PROJECTS EXTENDED UNTIL 5PM, FRIDAY JUNE 10TH"
+description: "CALL FOR COLLABORATORS OPEN NOW"
 fee: "Free"
 slug: FAMbootcamp
 past: false
