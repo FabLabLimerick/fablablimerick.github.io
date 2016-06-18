@@ -20,15 +20,15 @@ imageoriginal: ""
 
 FAB LAB LIMERICK FUTURE ARTIST MAKERS - SUMMER BOOTCAMP has been developed by [The Nerve Centre in Derry](http://nervecentre.org), [Ultralab in Madrid](http://ultra-lab.net) and Fab Lab Limerick and co-funded by Creative Europe programme of the European Union.
 
-The SUM is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, offering the opportunity to participate in an artistic project, to develop skills and their portfolio of work.
+The SUMMER BOOTCAMP is an activity part of this programme which gives art students and recent graduates an insight into how digital fabrication can enhance their future creative careers, offering the opportunity to participate in an artistic project, to develop skills and their portfolio of work.
 
 During this open call **two projects** will be selected. Any artist/creative based in Ireland working already with digital fabrication technologies can submit a project. Fab Lab Limerick will cover the traveling costs of one artist/creative per project and their accommodation during the celebration of the bootcamp, as well as materials, training & use of all Fab Lab Limerick equipment. Selected projects will be developed collaboratively by 12 art students and recent graduates during a period of two weeks. As for the collaborators Fab Lab Limerick will cover the accommodation of up to 6 places in student accommodation in the city.
 
 ### Important dates
-+ Call for projects deadline **Extended until June 10th 2016**
++ Call for projects deadline **June 10th 2016**
 + Announcement of selected projects **June 15th 2016**
-+ Collaborators Call from **May 2nd until June 17th 2016**
-+ Notifications sent to selected collaborators **June 24th 2016**
++ Collaborators Call from **Extended until June 24th 2016**
++ Notifications sent to selected collaborators **June 25th 2016**
 + SUMMER BOOTCAMP **July 4th - July 15th 2016**
 <br/>
 
@@ -38,7 +38,7 @@ During this open call **two projects** will be selected. Any artist/creative bas
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 ---
 ### Call for collaborators
-<a class="typeform-share link" href="https://fablablimerick.typeform.com/to/Q3H7vd" data-mode="1" target="blank">Join as collaborator. Deadline June 17th 2016</a>
+<a class="typeform-share link" href="https://fablablimerick.typeform.com/to/Q3H7vd" data-mode="1" target="blank">Join as collaborator. Deadline June 24th 2016</a>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 ---
 
@@ -114,7 +114,7 @@ Experience working on collaborative artistic environments.
 ### Accommodation
 For collaborators not based in Limerick, Fab Lab Limerick will cover *up to 6 people* for the stay (Maximum stay: Check-in July 3rd and check-out July 16th, 2016). Each space will be allocated by strict order of registration. Therefore, signing up as a collaborator does not necessarily guarantee that you have accommodation. Fab Lab Limerick is not able to cover traveling costs nor other expenses during the stay.
 
-[Join as collaborator. Deadline June 17th 2016](https://fablablimerick.typeform.com/to/Q3H7vd) <br/>
+[Join as collaborator. Deadline June 24th 2016](https://fablablimerick.typeform.com/to/Q3H7vd) <br/>
 Form link: https://fablablimerick.typeform.com/to/Q3H7vd <br/>
 *Participation in this call constitutes acceptance of all of its terms and condition*
 
