@@ -34,8 +34,8 @@ During this open call **two projects** will be selected. Any artist/creative bas
 
 ---
 ### Call for Projects
-<a class="typeform-share link" href="https://fablablimerick.typeform.com/to/yOsGAw" data-mode="1" target="blank">Submit a project. Deadline June 10th 2016</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<a>Project Submissions now closed.</a>
+
 ---
 ### Call for collaborators
 <a class="typeform-share link" href="https://fablablimerick.typeform.com/to/Q3H7vd" data-mode="1" target="blank">Join as collaborator. Deadline June 24th 2016</a>
@@ -90,8 +90,7 @@ Participants in the open call whose projects (texts, photographs and videos) are
  If the field destined to the “Summary of the Proposal” does not offer enough space, we kindly ask you to use the “Description” field. In order to make it easier for prospective collaborators for your project, we encourage you to make a simple and brief (2-3 minutes) video regarding your proposal. For any other questions about the proposal please contact fablab@saul.ie
 
 
-[Submit a project. Deadline June 10th 2016](https://fablablimerick.typeform.com/to/yOsGAw) <br/>
-Form link: https://fablablimerick.typeform.com/to/yOsGAw <br/>
+<a>Project Submissions now closed.</a> <br/>
 *Participation in this open call constitutes acceptance of all of its terms and condition*
 
 
