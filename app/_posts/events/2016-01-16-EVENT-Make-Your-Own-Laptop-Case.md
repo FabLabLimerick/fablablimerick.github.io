@@ -29,3 +29,5 @@ Everyone will be introduced to the Lasercutter to be able to cut out their own d
 The cost of the Workshop is €50 per student and €70 per adult (including materials). The workshop will be from 10.30 to 16.00 Saturday the 16th. Participants are required to bring a laptop and a mouse with them.
 
 In order to book your place, please book your ticket [here](http://fablablimerick.ticketleap.com/make-your-own-laptop-case/)
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.

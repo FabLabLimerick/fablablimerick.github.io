@@ -27,3 +27,5 @@ This four week course will cover Introduction to 3D CAD part design and modeling
 The cost of the full course is 40 euros for students and 80 euros for adults. Capacity of this course is 12 people and classes will be on four consecutive Tuesdays from 19:30-21:30 starting Tuesday 3rd November.
 
 [You can book your place here](http://fablablimerick.ticketleap.com/solid-works-course/)
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.

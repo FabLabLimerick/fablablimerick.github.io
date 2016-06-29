@@ -23,3 +23,4 @@ Tik-Tak-Glow is a light and sound instrument based around the North African Tik-
 The workshop will last about 40 to 50 minutes. Parents or Guardians need to be present with the kids throughout the workshop.
 
 [The workshop fee is €12 per kid, booking is essential.You can book your place here.](http://fablablimerick.ticketleap.com/tik-tak-glow-workshop/)
+

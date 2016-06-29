@@ -20,3 +20,5 @@ In collaboration with [Open House Limerick](http://openhouselimerick.ie/).
 Fab Lab Limerick would like to invite kids from 10 to 15 years and up to build their own tensegrities. Tensegrities are strong and light structures made out of struts and cables arranged such that the structure retains a 3D shape without the struts touching each other.
 
 [You can book your place here.](http://fablablimerick.ticketleap.com/open-house-workshop/)
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.

@@ -20,3 +20,6 @@ imageoriginal:
 Fab Lab Limerick in collaboration with the Limerick Lifelong Learning Festival present a broad range of exciting and innovative technologies, with demonstrations and activities for all. Check out our open source digital fabrication machines in action - including laser cutting, 3D printing, CNC cutting - and much more!
 
 This event has free admission and no previous reservation is required.
+
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.

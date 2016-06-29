@@ -47,3 +47,5 @@ On our final day we will turn into real designers, makers and innovators. We wil
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. No personal computers/tablets are permitted at the camp.
 
 [Sign up for Fab Lab Summer Camp Here](http://fablablimerick.ticketleap.com/fab-lab-limerick-summer-camp-age-9-12/)
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.

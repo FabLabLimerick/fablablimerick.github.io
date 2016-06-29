@@ -25,3 +25,5 @@ All materials will be provided by Fab Lab Limerick and each child will be able t
 [Book places here](http://fablablimerick.ticketleap.com/easter-camp-2016/)
 
 If you encounter any issues with our booking system, [please don't hesitate to email us.](mailto:fablab@saul.ie)
+
+This event is part of the Community Creative programme of the FUTURE ARTIST MAKERS project. FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.
