@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: OPEN CALL Future Artist Makers - Summer Bootcamp
 layout:
 permalink:
