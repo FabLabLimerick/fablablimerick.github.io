@@ -10,7 +10,6 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     <!-- build:css({app,.tmp}) /css/main.css -->
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/_bower_components/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css">
     <link rel="stylesheet" href="/css/fablabtheme.css">
     <!-- endbuild -->
 
@@ -95,7 +94,7 @@
                 {% if posttime >= nowunix %}
                     {% if counter == 0 %}
                     <hr class="event">
-                    {% else %} 
+                    {% else %}
                     <hr class="event gray">
                     {% endif %}
                     <article class="row event free" date="{{ eventdate }}">
@@ -126,7 +125,7 @@
                             </div>
                         </div>
                     </article>
-                {% assign counter=counter | plus:1 %}     
+                {% assign counter=counter | plus:1 %}
                 {% endif %}
                 {% endif %}
                 {% endif %}
@@ -222,30 +221,6 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
-    <script>
-        new Share('.share-button', {
-            url: 'http://fablab.saul.ie{',
-            image: 'http://fablab.saul.ie/thumbnail.jpg',
-            title: 'Fab Lab Limerick',
-            text: 'A space for makers in Limerick city',
-            ui: {
-                button_icon: 'false',
-                button_text: 'Share it',
-                button_font: 'false',
-                button_background: 'none',
-                button_color: '#4A4A4A'
-            },
-            networks: {
-                facebook: {
-                    enabled: true,
-                    load_sdk: false
-                },
-                twitter: {
-                    enabled: true
-                }
-            }
-        });
-    </script>
     {% include googleanalytics.html %}
   </body>
 </html>

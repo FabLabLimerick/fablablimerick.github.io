@@ -46,7 +46,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <p class="text-center imagecredits">                                
+                            <p class="text-center imagecredits">
                                 {% if page.imagedisplay != false %}
                                 <span>Image by {{ page.imagecredits }}</span>
                                 {% else %}
@@ -64,7 +64,7 @@
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  <div class="share-button"></div></h5>
+                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}</h5>
                         <hr class="bottom">
                     </div>
                     <div class="body-single-content" lang="en">
@@ -87,30 +87,6 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
-    <script>
-        new Share('.share-button', {
-            url: 'http://fablab.saul.ie{{ page.url}}',
-            image: 'http://fablab.saul.ie/img{{ page.imageurl }}',
-            title: '{{ page.title }}',
-            text: '{{ page.description }}',
-            ui: {
-                button_icon: 'false',
-                button_text: 'Share it',
-                button_font: 'false',
-                button_background: 'none',
-                button_color: '#4A4A4A'
-            },
-            networks: {
-                facebook: {
-                    enabled: true,
-                    load_sdk: false
-                },
-                twitter: {
-                    enabled: true
-                }
-            }
-        });
-    </script>
     {% include googleanalytics.html %}
   </body>
 </html>
