@@ -94,7 +94,7 @@
         margin-left: 2px;
         padding-left: 0px;
         padding-right: 0px;
-        
+
       }
     }
   }
@@ -272,7 +272,7 @@ article.event{
               margin-left: 0px;
               margin-right: 2px;
             }
-          }   
+          }
           &:nth-child(5){
             margin-top: 2px;
             padding-left: 0px;
@@ -422,6 +422,7 @@ article.event{
 @media (max-width: $screen-xs-max) {
   body{
   	min-height: 460px;
+    text-size: 16px;
   }
   @include typescale (16px, 22px);
   h2{
@@ -487,7 +488,7 @@ article.event{
           padding-left: 0px;
           padding-right: 0px;
           margin-right: 0px;
-          margin-top: 1px;  
+          margin-top: 1px;
         }
       }
     }
@@ -498,6 +499,9 @@ article.event{
 }
 //Tables
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  body{
+    text-size: 16px;
+  }
   @include typescale (16px, 24px);
   article.event{
     height: rhythm(10);
@@ -523,6 +527,9 @@ article.event{
 //Medium
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   @include typescale (18px, 26px);
+  body{
+    text-size: 18px;
+  }
   article.event{
     height: rhythm(7);
     .description, .title{
@@ -547,6 +554,9 @@ article.event{
 }
 //large
 @media (min-width: $screen-lg-min) {
+  body{
+    text-size: 20px;
+  }
   @include typescale (20px, 30px);
   article.event{
     height: rhythm(7);
