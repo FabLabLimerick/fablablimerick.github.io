@@ -4,6 +4,7 @@
 # 3. config.yml
 
 name: Fab Lab Limerick
+source: app
 description: A space for makers in Limerick city. Coming this April!
 author:
   name: Colaborativa.eu
@@ -20,14 +21,14 @@ future: true
 show_drafts: true
 
 # Markdown library
-markdown: maruku
+markdown: kramdown
 #   use_tex:    false
 #   use_divs:   false
 #   png_engine: blahtex
 #   png_dir:    images/latex
 #   png_url:    /images/latex
 
-pygments: true
+hightlights: true
 relative_permalinks: false
 
 external:

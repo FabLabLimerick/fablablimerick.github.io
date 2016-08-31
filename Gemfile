@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-gem 'jekyll', '2.5.3'
-gem 'maruku'
+gem 'jekyll', '3.2.1'
+gem 'kramdown'
 gem 'compass', '>=0.12'
