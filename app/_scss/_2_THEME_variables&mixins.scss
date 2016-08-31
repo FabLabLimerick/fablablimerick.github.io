@@ -202,24 +202,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	}
 	h1{
 		@include rhythm(0.7, 0, 0, 0, $base-font-size);
-		@include adjust-font-size-to($base-font-size * $golden * 2);
+		font-size: 3.3em;
+    line-height: 1.4em;
 	}
 	h2{
 		@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
-		@include adjust-font-size-to($base-font-size * $golden * 1);
+		font-size: 1.6em;
+		line-height: 1.8em;
 	}
 	h2.subheader{
 	@include rhythm(0.35, 0, 0, 0.8, $base-font-size);
-	@include adjust-font-size-to($base-font-size * $golden * 1);
+	font-size: 1.6em;
 	line-height: 1.3em;
 	word-spacing: 0.03em;
 	letter-spacing: 0.015em;
 	}
 	h3{
 	@include rhythm(0, 0, 0, 0, $base-font-size);
+	font-size: 1em;
+	line-height: 1.5em;
 	}
 	h4{
 	@include rhythm(0, 0, 0, 0, $base-font-size);
+	font-size: 1em;
+	line-height: 1.5em;
 	}
 	h5{
 	@include rhythm(0, 0, 0, 0, $base-font-size);
