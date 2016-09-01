@@ -61,7 +61,7 @@ a{
     color: $gray-color;
     text-decoration: none;
     border-bottom: none;
-  } 
+  }
   &:link, &:visited, &:active{
     color: $link-color;
     text-decoration: none;
@@ -161,7 +161,7 @@ label{
   .header-hero-image{
     width: 100%;
     height:100%;
-    @include background-size (cover);
+    background-size: cover;
     background-position: center, center;
   }
   .header-hero-title{
@@ -186,7 +186,7 @@ label{
   .header-single-image{
     width: 100%;
     height:100%;
-    @include background-size (cover);
+    background-size: cover;
     background-position: center, center;
   }
   .header-single-title{
@@ -246,7 +246,7 @@ h2.body-single-excerpt{
 }
 h5{
   font-family: "fablab_300";
-  color: $gray-color; 
+  color: $gray-color;
 }
 .uppercase{
   font-family: "fablab_300";
@@ -255,7 +255,7 @@ h5{
 
 #header-hero-title{
   h1{
-    font-family: "fablab_500";   
+    font-family: "fablab_500";
   }
 }
 .body-single-next{

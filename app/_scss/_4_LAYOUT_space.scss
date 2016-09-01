@@ -2,11 +2,11 @@
 
 .body-who{
   .imagen{
-      @include box-sizing (border-box);
+      box-sizing: border-box;
       display: block;
       overflow:hidden;
       background-position:center center;
-      @include background-size (cover);
+      background-size: cover;
       margin-right: auto;
       margin-left: auto;
       border-radius: 50%;
@@ -33,7 +33,7 @@
   bottom: 0;
   right: 0;
   background-position:center center;
-  @include background-size (cover);
+  background-size: cover;
 }
 
 #body-how{

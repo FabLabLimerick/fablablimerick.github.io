@@ -95,7 +95,7 @@
       width: $navbar-logowidth;
       height: $navbar-height;
       float:left;
-      @include background-size(100%, 100%);
+      background-size: 100%, 100%;
       background-repeat: no-repeat;
       background-position:center center;
       background-image: url("../img/logo/logo.png");
@@ -145,7 +145,7 @@
             border-bottom: none;
           }
         }
-      }    
+      }
     }
   }
 }
@@ -181,7 +181,7 @@
               width: $navbar-height;
             }
           }
-        } 
+        }
       }
     }
   }
@@ -225,7 +225,7 @@
               width: $navbar-height;
             }
           }
-        } 
+        }
       }
     }
   }

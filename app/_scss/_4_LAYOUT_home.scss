@@ -23,7 +23,7 @@
       h2{
         font-family: "fablab_500";
         text-transform: uppercase;
-        @include text-shadow(rgba(0,0,0,0.6) 0px 0px 50px);
+        text-shadow: rgba(0, 0, 0, 0.6) 0 0 50px;
         color: white;
         width:100%;
         display: table-cell;
@@ -125,7 +125,7 @@
     bottom: 0;
     right: 0;
     background-position:center center;
-    @include background-size (cover);
+    background-size: cover;
     .title{
       width:100%;
       height: 50%;
@@ -150,7 +150,7 @@ article.event{
   }
   .title{
     position: relative;
-    @include box-sizing (border-box);
+    box-sizing: border-box;
     h3{
       font-family: "fablab_500";
       text-transform: uppercase;
@@ -195,7 +195,7 @@ article.event{
     padding: 0;
     overflow:hidden;
     background-position:center center;
-    @include background-size (cover);
+    background-size: cover;
   }
 }
 
@@ -222,7 +222,7 @@ article.event{
       display: table;
       background-color: black;
       background-position:center center;
-      @include background-size (cover);
+      background-size: cover;
       background-image: url("../img/space/space-2.jpg");
       .centradovertical{
         display: table-cell;
@@ -376,16 +376,16 @@ article.event{
 
 #research{
   article{
-    @include box-sizing (border-box);
+    box-sizing: border-box;
     .gradient{
-      @include box-sizing (border-box);
+      box-sizing: border-box;
       width: 100%;
       height: 100%;
       display: table;
       @include blackGradientBackgroundVertical;
       .caption{
         color: white;
-        @include box-sizing (border-box);
+        box-sizing: border-box;
         display: table-cell;
         vertical-align: bottom;
         padding: $padding-base-horizontal * 2;
@@ -399,7 +399,7 @@ article.event{
       }
     }
     .marco{
-      @include box-sizing (border-box);
+      box-sizing: border-box;
       z-index: -1000;
       position: absolute;
       top:0px;
@@ -409,7 +409,7 @@ article.event{
       padding: 0;
       overflow:hidden;
       background-position:center center;
-      @include background-size (cover);
+      background-size: cover;
     }
   }
   clear: both;
@@ -432,13 +432,16 @@ article.event{
     margin-bottom: 1em;
   }
   article.event{
-    height: rhythm(20);
+    height: 27.5em;
     .description, .title{
-      @include rhythm(1, 0, 0, 1, $base-font-size);
-      height: rhythm(9);
+      margin-top: 1.375em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 1.375em;
+      height: 12.375em;
     }
     .image{
-      height: rhythm(10);
+      height: 13.75em;
     }
   }
 
@@ -504,12 +507,16 @@ article.event{
   }
   @include typescale (16px, 24px);
   article.event{
-    height: rhythm(10);
+    height: 15em;
     .description, .title{
-      height: rhythm(9);
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
+      height: 13.5em;
     }
     .image{
-      height: rhythm(10);
+      height: 15em;
     }
   }
   .event-strip{
@@ -531,12 +538,16 @@ article.event{
     text-size: 18px;
   }
   article.event{
-    height: rhythm(7);
+    height: 10em;
     .description, .title{
-      height: rhythm(6);
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
+      height: 8.5em;
     }
     .image{
-      height: rhythm(7);
+      height: 10em;
     }
   }
   .event-strip{
@@ -559,12 +570,15 @@ article.event{
   }
   @include typescale (20px, 30px);
   article.event{
-    height: rhythm(7);
+    height: 10.5em;
     .description, .title{
-      height: rhythm(6);
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
     }
     .image{
-      height: rhythm(7);
+      height: 10.5em;
     }
   }
   .event-strip{
