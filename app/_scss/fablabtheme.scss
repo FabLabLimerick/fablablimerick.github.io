@@ -1,16 +1,9 @@
-// MAIN COMPASS IMPORTS
-@import "compass/css3";
-@import "compass/typography/vertical_rhythm";
-
 // GENERAL BOOTSTRAP IMPORTS
 @import "_0_general_variables";
 @import "_0_general_bootstrap";
 
 // FONTS AND ICONFONTS
 @import "_1_fontfaces";
-
-// CSS PLUGINS
-@import "../_bower_components/modular-scale/stylesheets/_modular-scale";
 
 // THEME IMPORTS
 @import "_2_THEME_variables&mixins";

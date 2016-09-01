@@ -1,5 +1,4 @@
 $ms-base: 1em;
-$ms-ratio: $golden;
 $link-color: #4A4A4A;
 $link-color-underline: #d43;
 $gray-color: #888;
@@ -17,13 +16,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 @mixin typescale($basefontsize, $baselineheight){
 	$base-font-size: $basefontsize;
 	$base-line-height: $baselineheight;
-	@include establish-baseline;
 	body{
 		font-size: $basefontsize;
 		line-height: $baselineheight;
 	}
 	.footer{
-		@include rhythm(2, 0, 0, 0, $base-font-size);
+		margin-top: 3em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	article.event-strip{
 		h3, h4, p {
@@ -32,207 +33,363 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		}
 	}
 	article.event {
-		@include rhythm(0, 0, 0, 0, $base-font-size);
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 		.title, .description{
-		  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
 			h3, p{
-			    @include rhythm(0, 0, 0, 0, $base-font-size);
-					font-size: 1em;
-					line-height: 1.5em;
+				margin-top: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				margin-bottom: 0;
+				font-size: 1em;
+				line-height: 1.5em;
 			}
 			h4{
-			    @include rhythm(0, 0, 0, 0.5, $base-font-size);
-					font-size: 1em;
-    			line-height: 1.5em;
+				margin-top: 0;
+    		padding-top: 0;
+    		padding-bottom: 0;
+    		margin-bottom: .75em;
+				font-size: 1em;
+    		line-height: 1.5em;
 			}
 		}
 	}
 	#space{
-		@include rhythm(2, 0, 0, 0, $base-font-size);
+		margin-top: 3em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 	}
+	// This are the styles of the equipment list and similar lists
 	.section-list{
 		.list-header{
-			@include adjust-font-size-to($base-font-size * $golden * 0.80);
-			@include rhythm(1, 0, 0, 0, $base-font-size);
+			font-size: 1.3em;
+			line-height: 1.15em;
+			margin-top: 1.5em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 0;
 			hr{
-				@include rhythm(0, 0.25, 0.25, 0, $base-font-size);
+				margin-top: 0;
+		    padding-top: .375em;
+		    padding-bottom: .375em;
+		    margin-bottom: 0;
 			}
 		}
 		.list-body{
 			.list-equipment{
-				@include rhythm(0, 0.5, 0.5, 0, $base-font-size);
+				margin-top: 0;
+		    padding-top: .75em;
+		    padding-bottom: .75em;
+		    margin-bottom: 0;
 				&.list-subheader-phone{
-					@include rhythm(0, 0.5, 0.3, 0, $base-font-size);
+					margin-top: 0;
+			    padding-top: .75em;
+			    padding-bottom: .45em;
+			    margin-bottom: 0;
 				}
 			}
 			.list-member{
-				@include rhythm(1, 0, 0, 0, $base-font-size);
+				margin-top: 1.5em;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 0;
 			}
 			hr{
-				@include rhythm(0, 0.0, 0.0, 0, $base-font-size);
+				margin-top: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				margin-bottom: 0;
 			}
 		}
 	}
+	// Header In events research and similar pages
 	.header-hero-title{
 		h1{
-			@include adjust-font-size-to($base-font-size * $golden * 2.5);
-			@include rhythm(0.75, 0, 0, 0, $base-font-size);
-			line-height: 1em;
+			font-size: 4em;
+    	margin-top: 1.125em;
+    	padding-top: 0;
+    	padding-bottom: 0;
+    	margin-bottom: 0;
+    	line-height: 1em;
 		}
 		h2.subheader{
-			@include adjust-font-size-to($base-font-size * $golden * 1.25);
+			font-size: 2em;
+			line-height: 1.5em;
 			line-height: 1.3em;
-			@include rhythm(0.35, 0, 0, 0, $base-font-size);
+			margin-top: .5em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 0;
 			word-spacing: 0.03em;
 			letter-spacing: 0.015em;
 		}
 		p.imagecredits{
-			@include adjust-font-size-to($base-font-size * 0.86);
-			@include rhythm(1.25, 0, 0, 1.25, $base-font-size);
+			font-size: .86em;
+    	line-height: 1.75em;
+	    margin-top: 1.875em;
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    margin-bottom: 1.875em;
 		}
 	}
+	// Header in single page events research and more
 	.header-single-title{
 		h1{
-			@include adjust-font-size-to($base-font-size * $golden * 2);
-			@include rhythm(0.75, 0, 0, 0.4, $base-font-size);
+			font-size: 3.3em;
+			margin-top: 1.125em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: .6em;
 			line-height: 1em;
 		}
 		h2.subheader{
-			@include adjust-font-size-to($base-font-size);
+			line-height: 1.5em;
 			line-height: 1.3em;
-			@include rhythm(0.25, 0, 0, 0, $base-font-size);
-			word-spacing: 0.03em;
-			letter-spacing: 0.015em;
+			margin-top: .375em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			word-spacing: .03em;
+			letter-spacing: .015em;
+			font-size: 1em;
 		}
 		p.imagecredits{
-			@include adjust-font-size-to($base-font-size * 0.86);
-			@include rhythm(1.25, 0, 0, 1.25, $base-font-size);
+			font-size: .86em;
+    	line-height: 1.75em;
+	    margin-top: 1.875em;
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    margin-bottom: 1.875em;
 		}
 	}
+	// Single page elements
 	//this is when slideshow is active
 	.carousel p.imagecredits{
-		@include adjust-font-size-to($base-font-size * 0.86);
-		@include rhythm(0, 0, 0, 0, $base-font-size);
+		font-size: .86em;
+		line-height: 1.75em;
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	.body-single{
 		h2.body-single-excerpt{
-			@include adjust-font-size-to($base-font-size * $golden * 0.80);
+			font-size: 1.3em;
+			line-height: 1.15em;
 			line-height: 1.5em;
-			@include rhythm(1, 0, 0, 1, $base-font-size);
+			margin-top: 1.5em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 1.5em;
+		}
+		.body-single-info{
+			h5{
+				margin-top: .75em;
+				padding-top: 0;
+				padding-bottom: 0;
+				margin-bottom: .75em;
+			}
 		}
 		.body-single-content{
-			@include adjust-font-size-to($base-font-size);
-			@include rhythm(1.5, 0, 0, 1.5, $base-font-size);
+			font-size: 1em;
+    	line-height: 1.5em;
+    	margin-top: 2em;
+    	padding-top: 0;
+    	padding-bottom: 0;
+    	margin-bottom: 2em;
 			br{
-				@include rhythm(1, 0, 0, 0, $base-font-size);
+				margin-top: 1.5em;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 0;
 			}
 			h2{
-				@include rhythm(1, 0, 0, 0, $base-font-size);
+				margin-top: 1.5em;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 0;
 			}
 			h2 + p {
-				@include rhythm(0.5, 0, 0, 0.75, $base-font-size);
+				margin-top: 0.75em;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 1em;
 			}
 			h3{
 				text-transform: uppercase;
 				font-family: "fablab_500";
-				@include rhythm(1, 0, 0, 0.25, $base-font-size);
+				margin-top: 1.5em;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: .5em;
 			}
 			h2 + h3{
-				@include rhythm(0, 0, 0, 0.5, $base-font-size);
+				margin-top: 0;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 0.75em;
 			}
 			img{
-				@include rhythm(1, 0, 0, 1, $base-font-size);
+				margin-top: 1.5em;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: 1.5em;
 			}
 			p{
-				@include rhythm(0, 0, 0, 0.75, $base-font-size);
+				margin-top: 0;
+		    padding-top: 0;
+		    padding-bottom: 0;
+		    margin-bottom: 1em;
 			}
 			ul{
-				@include rhythm(0, 0, 0, 0.25, $base-font-size);
+				margin-top: 0;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: .5em;
 			}
 			ul > li{
-				@include rhythm(0, 0, 0, 0.25, $base-font-size);
+				margin-top: 0;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: .5em;
 			}
 			li{
-				@include rhythm(2.5, 0, 0, 0.25, $base-font-size);
+				margin-top: .5em;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: .5em;
 			}
 			.video{
-				@include rhythm(1, 0, 0, 2, $base-font-size);
+				margin-top: 1.5em;
+	  		padding-top: 0;
+	  		padding-bottom: 0;
+	  		margin-bottom: 3em;
 			}
 		}
 		.body-single-next{
-			@include rhythm(0, 0, 0, 1, $base-font-size);
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 1.5em;
 			hr{
-				@include rhythm(0, 0.25, 0.5, 0, $base-font-size);
+				margin-top: 0;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				margin-bottom: 0;
 			}
 		}
 	}
 	.section-title{
-		@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
+		margin-top: 0.75em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0.75em;
 	}
 	.section-link{
-		@include rhythm(0, 0, 0, 1, $base-font-size);
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 1.5em;
 		hr{
-			@include rhythm(0, 0.25, 0.5, 0, $base-font-size);
+			margin-top: 0;
+			padding-top: 0.5em;
+			padding-bottom: 0.75em;
+			margin-bottom: 0;
 		}
 	}
 	#research .section-link{
-		@include rhythm(0, 0, 0, 0, $base-font-size);
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	#subscribe{
 		hr.top{
-			@include rhythm(0, 0, 0, 0.75, $base-font-size);
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 1em;
 		}
 		.subs-head{
-			@include rhythm(0, 0, 0, 0.75, $base-font-size);
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 1em;
 		}
 		.subs-footer{
-			@include rhythm(0.15, 0, 0, 0, $base-font-size);
+			margin-top: 0.25em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 2em;
 		}
 		hr.bottom{
-			@include rhythm(0.75, 0, 0, 0, $base-font-size);
+			margin-top: 1em;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-bottom: 0;
 		}
 	}
-	.body-single-info{
-	  h5{
-	  	@include rhythm(0.5, 0, 0, 0.5, $base-font-size);
-	  }
-	}
 	img{
-		@include rhythm(0, 0, 0, 1.2, $base-font-size);
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 2em;
 	}
 	h1{
-		@include rhythm(0.7, 0, 0, 0, $base-font-size);
+		margin-top: 1em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 		font-size: 3.3em;
     line-height: 1.4em;
 	}
 	h2{
-		@include rhythm(0.3, 0, 0, 0.6, $base-font-size);
+		margin-top: 0.5em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0.75em;
 		font-size: 1.6em;
 		line-height: 1.8em;
 	}
 	h2.subheader{
-	@include rhythm(0.35, 0, 0, 0.8, $base-font-size);
-	font-size: 1.6em;
-	line-height: 1.3em;
-	word-spacing: 0.03em;
-	letter-spacing: 0.015em;
+		margin-top: 0.5em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0.75em;
+		font-size: 1.6em;
+		line-height: 1.3em;
+		word-spacing: 0.03em;
+		letter-spacing: 0.015em;
 	}
 	h3{
-	@include rhythm(0, 0, 0, 0, $base-font-size);
-	font-size: 1em;
-	line-height: 1.5em;
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		font-size: 1em;
+		line-height: 1.5em;
 	}
 	h4{
-	@include rhythm(0, 0, 0, 0, $base-font-size);
-	font-size: 1em;
-	line-height: 1.5em;
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		font-size: 1em;
+		line-height: 1.5em;
 	}
 	h5{
-	@include rhythm(0, 0, 0, 0, $base-font-size);
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 	img{
-	@include rhythm(0, 0, 0, 1, $base-font-size);
-	}
-	small{
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 1.5em;
 	}
 }
