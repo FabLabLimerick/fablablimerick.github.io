@@ -9,7 +9,7 @@ Design and Manufacture, Level 7 (Ordinary Bachelors Degree-Level Certificate)"
 hours: "Part time course, 12 weeks"
 description: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION
 Design and Manufacture  - Level 7 (Ordinary Bachelors Degree-Level Certificate)"
-fee: "Free, book before Aug. 21st"
+fee: "Free, 2017 bookings begin Dec 2016"
 slug: springboard2016
 soon: false
 past: false

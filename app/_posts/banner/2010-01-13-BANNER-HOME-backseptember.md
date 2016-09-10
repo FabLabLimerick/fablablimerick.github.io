@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: We are renovating the space and we will back in September!
 layout:
 permalink:
