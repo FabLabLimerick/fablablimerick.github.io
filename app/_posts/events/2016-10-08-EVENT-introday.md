@@ -3,9 +3,9 @@ title: "New: Saturday Equipment Introductions!"
 layout: single-event
 category: events
 permalink: /events/equipmentintros/
-excerpt: "take a few minutes to park up, relax and enjoy a nibble and a natter opposite The Canteen on Mallow Street for the unveiling of the new park and picnic pod, or \"Parklet\""
+excerpt: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
 hours: "10AM/1PM/3:30PM"
-description: "take a few minutes to park up, relax and enjoy a nibble and a natter opposite The Canteen on Mallow Street for the unveiling of the new park and picnic pod, or \"Parklet\""
+description: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
 fee: "€18 for students/€30 for adults - discounts apply"
 slug: equipmentintros
 past: false
