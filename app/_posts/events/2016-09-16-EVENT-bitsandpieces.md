@@ -3,9 +3,9 @@ title: "Bits And Pieces, with Culture Night 2016"
 layout: single-event
 category: events
 permalink: /events/bitsandpieces/
-excerpt: "Digitally Fabricated Collaborative Sculpture Collage Event- all welcome to take part!"
+excerpt: "Help us to make a unique digitally fabricated mass-collaborative sculpture - all welcome to take part!"
 hours: "FRI SEPT. 16TH, 6PM TO 9PM"
-description: "Digitally Fabricated Collaborative Sculpture Collage Event- all welcome to take part!"
+description: "In collaboration with the Hunt Museum. Help us to make a unique digitally fabricated mass-collaborative sculpture - all welcome to take part!"
 fee: "Free"
 slug: bitsandpieces
 past: false
