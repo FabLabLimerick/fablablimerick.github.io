@@ -36,4 +36,4 @@ Further exploration of various vector-creating techniques like drawing, shape bu
 ###Week 4
 Final stage of digital fabrication where we will realize everyone’s individual project of choice created through out the course, on a laser cutter. Material will be provided by Fab Lab Limerick and each learner will be able to take home their individual projects.
 
-You can book your place [here](fablablimerick.ticketleap.com/illustratorfordigitalabrication03)
+You can book your place [here](http://fablablimerick.ticketleap.com/illustratorfordigitalabrication03)
