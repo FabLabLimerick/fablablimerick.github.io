@@ -23,3 +23,6 @@ Adobe Illustrator For Digital Fabrication has been designed for new and inexperi
 The cost of the full course is 60 euros for students and 100 euros for adults. Capaticy of this course is 12 people and classes will be on four consecutive Wednesdays from 19:30-21:30 starting Wednesday 26th of October.
 
 Please ensure that you have your own copy of Adobe Illustrator to work with for the duration of the course. Illustrator CC is available from [adobe.com](http://www.adobe.com/ie/products/illustrator.html) for a small monthly fee, with discounts available for students.
+
+
+You can book your place [here](fablablimerick.ticketleap.com/illustratorfordigitalabrication03)
