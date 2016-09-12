@@ -18,7 +18,7 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-While out and about experiencing the diverse array of arts and cultural activities in Limerick, why not take a few minutes to park up, relax and enjoy a nibble and a natter opposite The Canteen on Mallow Street. This evening will be celebrating café culture at its very best, as well as unveiling the new park and picnic pod or parklet, specifically designed to support sustainable urban communities in our city. This is a collaboration between Limerick Smarter Travel and the School of Architecture at the University of Limerick.
+While out and about experiencing, the diverse array of arts and cultural activities in Limerick, why not take a few minutes to park up, relax and enjoy a nibble and a natter opposite The Canteen on Mallow Street. This evening will be celebrating café culture at its very best, as well as unveiling the new park and picnic pod or parklet, specifically designed to support sustainable urban communities in our city. This is a collaboration between Limerick Smarter Travel and the School of Architecture at the University of Limerick.
 
 Limerick Smarter Travel support and encourage people, within schools, campuses, workplaces, and communities, to plan for and use healthier more sustainable modes of travel such as walking, cycling and shared travel, while actively discouraging unnecessary and single-occupancy car travel where possible. For more details on Limerick Smarter Travel, their sponsors and many other projects, go to: [limericksmartertravel.ie](http://www.limericksmartertravel.ie/)
 

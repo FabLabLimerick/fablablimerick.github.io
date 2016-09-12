@@ -18,7 +18,6 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-
- After some renovations over the Summer, we are ready now to reopen on Tuesday, and hope to see everyone there! Come along if you're new to our space, or if you'd like hear about our exciting plans for the coming semester.
+After some renovations over the Summer, we are ready now to reopen on Tuesday, and hope to see everyone there! Come along if you're new to our space, or if you'd like hear about our exciting plans for the coming semester.
 
 All welcome, refreshments served on the night.

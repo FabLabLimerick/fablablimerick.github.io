@@ -18,9 +18,9 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-Adobe Illustrator For Digital Fabrication and Prototyping has been designed for new and inexperienced users. Adobe Illustrator is a standard vector graphics program that allows you to create graphics, logos, patterns, typography and illustrations for print, web or digital fabrication.  These can be drawn from scratch, within the program, while using various tools, or they can be produced from existing handrawings or photographs.
+ Illustrator For Digital Fabrication has been designed for new and inexperienced users. Adobe Illustrator is a standard vector graphics program that allows you to create graphics, logos, patterns, typography and illustrations for print, web or digital fabrication.  These can be drawn from scratch, within the program, while using various tools, or they can be produced from existing handrawings or photographs.
 
-We will focus on making and preparation of vector files that can be further cut or engraved on our laser cutter machines. During the course you will understand the program’s interface, learn to use essential tools, effects and actions in order to be confident in realizing your own ideas and creating your own work. You will also familiarize yourself with a laser cutting process that transforms vector file into cut and engraved 3D 3D? object. 
+We will focus on making and preparation of vector files that can be further cut or engraved on our laser cutter machines. During the course you will understand the program’s interface, learn to use essential tools, effects and actions in order to be confident in realizing your own ideas and creating your own work. You will also familiarize yourself with a laser cutting process that transforms vector file into cut and engraved 3D object. 
 
 The cost of the full course is 60 euros for students and 100 euros for adults. Capacity of this course is 12 people and classes will be on four consecutive Wednesdays from 19:30-21:30 starting Wednesday 26th of October. It is essential to have an Illustrator app already installed on your computer, otherwise contact us in advance, and we can provide a 30-day trial version. 
 

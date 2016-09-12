@@ -18,7 +18,7 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-**Start at:** Fab Lab Limerick, 6pm to 9pm.
+**Starts at:** Fab Lab Limerick, 6pm to 9pm.
 
 Starting at Fab Lab Limerick, you are invited to collect specially designed pieces which each have been made specially in Fab Lab Limerick, to their ultimate destination in the Hunt Museum, to collaboratively construct a spontaneous, on-site sculpture in the Captain’s Room.
 

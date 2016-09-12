@@ -1,10 +1,10 @@
 ---
-title: "New: Saturday Equipment Introductions!"
+title: "New: Saturday Equipment Introductions"
 layout: single-event
 category: events
 permalink: /events/equipmentintros/
 excerpt: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
-hours: "10AM/1PM/3:30PM"
+hours: "courses begin: 10AM/12:30PM/3PM"
 description: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
 fee: "€18 for students/€30 for adults - discounts apply"
 slug: equipmentintros
@@ -34,4 +34,4 @@ The courses are each introductory courses, so no previous experience is required
 Each class is €18 for students and €30 for adults.
 For booking **3 classes together**, prices are €45 for students and €75 for adults.
 
-[You can book your place here.](http://fablablimerick.ticketleap.com/updateXXXXXXXXX/)
+You can book your place [here.](http://fablablimerick.ticketleap.com/saturday-introductory-tutorials)
